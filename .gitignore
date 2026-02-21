@@ -1,0 +1,88 @@
+# ──────────────────────────────────────────
+# macOS
+# ──────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ──────────────────────────────────────────
+# Python 크롤러
+# ──────────────────────────────────────────
+
+# 가상환경
+crawler/venv/
+crawler/.venv/
+
+# 바이트코드 캐시
+crawler/__pycache__/
+crawler/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경변수 (민감 정보: API 키, Firebase 자격증명 등)
+crawler/.env
+.env
+*.env
+
+# 크롤러 output (재생성 가능 - dry-run 으로 언제든 복원)
+crawler/output/
+
+# ──────────────────────────────────────────
+# Firebase / Google 서비스 자격증명
+# ──────────────────────────────────────────
+google-services.json
+GoogleService-Info.plist
+serviceAccountKey.json
+firebase-credentials.json
+*-firebase-adminsdk-*.json
+
+# ──────────────────────────────────────────
+# Flutter 앱
+# ──────────────────────────────────────────
+
+# 빌드 산출물
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+
+# IDE 파일
+flutter_app/*.iml
+*.iml
+.idea/
+.vscode/
+
+# Flutter gen 파일
+flutter_app/**/*.g.dart
+flutter_app/**/*.freezed.dart
+
+# ──────────────────────────────────────────
+# 플랫폼별 자동생성 (Flutter)
+# ──────────────────────────────────────────
+
+# Android
+flutter_app/android/.gradle/
+flutter_app/android/local.properties
+flutter_app/android/key.properties        # 서명 키 경로 (민감)
+flutter_app/android/app/google-services.json
+*.keystore
+*.jks
+
+# iOS
+flutter_app/ios/.symlinks/
+flutter_app/ios/Pods/
+flutter_app/ios/Flutter/Flutter.framework/
+flutter_app/ios/Flutter/Flutter.podspec
+flutter_app/ios/Runner.xcworkspace/xcuserdata/
+flutter_app/ios/GoogleService-Info.plist
+
+# macOS (앱 대상)
+flutter_app/macos/Flutter/GeneratedPluginRegistrant.swift
+flutter_app/macos/Flutter/ephemeral/
+
+# Web
+flutter_app/web/
+flutter_app/linux/
+flutter_app/windows/
