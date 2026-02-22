@@ -31,8 +31,11 @@ class FilterProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  // koreabaseball.com 통계 제공 시작: 2002년
+  static const int _firstSeason = 2002;
+
   List<int> get availableSeasons {
     final current = DateTime.now().year;
-    return List.generate(current - 1981, (i) => current - i);
+    return List.generate(current - _firstSeason + 1, (i) => current - i);
   }
 }

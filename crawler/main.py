@@ -2,11 +2,21 @@
 KBO 야구 통계 크롤러 메인 실행 파일
 
 사용법:
-  python main.py --season 2025           # 2025시즌 전체 크롤링
-  python main.py --season 2025 --type hitter   # 타자만
-  python main.py --season 2025 --type pitcher  # 투수만
-  python main.py --season 2025 --type team     # 팀 통계만
-  python main.py --season 2025 --dry-run       # Firebase 업로드 없이 테스트
+  # 단일 시즌
+  python main.py --season 2025 --dry-run
+
+  # 다중 시즌 (범위)
+  python main.py --seasons 2020-2025 --dry-run
+
+  # 다중 시즌 (목록)
+  python main.py --seasons 2022,2023,2024,2025 --dry-run
+
+  # 유형 지정
+  python main.py --season 2025 --type hitter --dry-run
+  python main.py --seasons 2020-2025 --type all --dry-run
+
+  유형: all | hitter | pitcher | defense | runner | team | rank
+  데이터 범위: 2002 ~ 2025 (koreabaseball.com 제공)
 """
 
 import argparse
@@ -25,6 +35,26 @@ from processors.advanced_stats import enrich_hitter, enrich_pitcher
 import firebase_uploader as uploader
 
 load_dotenv()
+
+KBO_FIRST_SEASON = 2002  # koreabaseball.com 통계 최초 연도
+
+
+def parse_seasons(value: str) -> list[int]:
+    """
+    다중 시즌 파싱
+    - '2025'        → [2025]
+    - '2022-2025'   → [2022, 2023, 2024, 2025]
+    - '2022,2023'   → [2022, 2023]
+    """
+    value = value.strip()
+    if '-' in value and ',' not in value:
+        parts = value.split('-')
+        if len(parts) == 2:
+            start, end = int(parts[0]), int(parts[1])
+            return list(range(start, end + 1))
+    if ',' in value:
+        return [int(s.strip()) for s in value.split(',')]
+    return [int(value)]
 
 
 def run_hitter(season: int, dry_run: bool):
@@ -117,45 +147,79 @@ def _save_json(data: list, path: str):
         print(f'[dry-run] Flutter assets 복사: {dest}')
 
 
+def run_one_season(season: int, ctype: str, dry_run: bool):
+    """단일 시즌 크롤링"""
+    if season < KBO_FIRST_SEASON:
+        print(f'[경고] {season}년은 지원 범위({KBO_FIRST_SEASON}~) 밖입니다. 건너뜁니다.')
+        return
+
+    print(f'\n{"=" * 40}')
+    print(f'  시즌: {season} | 유형: {ctype} | dry-run: {dry_run}')
+    print(f'{"=" * 40}')
+
+    if ctype in ('all', 'hitter'):
+        run_hitter(season, dry_run)
+    if ctype in ('all', 'pitcher'):
+        run_pitcher(season, dry_run)
+    if ctype in ('all', 'defense'):
+        run_defense(season, dry_run)
+    if ctype in ('all', 'runner'):
+        run_runner(season, dry_run)
+    if ctype in ('all', 'team'):
+        run_team(season, dry_run)
+    if ctype in ('all', 'rank'):
+        run_rank(season, dry_run)
+
+
 def main():
-    parser = argparse.ArgumentParser(description='KBO 야구 통계 크롤러')
-    parser.add_argument('--season', type=int, default=2025, help='크롤링 시즌 (기본: 2025)')
+    parser = argparse.ArgumentParser(
+        description='KBO 야구 통계 크롤러',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+예시:
+  python main.py --season 2025 --dry-run
+  python main.py --seasons 2023-2025 --type hitter --dry-run
+  python main.py --seasons 2022,2024,2025 --dry-run
+        """,
+    )
+
+    season_group = parser.add_mutually_exclusive_group()
+    season_group.add_argument(
+        '--season', type=int, default=None,
+        help=f'단일 시즌 (기본: 2025, 범위: {KBO_FIRST_SEASON}~)',
+    )
+    season_group.add_argument(
+        '--seasons', type=str, default=None,
+        help='다중 시즌. 범위: "2020-2025", 목록: "2022,2023,2025"',
+    )
+
     parser.add_argument(
         '--type',
         choices=['all', 'hitter', 'pitcher', 'defense', 'runner', 'team', 'rank'],
         default='all',
-        help='크롤링 유형 (기본: all)'
+        help='크롤링 유형 (기본: all)',
     )
     parser.add_argument('--dry-run', action='store_true', help='Firebase 업로드 없이 JSON 저장')
     args = parser.parse_args()
 
-    season = args.season
     dry_run = args.dry_run
     ctype = args.type
 
+    # 시즌 목록 결정
+    if args.seasons:
+        seasons = parse_seasons(args.seasons)
+    elif args.season:
+        seasons = [args.season]
+    else:
+        seasons = [2025]
+
     print(f'=== KBO 크롤러 시작 ===')
-    print(f'시즌: {season} | 유형: {ctype} | dry-run: {dry_run}')
-    print('=' * 30)
+    print(f'시즌: {seasons} | 유형: {ctype} | dry-run: {dry_run}')
 
-    if ctype in ('all', 'hitter'):
-        run_hitter(season, dry_run)
+    for season in seasons:
+        run_one_season(season, ctype, dry_run)
 
-    if ctype in ('all', 'pitcher'):
-        run_pitcher(season, dry_run)
-
-    if ctype in ('all', 'defense'):
-        run_defense(season, dry_run)
-
-    if ctype in ('all', 'runner'):
-        run_runner(season, dry_run)
-
-    if ctype in ('all', 'team'):
-        run_team(season, dry_run)
-
-    if ctype in ('all', 'rank'):
-        run_rank(season, dry_run)
-
-    print('=== 크롤링 완료 ===')
+    print(f'\n=== 크롤링 완료 ({len(seasons)}개 시즌) ===')
 
 
 if __name__ == '__main__':
