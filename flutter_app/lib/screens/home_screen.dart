@@ -6,10 +6,12 @@ import '../providers/hitter_provider.dart';
 import '../providers/pitcher_provider.dart';
 import '../providers/team_provider.dart';
 import '../providers/team_rank_provider.dart';
+import '../providers/prediction_provider.dart';
 import 'player_hitter_screen.dart';
 import 'player_pitcher_screen.dart';
 import 'team_stats_screen.dart';
 import 'team_rank_screen.dart';
+import 'match_predict_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -26,6 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
     PlayerPitcherScreen(),
     TeamStatsScreen(),
     TeamRankScreen(),
+    MatchPredictScreen(),
   ];
 
   @override
@@ -40,6 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
     context.read<PitcherProvider>().loadData(filter.season);
     context.read<TeamProvider>().loadData(filter.season);
     context.read<TeamRankProvider>().loadData(filter.season);
+    context.read<PredictionProvider>().loadSeason(filter.season);
   }
 
   @override
@@ -111,6 +115,11 @@ class _HomeScreenState extends State<HomeScreen> {
           NavigationDestination(
             icon: Icon(Icons.leaderboard),
             label: '순위',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.calculate_outlined),
+            selectedIcon: Icon(Icons.calculate),
+            label: '예측',
           ),
         ],
       ),
