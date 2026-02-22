@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "심우준",
+    "team": "KT",
+    "games": 144,
+    "sb": 35,
+    "cs": 11,
+    "sb_pct": 76.1,
+    "season": 2020
+  },
+  {
+    "name": "박해민",
+    "team": "삼성",
+    "games": 132,
+    "sb": 34,
+    "cs": 12,
+    "sb_pct": 73.9,
+    "season": 2020
+  },
+  {
+    "name": "김혜성",
+    "team": "키움",
+    "games": 142,
+    "sb": 25,
+    "cs": 8,
+    "sb_pct": 75.8,
+    "season": 2020
+  },
+  {
+    "name": "서건창",
+    "team": "키움",
+    "games": 135,
+    "sb": 24,
+    "cs": 10,
+    "sb_pct": 70.6,
+    "season": 2020
+  },
+  {
+    "name": "김하성",
+    "team": "키움",
+    "games": 138,
+    "sb": 23,
+    "cs": 2,
+    "sb_pct": 92.0,
+    "season": 2020
+  },
+  {
+    "name": "알테어",
+    "team": "NC",
+    "games": 136,
+    "sb": 22,
+    "cs": 3,
+    "sb_pct": 88.0,
+    "season": 2020
+  },
+  {
+    "name": "배정대",
+    "team": "KT",
+    "games": 144,
+    "sb": 22,
+    "cs": 13,
+    "sb_pct": 62.9,
+    "season": 2020
+  },
+  {
+    "name": "김지찬",
+    "team": "삼성",
+    "games": 135,
+    "sb": 21,
+    "cs": 4,
+    "sb_pct": 84.0,
+    "season": 2020
+  },
+  {
+    "name": "오지환",
+    "team": "LG",
+    "games": 141,
+    "sb": 20,
+    "cs": 8,
+    "sb_pct": 71.4,
+    "season": 2020
+  },
+  {
+    "name": "구자욱",
+    "team": "삼성",
+    "games": 118,
+    "sb": 19,
+    "cs": 5,
+    "sb_pct": 79.2,
+    "season": 2020
+  },
+  {
+    "name": "최지훈",
+    "team": "SK",
+    "games": 127,
+    "sb": 18,
+    "cs": 6,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "이용규",
+    "team": "한화",
+    "games": 120,
+    "sb": 17,
+    "cs": 8,
+    "sb_pct": 68.0,
+    "season": 2020
+  },
+  {
+    "name": "정수빈",
+    "team": "두산",
+    "games": 141,
+    "sb": 15,
+    "cs": 6,
+    "sb_pct": 71.4,
+    "season": 2020
+  },
+  {
+    "name": "오태곤",
+    "team": "SK",
+    "games": 94,
+    "sb": 15,
+    "cs": 6,
+    "sb_pct": 71.4,
+    "season": 2020
+  },
+  {
+    "name": "박찬호",
+    "team": "KIA",
+    "games": 141,
+    "sb": 15,
+    "cs": 8,
+    "sb_pct": 65.2,
+    "season": 2020
+  },
+  {
+    "name": "마차도",
+    "team": "롯데",
+    "games": 144,
+    "sb": 15,
+    "cs": 1,
+    "sb_pct": 93.8,
+    "season": 2020
+  },
+  {
+    "name": "허경민",
+    "team": "두산",
+    "games": 117,
+    "sb": 14,
+    "cs": 6,
+    "sb_pct": 70.0,
+    "season": 2020
+  },
+  {
+    "name": "최원준",
+    "team": "KIA",
+    "games": 123,
+    "sb": 14,
+    "cs": 3,
+    "sb_pct": 82.4,
+    "season": 2020
+  },
+  {
+    "name": "안치홍",
+    "team": "롯데",
+    "games": 124,
+    "sb": 14,
+    "cs": 3,
+    "sb_pct": 82.4,
+    "season": 2020
+  },
+  {
+    "name": "이유찬",
+    "team": "두산",
+    "games": 101,
+    "sb": 13,
+    "cs": 4,
+    "sb_pct": 76.5,
+    "season": 2020
+  },
+  {
+    "name": "박민우",
+    "team": "NC",
+    "games": 126,
+    "sb": 13,
+    "cs": 6,
+    "sb_pct": 68.4,
+    "season": 2020
+  },
+  {
+    "name": "이정후",
+    "team": "키움",
+    "games": 140,
+    "sb": 12,
+    "cs": 2,
+    "sb_pct": 85.7,
+    "season": 2020
+  },
+  {
+    "name": "김성욱",
+    "team": "NC",
+    "games": 104,
+    "sb": 12,
+    "cs": 5,
+    "sb_pct": 70.6,
+    "season": 2020
+  },
+  {
+    "name": "이명기",
+    "team": "NC",
+    "games": 136,
+    "sb": 12,
+    "cs": 7,
+    "sb_pct": 63.2,
+    "season": 2020
+  },
+  {
+    "name": "조용호",
+    "team": "KT",
+    "games": 132,
+    "sb": 12,
+    "cs": 3,
+    "sb_pct": 80.0,
+    "season": 2020
+  },
+  {
+    "name": "홍창기",
+    "team": "LG",
+    "games": 135,
+    "sb": 11,
+    "cs": 5,
+    "sb_pct": 68.8,
+    "season": 2020
+  },
+  {
+    "name": "황재균",
+    "team": "KT",
+    "games": 134,
+    "sb": 11,
+    "cs": 6,
+    "sb_pct": 64.7,
+    "season": 2020
+  },
+  {
+    "name": "노수광",
+    "team": "한화",
+    "games": 100,
+    "sb": 11,
+    "cs": 7,
+    "sb_pct": 61.1,
+    "season": 2020
+  },
+  {
+    "name": "정훈",
+    "team": "롯데",
+    "games": 111,
+    "sb": 11,
+    "cs": 1,
+    "sb_pct": 91.7,
+    "season": 2020
+  },
+  {
+    "name": "오재원",
+    "team": "두산",
+    "games": 85,
+    "sb": 10,
+    "cs": 5,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "김상수",
+    "team": "삼성",
+    "games": 120,
+    "sb": 10,
+    "cs": 3,
+    "sb_pct": 76.9,
+    "season": 2020
+  },
+  {
+    "name": "김동한",
+    "team": "롯데",
+    "games": 82,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2020
+  },
+  {
+    "name": "김재유",
+    "team": "롯데",
+    "games": 68,
+    "sb": 10,
+    "cs": 2,
+    "sb_pct": 83.3,
+    "season": 2020
+  },
+  {
+    "name": "민병헌",
+    "team": "롯데",
+    "games": 109,
+    "sb": 10,
+    "cs": 6,
+    "sb_pct": 62.5,
+    "season": 2020
+  },
+  {
+    "name": "박정음",
+    "team": "키움",
+    "games": 86,
+    "sb": 9,
+    "cs": 1,
+    "sb_pct": 90.0,
+    "season": 2020
+  },
+  {
+    "name": "강진성",
+    "team": "NC",
+    "games": 121,
+    "sb": 9,
+    "cs": 1,
+    "sb_pct": 90.0,
+    "season": 2020
+  },
+  {
+    "name": "정진호",
+    "team": "한화",
+    "games": 113,
+    "sb": 9,
+    "cs": 7,
+    "sb_pct": 56.3,
+    "season": 2020
+  },
+  {
+    "name": "박건우",
+    "team": "두산",
+    "games": 129,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2020
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 133,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2020
+  },
+  {
+    "name": "신민재",
+    "team": "LG",
+    "games": 68,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2020
+  },
+  {
+    "name": "이천웅",
+    "team": "LG",
+    "games": 89,
+    "sb": 8,
+    "cs": 5,
+    "sb_pct": 61.5,
+    "season": 2020
+  },
+  {
+    "name": "정주현",
+    "team": "LG",
+    "games": 134,
+    "sb": 8,
+    "cs": 7,
+    "sb_pct": 53.3,
+    "season": 2020
+  },
+  {
+    "name": "김민혁",
+    "team": "KT",
+    "games": 108,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "전병우",
+    "team": "키움",
+    "games": 119,
+    "sb": 7,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 122,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2020
+  },
+  {
+    "name": "김창평",
+    "team": "SK",
+    "games": 35,
+    "sb": 7,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "정진기",
+    "team": "SK",
+    "games": 50,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2020
+  },
+  {
+    "name": "김용의",
+    "team": "LG",
+    "games": 101,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2020
+  },
+  {
+    "name": "정근우",
+    "team": "LG",
+    "games": 72,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2020
+  },
+  {
+    "name": "강백호",
+    "team": "KT",
+    "games": 129,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2020
+  },
+  {
+    "name": "김태진",
+    "team": "KIA",
+    "games": 82,
+    "sb": 7,
+    "cs": 4,
+    "sb_pct": 63.6,
+    "season": 2020
+  },
+  {
+    "name": "김헌곤",
+    "team": "삼성",
+    "games": 97,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2020
+  },
+  {
+    "name": "김재호",
+    "team": "두산",
+    "games": 120,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "김재환",
+    "team": "두산",
+    "games": 140,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "이상호",
+    "team": "NC",
+    "games": 82,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2020
+  },
+  {
+    "name": "살라디노",
+    "team": "삼성",
+    "games": 44,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2020
+  },
+  {
+    "name": "이학주",
+    "team": "삼성",
+    "games": 64,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "박세혁",
+    "team": "두산",
+    "games": 124,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2020
+  },
+  {
+    "name": "박준태",
+    "team": "키움",
+    "games": 128,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2020
+  },
+  {
+    "name": "손호영",
+    "team": "LG",
+    "games": 23,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "양의지",
+    "team": "NC",
+    "games": 130,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2020
+  },
+  {
+    "name": "박승욱",
+    "team": "KT",
+    "games": 97,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2020
+  },
+  {
+    "name": "박찬도",
+    "team": "삼성",
+    "games": 51,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2020
+  },
+  {
+    "name": "호잉",
+    "team": "한화",
+    "games": 34,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2020
+  },
+  {
+    "name": "손아섭",
+    "team": "롯데",
+    "games": 141,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "전준우",
+    "team": "롯데",
+    "games": 143,
+    "sb": 5,
+    "cs": 5,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "로맥",
+    "team": "SK",
+    "games": 139,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "이재율",
+    "team": "NC",
+    "games": 25,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2020
+  },
+  {
+    "name": "최정원",
+    "team": "NC",
+    "games": 49,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "송민섭",
+    "team": "KT",
+    "games": 114,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2020
+  },
+  {
+    "name": "김동엽",
+    "team": "삼성",
+    "games": 115,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "박승규",
+    "team": "삼성",
+    "games": 91,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2020
+  },
+  {
+    "name": "하주석",
+    "team": "한화",
+    "games": 72,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2020
+  },
+  {
+    "name": "조수행",
+    "team": "두산",
+    "games": 44,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2020
+  },
+  {
+    "name": "임병욱",
+    "team": "키움",
+    "games": 12,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "채현우",
+    "team": "SK",
+    "games": 16,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "권희동",
+    "team": "NC",
+    "games": 123,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김찬형",
+    "team": "NC",
+    "games": 56,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "나성범",
+    "team": "NC",
+    "games": 130,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "김호령",
+    "team": "KIA",
+    "games": 89,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "박계범",
+    "team": "삼성",
+    "games": 80,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2020
+  },
+  {
+    "name": "이성규",
+    "team": "삼성",
+    "games": 98,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2020
+  },
+  {
+    "name": "안권수",
+    "team": "두산",
+    "games": 68,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "오재일",
+    "team": "두산",
+    "games": 127,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "최주환",
+    "team": "두산",
+    "games": 140,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "러셀",
+    "team": "키움",
+    "games": 65,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "한유섬",
+    "team": "SK",
+    "games": 62,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김민성",
+    "team": "LG",
+    "games": 87,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "라모스",
+    "team": "LG",
+    "games": 117,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 97,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김규성",
+    "team": "KIA",
+    "games": 103,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "황윤호",
+    "team": "KIA",
+    "games": 25,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김호재",
+    "team": "삼성",
+    "games": 65,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "이성곤",
+    "team": "삼성",
+    "games": 62,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "최영진",
+    "team": "삼성",
+    "games": 58,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2020
+  },
+  {
+    "name": "팔카",
+    "team": "삼성",
+    "games": 51,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "반즈",
+    "team": "한화",
+    "games": 74,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "장진혁",
+    "team": "한화",
+    "games": 19,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "강로한",
+    "team": "롯데",
+    "games": 16,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "김준태",
+    "team": "롯데",
+    "games": 128,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "오윤석",
+    "team": "롯데",
+    "games": 63,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2020
+  },
+  {
+    "name": "국해성",
+    "team": "두산",
+    "games": 46,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "권민석",
+    "team": "두산",
+    "games": 55,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김규민",
+    "team": "키움",
+    "games": 54,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김웅빈",
+    "team": "키움",
+    "games": 73,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "이지영",
+    "team": "키움",
+    "games": 101,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "고종욱",
+    "team": "SK",
+    "games": 92,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2020
+  },
+  {
+    "name": "김경호",
+    "team": "SK",
+    "games": 56,
+    "sb": 1,
+    "cs": 4,
+    "sb_pct": 20.0,
+    "season": 2020
+  },
+  {
+    "name": "김민준",
+    "team": "SK",
+    "games": 12,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "김성현",
+    "team": "SK",
+    "games": 133,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "박성한",
+    "team": "SK",
+    "games": 41,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "유서준",
+    "team": "SK",
+    "games": 28,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "이현석",
+    "team": "SK",
+    "games": 58,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "최준우",
+    "team": "SK",
+    "games": 66,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "최항",
+    "team": "SK",
+    "games": 47,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "유강남",
+    "team": "LG",
+    "games": 137,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "이형종",
+    "team": "LG",
+    "games": 81,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "한석현",
+    "team": "LG",
+    "games": 9,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "박준영",
+    "team": "NC",
+    "games": 32,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "이원재",
+    "team": "NC",
+    "games": 73,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "지석훈",
+    "team": "NC",
+    "games": 87,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "천성호",
+    "team": "KT",
+    "games": 66,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 85,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "김영환",
+    "team": "KIA",
+    "games": 14,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "류지혁",
+    "team": "KIA",
+    "games": 25,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "이우성",
+    "team": "KIA",
+    "games": 48,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "이진영",
+    "team": "KIA",
+    "games": 32,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "최정민",
+    "team": "KIA",
+    "games": 24,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "강한울",
+    "team": "삼성",
+    "games": 34,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "김성표",
+    "team": "삼성",
+    "games": 15,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "강경학",
+    "team": "한화",
+    "games": 94,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2020
+  },
+  {
+    "name": "이성열",
+    "team": "한화",
+    "games": 79,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "정은원",
+    "team": "한화",
+    "games": 79,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "김정율",
+    "team": "롯데",
+    "games": 3,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "신본기",
+    "team": "롯데",
+    "games": 81,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "신윤후",
+    "team": "롯데",
+    "games": 5,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2020
+  },
+  {
+    "name": "이대호",
+    "team": "롯데",
+    "games": 144,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2020
+  },
+  {
+    "name": "권휘",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "김강률",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "김민규",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "김인태",
+    "team": "두산",
+    "games": 77,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "박지훈",
+    "team": "두산",
+    "games": 10,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "백동훈",
+    "team": "두산",
+    "games": 27,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "서예일",
+    "team": "두산",
+    "games": 40,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "신성현",
+    "team": "두산",
+    "games": 9,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "양찬열",
+    "team": "두산",
+    "games": 17,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "오명진",
+    "team": "두산",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "윤명준",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "이승민",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  },
+  {
+    "name": "이영하",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2020
+  }
+]
