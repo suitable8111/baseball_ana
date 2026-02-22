@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "이대형",
+    "team": "LG",
+    "games": 125,
+    "sb": 53,
+    "cs": 20,
+    "sb_pct": 72.6,
+    "season": 2007
+  },
+  {
+    "name": "이종욱",
+    "team": "두산",
+    "games": 123,
+    "sb": 47,
+    "cs": 14,
+    "sb_pct": 77.0,
+    "season": 2007
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 126,
+    "sb": 36,
+    "cs": 10,
+    "sb_pct": 78.3,
+    "season": 2007
+  },
+  {
+    "name": "민병헌",
+    "team": "두산",
+    "games": 119,
+    "sb": 30,
+    "cs": 9,
+    "sb_pct": 76.9,
+    "season": 2007
+  },
+  {
+    "name": "조동화",
+    "team": "SK",
+    "games": 121,
+    "sb": 25,
+    "cs": 6,
+    "sb_pct": 80.6,
+    "season": 2007
+  },
+  {
+    "name": "정근우",
+    "team": "SK",
+    "games": 111,
+    "sb": 24,
+    "cs": 10,
+    "sb_pct": 70.6,
+    "season": 2007
+  },
+  {
+    "name": "김주찬",
+    "team": "롯데",
+    "games": 113,
+    "sb": 22,
+    "cs": 8,
+    "sb_pct": 73.3,
+    "season": 2007
+  },
+  {
+    "name": "박재상",
+    "team": "SK",
+    "games": 123,
+    "sb": 21,
+    "cs": 7,
+    "sb_pct": 75.0,
+    "season": 2007
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 123,
+    "sb": 20,
+    "cs": 8,
+    "sb_pct": 71.4,
+    "season": 2007
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 126,
+    "sb": 20,
+    "cs": 2,
+    "sb_pct": 90.9,
+    "season": 2007
+  },
+  {
+    "name": "신명철",
+    "team": "삼성",
+    "games": 126,
+    "sb": 19,
+    "cs": 9,
+    "sb_pct": 67.9,
+    "season": 2007
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 124,
+    "sb": 19,
+    "cs": 10,
+    "sb_pct": 65.5,
+    "season": 2007
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 116,
+    "sb": 17,
+    "cs": 7,
+    "sb_pct": 70.8,
+    "season": 2007
+  },
+  {
+    "name": "이용규",
+    "team": "KIA",
+    "games": 118,
+    "sb": 17,
+    "cs": 11,
+    "sb_pct": 60.7,
+    "season": 2007
+  },
+  {
+    "name": "강명구",
+    "team": "삼성",
+    "games": 68,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2007
+  },
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 93,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2007
+  },
+  {
+    "name": "전준호",
+    "team": "현대",
+    "games": 121,
+    "sb": 11,
+    "cs": 8,
+    "sb_pct": 57.9,
+    "season": 2007
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 119,
+    "sb": 11,
+    "cs": 2,
+    "sb_pct": 84.6,
+    "season": 2007
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 75,
+    "sb": 11,
+    "cs": 8,
+    "sb_pct": 57.9,
+    "season": 2007
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 121,
+    "sb": 11,
+    "cs": 4,
+    "sb_pct": 73.3,
+    "season": 2007
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 123,
+    "sb": 10,
+    "cs": 3,
+    "sb_pct": 76.9,
+    "season": 2007
+  },
+  {
+    "name": "고동진",
+    "team": "한화",
+    "games": 124,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2007
+  },
+  {
+    "name": "송지만",
+    "team": "현대",
+    "games": 120,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2007
+  },
+  {
+    "name": "박재홍",
+    "team": "SK",
+    "games": 115,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2007
+  },
+  {
+    "name": "정수근",
+    "team": "롯데",
+    "games": 105,
+    "sb": 10,
+    "cs": 5,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "박경수",
+    "team": "LG",
+    "games": 115,
+    "sb": 10,
+    "cs": 3,
+    "sb_pct": 76.9,
+    "season": 2007
+  },
+  {
+    "name": "김일경",
+    "team": "현대",
+    "games": 117,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2007
+  },
+  {
+    "name": "김원섭",
+    "team": "KIA",
+    "games": 114,
+    "sb": 9,
+    "cs": 9,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 116,
+    "sb": 9,
+    "cs": 4,
+    "sb_pct": 69.2,
+    "season": 2007
+  },
+  {
+    "name": "전상렬",
+    "team": "두산",
+    "games": 75,
+    "sb": 9,
+    "cs": 5,
+    "sb_pct": 64.3,
+    "season": 2007
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 122,
+    "sb": 8,
+    "cs": 7,
+    "sb_pct": 53.3,
+    "season": 2007
+  },
+  {
+    "name": "김민재",
+    "team": "한화",
+    "games": 118,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2007
+  },
+  {
+    "name": "이성열",
+    "team": "LG",
+    "games": 75,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2007
+  },
+  {
+    "name": "심정수",
+    "team": "삼성",
+    "games": 124,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "조원우",
+    "team": "한화",
+    "games": 114,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2007
+  },
+  {
+    "name": "한상훈",
+    "team": "한화",
+    "games": 118,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2007
+  },
+  {
+    "name": "이택근",
+    "team": "현대",
+    "games": 116,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2007
+  },
+  {
+    "name": "박경완",
+    "team": "SK",
+    "games": 119,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "이진영",
+    "team": "SK",
+    "games": 80,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "김상현",
+    "team": "LG",
+    "games": 121,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "박진만",
+    "team": "삼성",
+    "games": 100,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2007
+  },
+  {
+    "name": "김현수",
+    "team": "두산",
+    "games": 99,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2007
+  },
+  {
+    "name": "윤재국",
+    "team": "두산",
+    "games": 74,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2007
+  },
+  {
+    "name": "이대수",
+    "team": "두산",
+    "games": 109,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2007
+  },
+  {
+    "name": "정원석",
+    "team": "두산",
+    "games": 78,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2007
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 108,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2007
+  },
+  {
+    "name": "정보명",
+    "team": "롯데",
+    "games": 119,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2007
+  },
+  {
+    "name": "오태근",
+    "team": "LG",
+    "games": 68,
+    "sb": 5,
+    "cs": 5,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "이종열",
+    "team": "LG",
+    "games": 121,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2007
+  },
+  {
+    "name": "강봉규",
+    "team": "삼성",
+    "games": 83,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "신경현",
+    "team": "한화",
+    "games": 107,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "이영우",
+    "team": "한화",
+    "games": 97,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 126,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 84,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "박용근",
+    "team": "LG",
+    "games": 67,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "발데스",
+    "team": "LG",
+    "games": 116,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2007
+  },
+  {
+    "name": "조동찬",
+    "team": "삼성",
+    "games": 38,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2007
+  },
+  {
+    "name": "심광호",
+    "team": "한화",
+    "games": 76,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2007
+  },
+  {
+    "name": "브룸바",
+    "team": "현대",
+    "games": 126,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2007
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 109,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "송산",
+    "team": "KIA",
+    "games": 76,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 84,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2007
+  },
+  {
+    "name": "최희섭",
+    "team": "KIA",
+    "games": 52,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2007
+  },
+  {
+    "name": "오재원",
+    "team": "두산",
+    "games": 49,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2007
+  },
+  {
+    "name": "나주환",
+    "team": "SK",
+    "games": 117,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2007
+  },
+  {
+    "name": "이호준",
+    "team": "SK",
+    "games": 101,
+    "sb": 3,
+    "cs": 6,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "정경배",
+    "team": "SK",
+    "games": 116,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "김창희",
+    "team": "삼성",
+    "games": 100,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 118,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "이범호",
+    "team": "한화",
+    "games": 126,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "김동수",
+    "team": "현대",
+    "games": 111,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "유한준",
+    "team": "현대",
+    "games": 112,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "이숭용",
+    "team": "현대",
+    "games": 95,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "황재균",
+    "team": "현대",
+    "games": 63,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "김연훈",
+    "team": "KIA",
+    "games": 52,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "채상병",
+    "team": "두산",
+    "games": 91,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "박정권",
+    "team": "SK",
+    "games": 100,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "이원석",
+    "team": "롯데",
+    "games": 121,
+    "sb": 2,
+    "cs": 5,
+    "sb_pct": 28.6,
+    "season": 2007
+  },
+  {
+    "name": "이인구",
+    "team": "롯데",
+    "games": 65,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "최만호",
+    "team": "롯데",
+    "games": 41,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2007
+  },
+  {
+    "name": "정의윤",
+    "team": "LG",
+    "games": 88,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "박정환",
+    "team": "삼성",
+    "games": 46,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "조영훈",
+    "team": "삼성",
+    "games": 66,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "김동영",
+    "team": "한화",
+    "games": 16,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "김수연",
+    "team": "한화",
+    "games": 31,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "정희상",
+    "team": "한화",
+    "games": 41,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "크루즈",
+    "team": "한화",
+    "games": 121,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "서한규",
+    "team": "현대",
+    "games": 48,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "정성훈",
+    "team": "현대",
+    "games": 122,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "정수성",
+    "team": "현대",
+    "games": 23,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "차화준",
+    "team": "현대",
+    "games": 47,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2007
+  },
+  {
+    "name": "김주형",
+    "team": "KIA",
+    "games": 36,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "손지환",
+    "team": "KIA",
+    "games": 102,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "이강서",
+    "team": "KIA",
+    "games": 15,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "한규식",
+    "team": "KIA",
+    "games": 26,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "김진수",
+    "team": "두산",
+    "games": 45,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "안경현",
+    "team": "두산",
+    "games": 109,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "최준석",
+    "team": "두산",
+    "games": 121,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "이재원",
+    "team": "SK",
+    "games": 66,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "정상호",
+    "team": "SK",
+    "games": 66,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "강민호",
+    "team": "롯데",
+    "games": 125,
+    "sb": 1,
+    "cs": 4,
+    "sb_pct": 20.0,
+    "season": 2007
+  },
+  {
+    "name": "박현승",
+    "team": "롯데",
+    "games": 91,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2007
+  },
+  {
+    "name": "이대호",
+    "team": "롯데",
+    "games": 121,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "최기문",
+    "team": "롯데",
+    "games": 58,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "최길성",
+    "team": "롯데",
+    "games": 56,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "페레즈",
+    "team": "롯데",
+    "games": 47,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "홍유택",
+    "team": "롯데",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "손인호",
+    "team": "LG",
+    "games": 39,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "안치용",
+    "team": "LG",
+    "games": 12,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2007
+  },
+  {
+    "name": "조인성",
+    "team": "LG",
+    "games": 124,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "최동수",
+    "team": "LG",
+    "games": 125,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2007
+  },
+  {
+    "name": "권오준",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김대익",
+    "team": "삼성",
+    "games": 69,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김동욱",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김종훈",
+    "team": "삼성",
+    "games": 63,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김한수",
+    "team": "삼성",
+    "games": 101,
+    "sb": 0,
+    "cs": 2,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "박종호",
+    "team": "삼성",
+    "games": 17,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "손승현",
+    "team": "삼성",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "오승환",
+    "team": "삼성",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "유용목",
+    "team": "삼성",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "이여상",
+    "team": "삼성",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "이정식",
+    "team": "삼성",
+    "games": 65,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "이태호",
+    "team": "삼성",
+    "games": 45,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "임창용",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "정현욱",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "조현근",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "진갑용",
+    "team": "삼성",
+    "games": 122,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "차우찬",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "채태인",
+    "team": "삼성",
+    "games": 31,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "현재윤",
+    "team": "삼성",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "구대성",
+    "team": "한화",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김강",
+    "team": "한화",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김인철",
+    "team": "한화",
+    "games": 77,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김태완",
+    "team": "한화",
+    "games": 61,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "마정길",
+    "team": "한화",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "백승룡",
+    "team": "한화",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "백재호",
+    "team": "한화",
+    "games": 80,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "서정",
+    "team": "한화",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "송광민",
+    "team": "한화",
+    "games": 30,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "안영명",
+    "team": "한화",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "연경흠",
+    "team": "한화",
+    "games": 36,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "이도형",
+    "team": "한화",
+    "games": 79,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "전현태",
+    "team": "한화",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "정범모",
+    "team": "한화",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "강귀태",
+    "team": "현대",
+    "games": 55,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "강병식",
+    "team": "현대",
+    "games": 91,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "강정호",
+    "team": "현대",
+    "games": 20,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "권도영",
+    "team": "현대",
+    "games": 7,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김남형",
+    "team": "현대",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  },
+  {
+    "name": "김성태",
+    "team": "현대",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2007
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "이대형",
+    "team": "LG",
+    "games": 133,
+    "sb": 64,
+    "cs": 18,
+    "sb_pct": 78.0,
+    "season": 2009
+  },
+  {
+    "name": "정근우",
+    "team": "SK",
+    "games": 127,
+    "sb": 53,
+    "cs": 13,
+    "sb_pct": 80.3,
+    "season": 2009
+  },
+  {
+    "name": "이택근",
+    "team": "히어로즈",
+    "games": 123,
+    "sb": 43,
+    "cs": 8,
+    "sb_pct": 84.3,
+    "season": 2009
+  },
+  {
+    "name": "이종욱",
+    "team": "두산",
+    "games": 82,
+    "sb": 37,
+    "cs": 6,
+    "sb_pct": 86.0,
+    "season": 2009
+  },
+  {
+    "name": "김주찬",
+    "team": "롯데",
+    "games": 109,
+    "sb": 34,
+    "cs": 7,
+    "sb_pct": 82.9,
+    "season": 2009
+  },
+  {
+    "name": "박재상",
+    "team": "SK",
+    "games": 133,
+    "sb": 33,
+    "cs": 11,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "김일경",
+    "team": "히어로즈",
+    "games": 107,
+    "sb": 30,
+    "cs": 12,
+    "sb_pct": 71.4,
+    "season": 2009
+  },
+  {
+    "name": "황재균",
+    "team": "히어로즈",
+    "games": 133,
+    "sb": 30,
+    "cs": 15,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "강동우",
+    "team": "한화",
+    "games": 128,
+    "sb": 27,
+    "cs": 3,
+    "sb_pct": 90.0,
+    "season": 2009
+  },
+  {
+    "name": "클락",
+    "team": "히어로즈",
+    "games": 125,
+    "sb": 23,
+    "cs": 8,
+    "sb_pct": 74.2,
+    "season": 2009
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 111,
+    "sb": 22,
+    "cs": 3,
+    "sb_pct": 88.0,
+    "season": 2009
+  },
+  {
+    "name": "나주환",
+    "team": "SK",
+    "games": 118,
+    "sb": 21,
+    "cs": 9,
+    "sb_pct": 70.0,
+    "season": 2009
+  },
+  {
+    "name": "신명철",
+    "team": "삼성",
+    "games": 124,
+    "sb": 21,
+    "cs": 6,
+    "sb_pct": 77.8,
+    "season": 2009
+  },
+  {
+    "name": "조동찬",
+    "team": "삼성",
+    "games": 75,
+    "sb": 21,
+    "cs": 1,
+    "sb_pct": 95.5,
+    "season": 2009
+  },
+  {
+    "name": "정수성",
+    "team": "히어로즈",
+    "games": 87,
+    "sb": 21,
+    "cs": 6,
+    "sb_pct": 77.8,
+    "season": 2009
+  },
+  {
+    "name": "강봉규",
+    "team": "삼성",
+    "games": 126,
+    "sb": 20,
+    "cs": 3,
+    "sb_pct": 87.0,
+    "season": 2009
+  },
+  {
+    "name": "김원섭",
+    "team": "KIA",
+    "games": 101,
+    "sb": 20,
+    "cs": 10,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "박용근",
+    "team": "LG",
+    "games": 101,
+    "sb": 19,
+    "cs": 6,
+    "sb_pct": 76.0,
+    "season": 2009
+  },
+  {
+    "name": "민병헌",
+    "team": "두산",
+    "games": 115,
+    "sb": 18,
+    "cs": 5,
+    "sb_pct": 78.3,
+    "season": 2009
+  },
+  {
+    "name": "김상수",
+    "team": "삼성",
+    "games": 97,
+    "sb": 18,
+    "cs": 6,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "이영욱",
+    "team": "삼성",
+    "games": 88,
+    "sb": 16,
+    "cs": 4,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "박재홍",
+    "team": "SK",
+    "games": 113,
+    "sb": 15,
+    "cs": 4,
+    "sb_pct": 78.9,
+    "season": 2009
+  },
+  {
+    "name": "추승우",
+    "team": "한화",
+    "games": 105,
+    "sb": 15,
+    "cs": 4,
+    "sb_pct": 78.9,
+    "season": 2009
+  },
+  {
+    "name": "정수빈",
+    "team": "두산",
+    "games": 85,
+    "sb": 13,
+    "cs": 7,
+    "sb_pct": 65.0,
+    "season": 2009
+  },
+  {
+    "name": "조성환",
+    "team": "롯데",
+    "games": 76,
+    "sb": 13,
+    "cs": 2,
+    "sb_pct": 86.7,
+    "season": 2009
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 85,
+    "sb": 12,
+    "cs": 4,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "오재원",
+    "team": "두산",
+    "games": 106,
+    "sb": 12,
+    "cs": 3,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 102,
+    "sb": 12,
+    "cs": 3,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 99,
+    "sb": 11,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "임재철",
+    "team": "두산",
+    "games": 121,
+    "sb": 11,
+    "cs": 5,
+    "sb_pct": 68.8,
+    "season": 2009
+  },
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 123,
+    "sb": 11,
+    "cs": 1,
+    "sb_pct": 91.7,
+    "season": 2009
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 120,
+    "sb": 11,
+    "cs": 3,
+    "sb_pct": 78.6,
+    "season": 2009
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 104,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2009
+  },
+  {
+    "name": "이용규",
+    "team": "KIA",
+    "games": 50,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2009
+  },
+  {
+    "name": "송지만",
+    "team": "히어로즈",
+    "games": 115,
+    "sb": 10,
+    "cs": 3,
+    "sb_pct": 76.9,
+    "season": 2009
+  },
+  {
+    "name": "홍성흔",
+    "team": "롯데",
+    "games": 119,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "김민우",
+    "team": "히어로즈",
+    "games": 78,
+    "sb": 9,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 112,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2009
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 72,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "안치홍",
+    "team": "KIA",
+    "games": 123,
+    "sb": 8,
+    "cs": 5,
+    "sb_pct": 61.5,
+    "season": 2009
+  },
+  {
+    "name": "이숭용",
+    "team": "히어로즈",
+    "games": 114,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2009
+  },
+  {
+    "name": "조동화",
+    "team": "SK",
+    "games": 102,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2009
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 109,
+    "sb": 7,
+    "cs": 6,
+    "sb_pct": 53.8,
+    "season": 2009
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 110,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2009
+  },
+  {
+    "name": "김상현",
+    "team": "KIA",
+    "games": 121,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2009
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 88,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2009
+  },
+  {
+    "name": "최용규",
+    "team": "KIA",
+    "games": 51,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2009
+  },
+  {
+    "name": "김현수",
+    "team": "두산",
+    "games": 133,
+    "sb": 6,
+    "cs": 6,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "손시헌",
+    "team": "두산",
+    "games": 121,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "이인구",
+    "team": "롯데",
+    "games": 95,
+    "sb": 6,
+    "cs": 6,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "박경수",
+    "team": "LG",
+    "games": 106,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2009
+  },
+  {
+    "name": "모창민",
+    "team": "SK",
+    "games": 92,
+    "sb": 5,
+    "cs": 7,
+    "sb_pct": 41.7,
+    "season": 2009
+  },
+  {
+    "name": "박정권",
+    "team": "SK",
+    "games": 131,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2009
+  },
+  {
+    "name": "김민성",
+    "team": "롯데",
+    "games": 114,
+    "sb": 5,
+    "cs": 5,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "우동균",
+    "team": "삼성",
+    "games": 76,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2009
+  },
+  {
+    "name": "송광민",
+    "team": "한화",
+    "games": 116,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "장민석",
+    "team": "히어로즈",
+    "games": 15,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 128,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2009
+  },
+  {
+    "name": "이진영",
+    "team": "LG",
+    "games": 120,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2009
+  },
+  {
+    "name": "정성훈",
+    "team": "LG",
+    "games": 121,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "김연훈",
+    "team": "SK",
+    "games": 68,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "김재호",
+    "team": "두산",
+    "games": 80,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "가르시아",
+    "team": "롯데",
+    "games": 130,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2009
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 64,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "현재윤",
+    "team": "삼성",
+    "games": 99,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2009
+  },
+  {
+    "name": "이여상",
+    "team": "한화",
+    "games": 79,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "나지완",
+    "team": "KIA",
+    "games": 128,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2009
+  },
+  {
+    "name": "최경환",
+    "team": "KIA",
+    "games": 47,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "박경완",
+    "team": "SK",
+    "games": 65,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "윤요섭",
+    "team": "SK",
+    "games": 28,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 105,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "박정준",
+    "team": "롯데",
+    "games": 63,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2009
+  },
+  {
+    "name": "장성우",
+    "team": "롯데",
+    "games": 44,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "정수근",
+    "team": "롯데",
+    "games": 15,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 82,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2009
+  },
+  {
+    "name": "오선진",
+    "team": "한화",
+    "games": 79,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2009
+  },
+  {
+    "name": "이범호",
+    "team": "한화",
+    "games": 126,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2009
+  },
+  {
+    "name": "강귀태",
+    "team": "히어로즈",
+    "games": 114,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2009
+  },
+  {
+    "name": "강정호",
+    "team": "히어로즈",
+    "games": 133,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2009
+  },
+  {
+    "name": "김태완",
+    "team": "LG",
+    "games": 40,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "안치용",
+    "team": "LG",
+    "games": 90,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2009
+  },
+  {
+    "name": "박정환",
+    "team": "SK",
+    "games": 45,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "이성열",
+    "team": "두산",
+    "games": 31,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "이원석",
+    "team": "두산",
+    "games": 125,
+    "sb": 2,
+    "cs": 6,
+    "sb_pct": 25.0,
+    "season": 2009
+  },
+  {
+    "name": "정보명",
+    "team": "롯데",
+    "games": 86,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2009
+  },
+  {
+    "name": "박진만",
+    "team": "삼성",
+    "games": 76,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "디아즈",
+    "team": "한화",
+    "games": 62,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "연경흠",
+    "team": "한화",
+    "games": 122,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "이영우",
+    "team": "한화",
+    "games": 93,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "한윤섭",
+    "team": "한화",
+    "games": 22,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 124,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 51,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "박기남",
+    "team": "KIA",
+    "games": 104,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "신종길",
+    "team": "KIA",
+    "games": 16,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "이성우",
+    "team": "KIA",
+    "games": 13,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "차일목",
+    "team": "KIA",
+    "games": 57,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "최희섭",
+    "team": "KIA",
+    "games": 131,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "홍세완",
+    "team": "KIA",
+    "games": 74,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "강병식",
+    "team": "히어로즈",
+    "games": 54,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "브룸바",
+    "team": "히어로즈",
+    "games": 123,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "전준호",
+    "team": "히어로즈",
+    "games": 21,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "박병호",
+    "team": "LG",
+    "games": 68,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2009
+  },
+  {
+    "name": "페타지니",
+    "team": "LG",
+    "games": 115,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "손지환",
+    "team": "SK",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "이대수",
+    "team": "두산",
+    "games": 38,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "최승환",
+    "team": "두산",
+    "games": 84,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "최준석",
+    "team": "두산",
+    "games": 116,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "박준서",
+    "team": "롯데",
+    "games": 40,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "손아섭",
+    "team": "롯데",
+    "games": 34,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "전준우",
+    "team": "롯데",
+    "games": 26,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "최기문",
+    "team": "롯데",
+    "games": 54,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "최만호",
+    "team": "롯데",
+    "games": 13,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "김창희",
+    "team": "삼성",
+    "games": 71,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "진갑용",
+    "team": "삼성",
+    "games": 57,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "최형우",
+    "team": "삼성",
+    "games": 113,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "허승민",
+    "team": "삼성",
+    "games": 21,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2009
+  },
+  {
+    "name": "김민재",
+    "team": "한화",
+    "games": 105,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "김태완",
+    "team": "한화",
+    "games": 112,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "박노민",
+    "team": "한화",
+    "games": 46,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "정현석",
+    "team": "한화",
+    "games": 24,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "이호신",
+    "team": "KIA",
+    "games": 13,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "권도영",
+    "team": "히어로즈",
+    "games": 38,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "박도현",
+    "team": "LG",
+    "games": 13,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "손인호",
+    "team": "LG",
+    "games": 61,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2009
+  },
+  {
+    "name": "임도현",
+    "team": "LG",
+    "games": 15,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2009
+  },
+  {
+    "name": "최동수",
+    "team": "LG",
+    "games": 108,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2009
+  },
+  {
+    "name": "권영진",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김광현",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김기현",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김동건",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김용우",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김원형",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "김정남",
+    "team": "SK",
+    "games": 15,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "안경현",
+    "team": "SK",
+    "games": 42,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "엄정욱",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "오현근",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "윤길현",
+    "team": "SK",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "윤재국",
+    "team": "SK",
+    "games": 26,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "이명기",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "이승호",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "이승호",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "이재원",
+    "team": "SK",
+    "games": 24,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "이호준",
+    "team": "SK",
+    "games": 103,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "임성헌",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "정경배",
+    "team": "SK",
+    "games": 31,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "정대현",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "정상호",
+    "team": "SK",
+    "games": 101,
+    "sb": 0,
+    "cs": 4,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "정우람",
+    "team": "SK",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "채병용",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  },
+  {
+    "name": "카도쿠라",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2009
+  }
+]

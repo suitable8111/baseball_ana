@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "박찬호",
+    "team": "KIA",
+    "games": 133,
+    "sb": 39,
+    "cs": 6,
+    "sb_pct": 86.7,
+    "season": 2019
+  },
+  {
+    "name": "김하성",
+    "team": "키움",
+    "games": 139,
+    "sb": 33,
+    "cs": 4,
+    "sb_pct": 89.2,
+    "season": 2019
+  },
+  {
+    "name": "고종욱",
+    "team": "SK",
+    "games": 137,
+    "sb": 31,
+    "cs": 10,
+    "sb_pct": 75.6,
+    "season": 2019
+  },
+  {
+    "name": "노수광",
+    "team": "SK",
+    "games": 117,
+    "sb": 27,
+    "cs": 10,
+    "sb_pct": 73.0,
+    "season": 2019
+  },
+  {
+    "name": "오지환",
+    "team": "LG",
+    "games": 134,
+    "sb": 27,
+    "cs": 5,
+    "sb_pct": 84.4,
+    "season": 2019
+  },
+  {
+    "name": "정수빈",
+    "team": "두산",
+    "games": 123,
+    "sb": 26,
+    "cs": 8,
+    "sb_pct": 76.5,
+    "season": 2019
+  },
+  {
+    "name": "박해민",
+    "team": "삼성",
+    "games": 144,
+    "sb": 24,
+    "cs": 7,
+    "sb_pct": 77.4,
+    "season": 2019
+  },
+  {
+    "name": "심우준",
+    "team": "KT",
+    "games": 138,
+    "sb": 24,
+    "cs": 3,
+    "sb_pct": 88.9,
+    "season": 2019
+  },
+  {
+    "name": "호잉",
+    "team": "한화",
+    "games": 124,
+    "sb": 22,
+    "cs": 7,
+    "sb_pct": 75.9,
+    "season": 2019
+  },
+  {
+    "name": "김민혁",
+    "team": "KT",
+    "games": 127,
+    "sb": 22,
+    "cs": 10,
+    "sb_pct": 68.8,
+    "season": 2019
+  },
+  {
+    "name": "김상수",
+    "team": "삼성",
+    "games": 129,
+    "sb": 21,
+    "cs": 3,
+    "sb_pct": 87.5,
+    "season": 2019
+  },
+  {
+    "name": "이천웅",
+    "team": "LG",
+    "games": 138,
+    "sb": 21,
+    "cs": 10,
+    "sb_pct": 67.7,
+    "season": 2019
+  },
+  {
+    "name": "김혜성",
+    "team": "키움",
+    "games": 122,
+    "sb": 20,
+    "cs": 3,
+    "sb_pct": 87.0,
+    "season": 2019
+  },
+  {
+    "name": "오태곤",
+    "team": "KT",
+    "games": 123,
+    "sb": 19,
+    "cs": 2,
+    "sb_pct": 90.5,
+    "season": 2019
+  },
+  {
+    "name": "류지혁",
+    "team": "두산",
+    "games": 118,
+    "sb": 18,
+    "cs": 5,
+    "sb_pct": 78.3,
+    "season": 2019
+  },
+  {
+    "name": "박민우",
+    "team": "NC",
+    "games": 125,
+    "sb": 18,
+    "cs": 7,
+    "sb_pct": 72.0,
+    "season": 2019
+  },
+  {
+    "name": "서건창",
+    "team": "키움",
+    "games": 113,
+    "sb": 17,
+    "cs": 3,
+    "sb_pct": 85.0,
+    "season": 2019
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 127,
+    "sb": 15,
+    "cs": 8,
+    "sb_pct": 65.2,
+    "season": 2019
+  },
+  {
+    "name": "이학주",
+    "team": "삼성",
+    "games": 118,
+    "sb": 15,
+    "cs": 5,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "정주현",
+    "team": "LG",
+    "games": 129,
+    "sb": 15,
+    "cs": 6,
+    "sb_pct": 71.4,
+    "season": 2019
+  },
+  {
+    "name": "정은원",
+    "team": "한화",
+    "games": 142,
+    "sb": 14,
+    "cs": 7,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "이명기",
+    "team": "NC",
+    "games": 139,
+    "sb": 14,
+    "cs": 4,
+    "sb_pct": 77.8,
+    "season": 2019
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 83,
+    "sb": 13,
+    "cs": 6,
+    "sb_pct": 68.4,
+    "season": 2019
+  },
+  {
+    "name": "장진혁",
+    "team": "한화",
+    "games": 113,
+    "sb": 13,
+    "cs": 5,
+    "sb_pct": 72.2,
+    "season": 2019
+  },
+  {
+    "name": "이정후",
+    "team": "키움",
+    "games": 140,
+    "sb": 13,
+    "cs": 7,
+    "sb_pct": 65.0,
+    "season": 2019
+  },
+  {
+    "name": "민병헌",
+    "team": "롯데",
+    "games": 101,
+    "sb": 13,
+    "cs": 6,
+    "sb_pct": 68.4,
+    "season": 2019
+  },
+  {
+    "name": "손아섭",
+    "team": "롯데",
+    "games": 134,
+    "sb": 13,
+    "cs": 8,
+    "sb_pct": 61.9,
+    "season": 2019
+  },
+  {
+    "name": "박건우",
+    "team": "두산",
+    "games": 127,
+    "sb": 12,
+    "cs": 3,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "김태진",
+    "team": "NC",
+    "games": 123,
+    "sb": 12,
+    "cs": 4,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "허경민",
+    "team": "두산",
+    "games": 133,
+    "sb": 11,
+    "cs": 5,
+    "sb_pct": 68.8,
+    "season": 2019
+  },
+  {
+    "name": "구자욱",
+    "team": "삼성",
+    "games": 122,
+    "sb": 11,
+    "cs": 3,
+    "sb_pct": 78.6,
+    "season": 2019
+  },
+  {
+    "name": "임병욱",
+    "team": "키움",
+    "games": 117,
+    "sb": 10,
+    "cs": 2,
+    "sb_pct": 83.3,
+    "season": 2019
+  },
+  {
+    "name": "김헌곤",
+    "team": "삼성",
+    "games": 114,
+    "sb": 10,
+    "cs": 8,
+    "sb_pct": 55.6,
+    "season": 2019
+  },
+  {
+    "name": "신민재",
+    "team": "LG",
+    "games": 81,
+    "sb": 10,
+    "cs": 8,
+    "sb_pct": 55.6,
+    "season": 2019
+  },
+  {
+    "name": "황재균",
+    "team": "KT",
+    "games": 124,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2019
+  },
+  {
+    "name": "이상호",
+    "team": "NC",
+    "games": 102,
+    "sb": 10,
+    "cs": 5,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "강백호",
+    "team": "KT",
+    "games": 116,
+    "sb": 9,
+    "cs": 5,
+    "sb_pct": 64.3,
+    "season": 2019
+  },
+  {
+    "name": "박세혁",
+    "team": "두산",
+    "games": 137,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "송광민",
+    "team": "한화",
+    "games": 122,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "이성열",
+    "team": "한화",
+    "games": 129,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "정근우",
+    "team": "한화",
+    "games": 88,
+    "sb": 8,
+    "cs": 5,
+    "sb_pct": 61.5,
+    "season": 2019
+  },
+  {
+    "name": "이창진",
+    "team": "KIA",
+    "games": 133,
+    "sb": 8,
+    "cs": 8,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "최원준",
+    "team": "KIA",
+    "games": 90,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "전준우",
+    "team": "롯데",
+    "games": 141,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "김용의",
+    "team": "LG",
+    "games": 114,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2019
+  },
+  {
+    "name": "안상현",
+    "team": "SK",
+    "games": 65,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2019
+  },
+  {
+    "name": "오선진",
+    "team": "한화",
+    "games": 122,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2019
+  },
+  {
+    "name": "강로한",
+    "team": "롯데",
+    "games": 104,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2019
+  },
+  {
+    "name": "김성현",
+    "team": "SK",
+    "games": 144,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "로맥",
+    "team": "SK",
+    "games": 137,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "오재원",
+    "team": "두산",
+    "games": 98,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "박정음",
+    "team": "키움",
+    "games": 60,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2019
+  },
+  {
+    "name": "러프",
+    "team": "삼성",
+    "games": 133,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "이형종",
+    "team": "LG",
+    "games": 120,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2019
+  },
+  {
+    "name": "김성욱",
+    "team": "NC",
+    "games": 116,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2019
+  },
+  {
+    "name": "최승민",
+    "team": "NC",
+    "games": 24,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "이유찬",
+    "team": "두산",
+    "games": 25,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "정진호",
+    "team": "두산",
+    "games": 66,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2019
+  },
+  {
+    "name": "김민하",
+    "team": "한화",
+    "games": 72,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2019
+  },
+  {
+    "name": "이지영",
+    "team": "키움",
+    "games": 106,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2019
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 121,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2019
+  },
+  {
+    "name": "박계범",
+    "team": "삼성",
+    "games": 58,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2019
+  },
+  {
+    "name": "안치홍",
+    "team": "KIA",
+    "games": 105,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "유재신",
+    "team": "KIA",
+    "games": 71,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2019
+  },
+  {
+    "name": "김성훈",
+    "team": "삼성",
+    "games": 65,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2019
+  },
+  {
+    "name": "최영진",
+    "team": "삼성",
+    "games": 96,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "아수아헤",
+    "team": "롯데",
+    "games": 49,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "정훈",
+    "team": "롯데",
+    "games": 88,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2019
+  },
+  {
+    "name": "로하스",
+    "team": "KT",
+    "games": 142,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "박승욱",
+    "team": "KT",
+    "games": 101,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2019
+  },
+  {
+    "name": "양의지",
+    "team": "NC",
+    "games": 118,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2019
+  },
+  {
+    "name": "채현우",
+    "team": "SK",
+    "games": 9,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 141,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2019
+  },
+  {
+    "name": "김재호",
+    "team": "두산",
+    "games": 130,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김재환",
+    "team": "두산",
+    "games": 136,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 127,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "유로결",
+    "team": "한화",
+    "games": 38,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "이시원",
+    "team": "한화",
+    "games": 14,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "최재훈",
+    "team": "한화",
+    "games": 135,
+    "sb": 3,
+    "cs": 10,
+    "sb_pct": 23.1,
+    "season": 2019
+  },
+  {
+    "name": "김주찬",
+    "team": "KIA",
+    "games": 100,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "류승현",
+    "team": "KIA",
+    "games": 57,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2019
+  },
+  {
+    "name": "김동한",
+    "team": "롯데",
+    "games": 42,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2019
+  },
+  {
+    "name": "신본기",
+    "team": "롯데",
+    "games": 121,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김현수",
+    "team": "LG",
+    "games": 140,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 64,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "홍창기",
+    "team": "LG",
+    "games": 23,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "유한준",
+    "team": "KT",
+    "games": 139,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "조용호",
+    "team": "KT",
+    "games": 87,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2019
+  },
+  {
+    "name": "권희동",
+    "team": "NC",
+    "games": 116,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "김찬형",
+    "team": "NC",
+    "games": 76,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2019
+  },
+  {
+    "name": "모창민",
+    "team": "NC",
+    "games": 101,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2019
+  },
+  {
+    "name": "스몰린스키",
+    "team": "NC",
+    "games": 55,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2019
+  },
+  {
+    "name": "배영섭",
+    "team": "SK",
+    "games": 30,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "최항",
+    "team": "SK",
+    "games": 52,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "오재일",
+    "team": "두산",
+    "games": 130,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "김회성",
+    "team": "한화",
+    "games": 58,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "노시환",
+    "team": "한화",
+    "games": 91,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "이원석",
+    "team": "한화",
+    "games": 13,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "김규민",
+    "team": "키움",
+    "games": 94,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "송성문",
+    "team": "키움",
+    "games": 103,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "김민식",
+    "team": "KIA",
+    "games": 53,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "문선재",
+    "team": "KIA",
+    "games": 29,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "황윤호",
+    "team": "KIA",
+    "games": 57,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김동엽",
+    "team": "삼성",
+    "games": 60,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "이원석",
+    "team": "삼성",
+    "games": 111,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "김문호",
+    "team": "롯데",
+    "games": 51,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "나경민",
+    "team": "롯데",
+    "games": 45,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "허일",
+    "team": "롯데",
+    "games": 71,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "구본혁",
+    "team": "LG",
+    "games": 57,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "김민성",
+    "team": "LG",
+    "games": 107,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "전민수",
+    "team": "LG",
+    "games": 75,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "채은성",
+    "team": "LG",
+    "games": 128,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "페게로",
+    "team": "LG",
+    "games": 52,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "강민국",
+    "team": "KT",
+    "games": 58,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "문상철",
+    "team": "KT",
+    "games": 33,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "강진성",
+    "team": "NC",
+    "games": 41,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "나성범",
+    "team": "NC",
+    "games": 23,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2019
+  },
+  {
+    "name": "나주환",
+    "team": "SK",
+    "games": 94,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "이재원",
+    "team": "SK",
+    "games": 139,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "정현",
+    "team": "SK",
+    "games": 27,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김인태",
+    "team": "두산",
+    "games": 26,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김태근",
+    "team": "두산",
+    "games": 9,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "페르난데스",
+    "team": "두산",
+    "games": 144,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "강경학",
+    "team": "한화",
+    "games": 52,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "양성우",
+    "team": "한화",
+    "games": 56,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "박동원",
+    "team": "키움",
+    "games": 112,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "샌즈",
+    "team": "키움",
+    "games": 139,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "박준태",
+    "team": "KIA",
+    "games": 38,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "한승택",
+    "team": "KIA",
+    "games": 105,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "해즐베이커",
+    "team": "KIA",
+    "games": 11,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "박승규",
+    "team": "삼성",
+    "games": 14,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "이성규",
+    "team": "삼성",
+    "games": 16,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "최선호",
+    "team": "삼성",
+    "games": 17,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "배성근",
+    "team": "롯데",
+    "games": 36,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "윌슨",
+    "team": "롯데",
+    "games": 68,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "조홍석",
+    "team": "롯데",
+    "games": 42,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "한동희",
+    "team": "롯데",
+    "games": 59,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "백승현",
+    "team": "LG",
+    "games": 14,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2019
+  },
+  {
+    "name": "윤진호",
+    "team": "LG",
+    "games": 106,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "김진곤",
+    "team": "KT",
+    "games": 19,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "송민섭",
+    "team": "KT",
+    "games": 105,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2019
+  },
+  {
+    "name": "박석민",
+    "team": "NC",
+    "games": 112,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "베탄코트",
+    "team": "NC",
+    "games": 53,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "손시헌",
+    "team": "NC",
+    "games": 68,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "이원재",
+    "team": "NC",
+    "games": 94,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2019
+  },
+  {
+    "name": "정범모",
+    "team": "NC",
+    "games": 25,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2019
+  },
+  {
+    "name": "강승호",
+    "team": "SK",
+    "games": 15,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2019
+  },
+  {
+    "name": "김성민",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2019
+  },
+  {
+    "name": "김창평",
+    "team": "SK",
+    "games": 18,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2019
+  },
+  {
+    "name": "김태훈",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2019
+  }
+]

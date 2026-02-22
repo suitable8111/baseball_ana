@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 132,
+    "sb": 50,
+    "cs": 10,
+    "sb_pct": 83.3,
+    "season": 2003
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 133,
+    "sb": 42,
+    "cs": 12,
+    "sb_pct": 77.8,
+    "season": 2003
+  },
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 125,
+    "sb": 31,
+    "cs": 11,
+    "sb_pct": 73.8,
+    "season": 2003
+  },
+  {
+    "name": "마르티네스",
+    "team": "LG",
+    "games": 131,
+    "sb": 27,
+    "cs": 14,
+    "sb_pct": 65.9,
+    "season": 2003
+  },
+  {
+    "name": "김수연",
+    "team": "한화",
+    "games": 128,
+    "sb": 26,
+    "cs": 5,
+    "sb_pct": 83.9,
+    "season": 2003
+  },
+  {
+    "name": "류지현",
+    "team": "LG",
+    "games": 109,
+    "sb": 23,
+    "cs": 8,
+    "sb_pct": 74.2,
+    "season": 2003
+  },
+  {
+    "name": "조성환",
+    "team": "롯데",
+    "games": 129,
+    "sb": 23,
+    "cs": 11,
+    "sb_pct": 67.6,
+    "season": 2003
+  },
+  {
+    "name": "전준호",
+    "team": "현대",
+    "games": 129,
+    "sb": 20,
+    "cs": 9,
+    "sb_pct": 69.0,
+    "season": 2003
+  },
+  {
+    "name": "이영우",
+    "team": "한화",
+    "games": 133,
+    "sb": 18,
+    "cs": 9,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 133,
+    "sb": 17,
+    "cs": 7,
+    "sb_pct": 70.8,
+    "season": 2003
+  },
+  {
+    "name": "정수근",
+    "team": "두산",
+    "games": 89,
+    "sb": 15,
+    "cs": 7,
+    "sb_pct": 68.2,
+    "season": 2003
+  },
+  {
+    "name": "박재홍",
+    "team": "KIA",
+    "games": 108,
+    "sb": 14,
+    "cs": 9,
+    "sb_pct": 60.9,
+    "season": 2003
+  },
+  {
+    "name": "김민재",
+    "team": "SK",
+    "games": 129,
+    "sb": 14,
+    "cs": 7,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 130,
+    "sb": 13,
+    "cs": 4,
+    "sb_pct": 76.5,
+    "season": 2003
+  },
+  {
+    "name": "조원우",
+    "team": "SK",
+    "games": 128,
+    "sb": 13,
+    "cs": 5,
+    "sb_pct": 72.2,
+    "season": 2003
+  },
+  {
+    "name": "최경환",
+    "team": "두산",
+    "games": 115,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2003
+  },
+  {
+    "name": "이진영",
+    "team": "SK",
+    "games": 128,
+    "sb": 10,
+    "cs": 9,
+    "sb_pct": 52.6,
+    "season": 2003
+  },
+  {
+    "name": "고지행",
+    "team": "삼성",
+    "games": 92,
+    "sb": 9,
+    "cs": 5,
+    "sb_pct": 64.3,
+    "season": 2003
+  },
+  {
+    "name": "정성훈",
+    "team": "현대",
+    "games": 91,
+    "sb": 9,
+    "cs": 4,
+    "sb_pct": 69.2,
+    "season": 2003
+  },
+  {
+    "name": "이호준",
+    "team": "SK",
+    "games": 133,
+    "sb": 9,
+    "cs": 7,
+    "sb_pct": 56.3,
+    "season": 2003
+  },
+  {
+    "name": "정경배",
+    "team": "SK",
+    "games": 119,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "강동우",
+    "team": "삼성",
+    "games": 130,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 129,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "송지만",
+    "team": "한화",
+    "games": 74,
+    "sb": 8,
+    "cs": 6,
+    "sb_pct": 57.1,
+    "season": 2003
+  },
+  {
+    "name": "이승엽",
+    "team": "삼성",
+    "games": 131,
+    "sb": 7,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "김상현",
+    "team": "LG",
+    "games": 55,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2003
+  },
+  {
+    "name": "이대형",
+    "team": "LG",
+    "games": 47,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2003
+  },
+  {
+    "name": "김경언",
+    "team": "KIA",
+    "games": 125,
+    "sb": 7,
+    "cs": 7,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "홍세완",
+    "team": "KIA",
+    "games": 129,
+    "sb": 7,
+    "cs": 7,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "전상렬",
+    "team": "두산",
+    "games": 125,
+    "sb": 7,
+    "cs": 6,
+    "sb_pct": 53.8,
+    "season": 2003
+  },
+  {
+    "name": "김주찬",
+    "team": "롯데",
+    "games": 55,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2003
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 95,
+    "sb": 7,
+    "cs": 4,
+    "sb_pct": 63.6,
+    "season": 2003
+  },
+  {
+    "name": "박현승",
+    "team": "롯데",
+    "games": 118,
+    "sb": 7,
+    "cs": 8,
+    "sb_pct": 46.7,
+    "season": 2003
+  },
+  {
+    "name": "이시온",
+    "team": "롯데",
+    "games": 90,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2003
+  },
+  {
+    "name": "박종호",
+    "team": "현대",
+    "games": 131,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2003
+  },
+  {
+    "name": "박진만",
+    "team": "현대",
+    "games": 129,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2003
+  },
+  {
+    "name": "심정수",
+    "team": "현대",
+    "games": 133,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "프랭클린",
+    "team": "현대",
+    "games": 38,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "박경완",
+    "team": "SK",
+    "games": 122,
+    "sb": 6,
+    "cs": 6,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "임재철",
+    "team": "한화",
+    "games": 119,
+    "sb": 6,
+    "cs": 6,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "한상훈",
+    "team": "한화",
+    "games": 95,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "최기문",
+    "team": "롯데",
+    "games": 119,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2003
+  },
+  {
+    "name": "김한수",
+    "team": "삼성",
+    "games": 131,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2003
+  },
+  {
+    "name": "안상준",
+    "team": "LG",
+    "games": 73,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2003
+  },
+  {
+    "name": "이종열",
+    "team": "LG",
+    "games": 100,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2003
+  },
+  {
+    "name": "김민호",
+    "team": "두산",
+    "games": 77,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2003
+  },
+  {
+    "name": "김창희",
+    "team": "두산",
+    "games": 121,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2003
+  },
+  {
+    "name": "디아즈",
+    "team": "SK",
+    "games": 112,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "송재익",
+    "team": "SK",
+    "games": 92,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2003
+  },
+  {
+    "name": "신종길",
+    "team": "롯데",
+    "games": 40,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2003
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 78,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "안치용",
+    "team": "LG",
+    "games": 37,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "이숭용",
+    "team": "현대",
+    "games": 133,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "안재만",
+    "team": "SK",
+    "games": 85,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2003
+  },
+  {
+    "name": "오태근",
+    "team": "LG",
+    "games": 8,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 125,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2003
+  },
+  {
+    "name": "장정석",
+    "team": "KIA",
+    "games": 86,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "김동수",
+    "team": "현대",
+    "games": 117,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2003
+  },
+  {
+    "name": "브룸바",
+    "team": "현대",
+    "games": 70,
+    "sb": 3,
+    "cs": 5,
+    "sb_pct": 37.5,
+    "season": 2003
+  },
+  {
+    "name": "조재호",
+    "team": "현대",
+    "games": 97,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 118,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2003
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 133,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2003
+  },
+  {
+    "name": "백재호",
+    "team": "한화",
+    "games": 96,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "김태균",
+    "team": "롯데",
+    "games": 101,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "손인호",
+    "team": "롯데",
+    "games": 103,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2003
+  },
+  {
+    "name": "신명철",
+    "team": "롯데",
+    "games": 101,
+    "sb": 3,
+    "cs": 7,
+    "sb_pct": 30.0,
+    "season": 2003
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 23,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2003
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 85,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "브리또",
+    "team": "삼성",
+    "games": 102,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 133,
+    "sb": 2,
+    "cs": 5,
+    "sb_pct": 28.6,
+    "season": 2003
+  },
+  {
+    "name": "김용우",
+    "team": "LG",
+    "games": 45,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "박경수",
+    "team": "LG",
+    "games": 84,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "김인철",
+    "team": "KIA",
+    "games": 37,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "황윤성",
+    "team": "KIA",
+    "games": 64,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "이택근",
+    "team": "현대",
+    "games": 101,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2003
+  },
+  {
+    "name": "정수성",
+    "team": "현대",
+    "games": 26,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "손시헌",
+    "team": "두산",
+    "games": 59,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "홍성흔",
+    "team": "두산",
+    "games": 73,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "김기태",
+    "team": "SK",
+    "games": 93,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "양현석",
+    "team": "SK",
+    "games": 55,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "조경환",
+    "team": "SK",
+    "games": 121,
+    "sb": 2,
+    "cs": 6,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "이범호",
+    "team": "한화",
+    "games": 107,
+    "sb": 2,
+    "cs": 6,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "임수민",
+    "team": "한화",
+    "games": 106,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2003
+  },
+  {
+    "name": "권오현",
+    "team": "롯데",
+    "games": 38,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "김응국",
+    "team": "롯데",
+    "games": 51,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "조효상",
+    "team": "롯데",
+    "games": 36,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2003
+  },
+  {
+    "name": "페레즈",
+    "team": "롯데",
+    "games": 50,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2003
+  },
+  {
+    "name": "강명구",
+    "team": "삼성",
+    "games": 9,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "마해영",
+    "team": "삼성",
+    "games": 132,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "진갑용",
+    "team": "삼성",
+    "games": 126,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "이병규",
+    "team": "LG",
+    "games": 44,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "최동수",
+    "team": "LG",
+    "games": 91,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2003
+  },
+  {
+    "name": "쿡슨",
+    "team": "LG",
+    "games": 23,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "홍현우",
+    "team": "LG",
+    "games": 97,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "김민철",
+    "team": "KIA",
+    "games": 26,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "김원섭",
+    "team": "KIA",
+    "games": 19,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "신동주",
+    "team": "KIA",
+    "games": 95,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2003
+  },
+  {
+    "name": "엄정대",
+    "team": "KIA",
+    "games": 22,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2003
+  },
+  {
+    "name": "이재주",
+    "team": "KIA",
+    "games": 103,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "이정상",
+    "team": "KIA",
+    "games": 8,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "최동락",
+    "team": "KIA",
+    "games": 26,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "허준",
+    "team": "KIA",
+    "games": 44,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "강귀태",
+    "team": "현대",
+    "games": 66,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "김일경",
+    "team": "현대",
+    "games": 80,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "조승현",
+    "team": "현대",
+    "games": 8,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "강봉규",
+    "team": "두산",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 32,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "나주환",
+    "team": "두산",
+    "games": 96,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "심재학",
+    "team": "두산",
+    "games": 111,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "안경현",
+    "team": "두산",
+    "games": 128,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "이동수",
+    "team": "두산",
+    "games": 34,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "이민택",
+    "team": "두산",
+    "games": 9,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "이승준",
+    "team": "두산",
+    "games": 24,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2003
+  },
+  {
+    "name": "장원진",
+    "team": "두산",
+    "games": 124,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "강혁",
+    "team": "SK",
+    "games": 117,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "메히아",
+    "team": "한화",
+    "games": 30,
+    "sb": 1,
+    "cs": 4,
+    "sb_pct": 20.0,
+    "season": 2003
+  },
+  {
+    "name": "장종훈",
+    "team": "한화",
+    "games": 83,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "조윤채",
+    "team": "한화",
+    "games": 59,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "조현수",
+    "team": "한화",
+    "games": 96,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2003
+  },
+  {
+    "name": "황우구",
+    "team": "한화",
+    "games": 63,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "윤재국",
+    "team": "롯데",
+    "games": 63,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2003
+  },
+  {
+    "name": "이인구",
+    "team": "롯데",
+    "games": 9,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2003
+  },
+  {
+    "name": "곽용섭",
+    "team": "삼성",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "권오준",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "권혁",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김승관",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김종훈",
+    "team": "삼성",
+    "games": 88,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김진웅",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "노장진",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "라이언",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "라형진",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "박정환",
+    "team": "삼성",
+    "games": 81,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "손주인",
+    "team": "삼성",
+    "games": 19,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "심성보",
+    "team": "삼성",
+    "games": 38,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "안지만",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "이정호",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "이준민",
+    "team": "삼성",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "이태호",
+    "team": "삼성",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "임창용",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "장영균",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "전병호",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "정현욱",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "조동찬",
+    "team": "삼성",
+    "games": 14,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "현재윤",
+    "team": "삼성",
+    "games": 34,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "경헌호",
+    "team": "LG",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김광삼",
+    "team": "LG",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김광희",
+    "team": "LG",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김세중",
+    "team": "LG",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김우석",
+    "team": "LG",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  },
+  {
+    "name": "김재학",
+    "team": "LG",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2003
+  }
+]

@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "이종욱",
+    "team": "두산",
+    "games": 120,
+    "sb": 51,
+    "cs": 7,
+    "sb_pct": 87.9,
+    "season": 2006
+  },
+  {
+    "name": "정근우",
+    "team": "SK",
+    "games": 120,
+    "sb": 45,
+    "cs": 10,
+    "sb_pct": 81.8,
+    "season": 2006
+  },
+  {
+    "name": "이용규",
+    "team": "KIA",
+    "games": 125,
+    "sb": 38,
+    "cs": 11,
+    "sb_pct": 77.6,
+    "season": 2006
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 126,
+    "sb": 25,
+    "cs": 3,
+    "sb_pct": 89.3,
+    "season": 2006
+  },
+  {
+    "name": "박재홍",
+    "team": "SK",
+    "games": 124,
+    "sb": 22,
+    "cs": 8,
+    "sb_pct": 73.3,
+    "season": 2006
+  },
+  {
+    "name": "강명구",
+    "team": "삼성",
+    "games": 91,
+    "sb": 21,
+    "cs": 6,
+    "sb_pct": 77.8,
+    "season": 2006
+  },
+  {
+    "name": "조동찬",
+    "team": "삼성",
+    "games": 107,
+    "sb": 20,
+    "cs": 4,
+    "sb_pct": 83.3,
+    "season": 2006
+  },
+  {
+    "name": "전준호",
+    "team": "현대",
+    "games": 109,
+    "sb": 20,
+    "cs": 7,
+    "sb_pct": 74.1,
+    "season": 2006
+  },
+  {
+    "name": "정수근",
+    "team": "롯데",
+    "games": 83,
+    "sb": 19,
+    "cs": 4,
+    "sb_pct": 82.6,
+    "season": 2006
+  },
+  {
+    "name": "민병헌",
+    "team": "두산",
+    "games": 80,
+    "sb": 17,
+    "cs": 3,
+    "sb_pct": 85.0,
+    "season": 2006
+  },
+  {
+    "name": "전상렬",
+    "team": "두산",
+    "games": 98,
+    "sb": 16,
+    "cs": 1,
+    "sb_pct": 94.1,
+    "season": 2006
+  },
+  {
+    "name": "고동진",
+    "team": "한화",
+    "games": 120,
+    "sb": 16,
+    "cs": 4,
+    "sb_pct": 80.0,
+    "season": 2006
+  },
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 111,
+    "sb": 16,
+    "cs": 5,
+    "sb_pct": 76.2,
+    "season": 2006
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 126,
+    "sb": 15,
+    "cs": 10,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "이대형",
+    "team": "LG",
+    "games": 87,
+    "sb": 15,
+    "cs": 8,
+    "sb_pct": 65.2,
+    "season": 2006
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 116,
+    "sb": 14,
+    "cs": 10,
+    "sb_pct": 58.3,
+    "season": 2006
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 126,
+    "sb": 12,
+    "cs": 7,
+    "sb_pct": 63.2,
+    "season": 2006
+  },
+  {
+    "name": "오태근",
+    "team": "LG",
+    "games": 70,
+    "sb": 12,
+    "cs": 6,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "김원섭",
+    "team": "KIA",
+    "games": 94,
+    "sb": 12,
+    "cs": 2,
+    "sb_pct": 85.7,
+    "season": 2006
+  },
+  {
+    "name": "김민재",
+    "team": "한화",
+    "games": 121,
+    "sb": 11,
+    "cs": 3,
+    "sb_pct": 78.6,
+    "season": 2006
+  },
+  {
+    "name": "박진만",
+    "team": "삼성",
+    "games": 115,
+    "sb": 10,
+    "cs": 6,
+    "sb_pct": 62.5,
+    "season": 2006
+  },
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 93,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2006
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 115,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "조영훈",
+    "team": "삼성",
+    "games": 88,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2006
+  },
+  {
+    "name": "임재철",
+    "team": "두산",
+    "games": 99,
+    "sb": 9,
+    "cs": 6,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "강동우",
+    "team": "두산",
+    "games": 118,
+    "sb": 8,
+    "cs": 6,
+    "sb_pct": 57.1,
+    "season": 2006
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 96,
+    "sb": 8,
+    "cs": 5,
+    "sb_pct": 61.5,
+    "season": 2006
+  },
+  {
+    "name": "조동화",
+    "team": "SK",
+    "games": 65,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2006
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 117,
+    "sb": 8,
+    "cs": 8,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "서한규",
+    "team": "현대",
+    "games": 88,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2006
+  },
+  {
+    "name": "송지만",
+    "team": "현대",
+    "games": 119,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2006
+  },
+  {
+    "name": "이택근",
+    "team": "현대",
+    "games": 118,
+    "sb": 8,
+    "cs": 6,
+    "sb_pct": 57.1,
+    "season": 2006
+  },
+  {
+    "name": "데이비스",
+    "team": "한화",
+    "games": 117,
+    "sb": 7,
+    "cs": 6,
+    "sb_pct": 53.8,
+    "season": 2006
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 89,
+    "sb": 7,
+    "cs": 4,
+    "sb_pct": 63.6,
+    "season": 2006
+  },
+  {
+    "name": "정수성",
+    "team": "현대",
+    "games": 71,
+    "sb": 7,
+    "cs": 6,
+    "sb_pct": 53.8,
+    "season": 2006
+  },
+  {
+    "name": "김창희",
+    "team": "삼성",
+    "games": 114,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "김한수",
+    "team": "삼성",
+    "games": 103,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "박재상",
+    "team": "SK",
+    "games": 65,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2006
+  },
+  {
+    "name": "조원우",
+    "team": "한화",
+    "games": 106,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "클리어",
+    "team": "한화",
+    "games": 93,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 79,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 126,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 109,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2006
+  },
+  {
+    "name": "이대수",
+    "team": "SK",
+    "games": 122,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2006
+  },
+  {
+    "name": "김수연",
+    "team": "한화",
+    "games": 109,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2006
+  },
+  {
+    "name": "박현승",
+    "team": "롯데",
+    "games": 104,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2006
+  },
+  {
+    "name": "신명철",
+    "team": "롯데",
+    "games": 73,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2006
+  },
+  {
+    "name": "박경수",
+    "team": "LG",
+    "games": 107,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2006
+  },
+  {
+    "name": "유한준",
+    "team": "현대",
+    "games": 110,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2006
+  },
+  {
+    "name": "강봉규",
+    "team": "삼성",
+    "games": 87,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2006
+  },
+  {
+    "name": "신경현",
+    "team": "한화",
+    "games": 100,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2006
+  },
+  {
+    "name": "강민호",
+    "team": "롯데",
+    "games": 126,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2006
+  },
+  {
+    "name": "안재만",
+    "team": "LG",
+    "games": 81,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2006
+  },
+  {
+    "name": "최길성",
+    "team": "LG",
+    "games": 83,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "차화준",
+    "team": "현대",
+    "games": 100,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2006
+  },
+  {
+    "name": "박종호",
+    "team": "삼성",
+    "games": 104,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "이정식",
+    "team": "삼성",
+    "games": 69,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "안경현",
+    "team": "두산",
+    "games": 125,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "정원석",
+    "team": "두산",
+    "games": 67,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2006
+  },
+  {
+    "name": "이진영",
+    "team": "SK",
+    "games": 118,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2006
+  },
+  {
+    "name": "조중근",
+    "team": "SK",
+    "games": 54,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 92,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "김인철",
+    "team": "한화",
+    "games": 69,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "이원석",
+    "team": "롯데",
+    "games": 123,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "호세",
+    "team": "롯데",
+    "games": 122,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "황동채",
+    "team": "롯데",
+    "games": 77,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2006
+  },
+  {
+    "name": "이병규",
+    "team": "LG",
+    "games": 120,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2006
+  },
+  {
+    "name": "김동수",
+    "team": "현대",
+    "games": 115,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2006
+  },
+  {
+    "name": "이숭용",
+    "team": "현대",
+    "games": 119,
+    "sb": 3,
+    "cs": 6,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "정성훈",
+    "team": "현대",
+    "games": 122,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2006
+  },
+  {
+    "name": "나주환",
+    "team": "두산",
+    "games": 114,
+    "sb": 2,
+    "cs": 7,
+    "sb_pct": 22.2,
+    "season": 2006
+  },
+  {
+    "name": "손시헌",
+    "team": "두산",
+    "games": 126,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2006
+  },
+  {
+    "name": "김형철",
+    "team": "SK",
+    "games": 60,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "박경완",
+    "team": "SK",
+    "games": 111,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "피커링",
+    "team": "SK",
+    "games": 60,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 124,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "심광호",
+    "team": "한화",
+    "games": 80,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "한상훈",
+    "team": "한화",
+    "games": 95,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "손인호",
+    "team": "롯데",
+    "games": 80,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "최경환",
+    "team": "롯데",
+    "games": 86,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "이성열",
+    "team": "LG",
+    "games": 56,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "최만호",
+    "team": "LG",
+    "games": 46,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "김민철",
+    "team": "KIA",
+    "games": 75,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "서브넥",
+    "team": "KIA",
+    "games": 40,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2006
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 77,
+    "sb": 2,
+    "cs": 5,
+    "sb_pct": 28.6,
+    "season": 2006
+  },
+  {
+    "name": "김대익",
+    "team": "삼성",
+    "games": 107,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "박정환",
+    "team": "삼성",
+    "games": 43,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "진갑용",
+    "team": "삼성",
+    "games": 110,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "김진수",
+    "team": "두산",
+    "games": 17,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "문희성",
+    "team": "두산",
+    "games": 34,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2006
+  },
+  {
+    "name": "윤승균",
+    "team": "두산",
+    "games": 4,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "장원진",
+    "team": "두산",
+    "games": 98,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "최준석",
+    "team": "두산",
+    "games": 109,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "홍성흔",
+    "team": "두산",
+    "games": 119,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "김재구",
+    "team": "SK",
+    "games": 45,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "김태균",
+    "team": "SK",
+    "games": 116,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "시오타니",
+    "team": "SK",
+    "games": 23,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "백승룡",
+    "team": "한화",
+    "games": 37,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "박준서",
+    "team": "롯데",
+    "games": 67,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "박정준",
+    "team": "롯데",
+    "games": 34,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "마해영",
+    "team": "LG",
+    "games": 80,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "박가람",
+    "team": "LG",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "박병호",
+    "team": "LG",
+    "games": 48,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2006
+  },
+  {
+    "name": "이시찬",
+    "team": "LG",
+    "games": 14,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "정의윤",
+    "team": "LG",
+    "games": 82,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "추승우",
+    "team": "LG",
+    "games": 38,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "강병식",
+    "team": "현대",
+    "games": 93,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "채종국",
+    "team": "현대",
+    "games": 97,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "김경언",
+    "team": "KIA",
+    "games": 73,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 122,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2006
+  },
+  {
+    "name": "손지환",
+    "team": "KIA",
+    "games": 96,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "이재주",
+    "team": "KIA",
+    "games": 115,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2006
+  },
+  {
+    "name": "조경환",
+    "team": "KIA",
+    "games": 54,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2006
+  },
+  {
+    "name": "강영식",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김영복",
+    "team": "삼성",
+    "games": 7,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김종훈",
+    "team": "삼성",
+    "games": 96,
+    "sb": 0,
+    "cs": 2,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김효남",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "심정수",
+    "team": "삼성",
+    "games": 26,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "양영동",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "오승환",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이태호",
+    "team": "삼성",
+    "games": 10,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "임동규",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "조현근",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "채형직",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "강인권",
+    "team": "두산",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "금민철",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김덕윤",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 43,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김명제",
+    "team": "두산",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김태영",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김성배",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김승회",
+    "team": "두산",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김주호",
+    "team": "두산",
+    "games": 13,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "김현수",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "랜들",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "리오스",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "박명환",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "박정배",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "서동환",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "송수",
+    "team": "두산",
+    "games": 9,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "용덕한",
+    "team": "두산",
+    "games": 58,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "원용묵",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "윤석민",
+    "team": "두산",
+    "games": 27,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이대현",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이승엽",
+    "team": "두산",
+    "games": 12,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이원희",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이혜천",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "이호성",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "장교성",
+    "team": "두산",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  },
+  {
+    "name": "정재훈",
+    "team": "두산",
+    "games": 11,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2006
+  }
+]

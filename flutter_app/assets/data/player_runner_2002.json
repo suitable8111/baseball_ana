@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 133,
+    "sb": 50,
+    "cs": 9,
+    "sb_pct": 84.7,
+    "season": 2002
+  },
+  {
+    "name": "정수근",
+    "team": "두산",
+    "games": 122,
+    "sb": 40,
+    "cs": 14,
+    "sb_pct": 74.1,
+    "season": 2002
+  },
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 123,
+    "sb": 35,
+    "cs": 5,
+    "sb_pct": 87.5,
+    "season": 2002
+  },
+  {
+    "name": "전준호",
+    "team": "현대",
+    "games": 126,
+    "sb": 26,
+    "cs": 11,
+    "sb_pct": 70.3,
+    "season": 2002
+  },
+  {
+    "name": "마르티네스",
+    "team": "LG",
+    "games": 109,
+    "sb": 22,
+    "cs": 12,
+    "sb_pct": 64.7,
+    "season": 2002
+  },
+  {
+    "name": "김수연",
+    "team": "한화",
+    "games": 126,
+    "sb": 21,
+    "cs": 9,
+    "sb_pct": 70.0,
+    "season": 2002
+  },
+  {
+    "name": "류지현",
+    "team": "LG",
+    "games": 91,
+    "sb": 21,
+    "cs": 9,
+    "sb_pct": 70.0,
+    "season": 2002
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 112,
+    "sb": 20,
+    "cs": 5,
+    "sb_pct": 80.0,
+    "season": 2002
+  },
+  {
+    "name": "정성훈",
+    "team": "KIA",
+    "games": 114,
+    "sb": 16,
+    "cs": 4,
+    "sb_pct": 80.0,
+    "season": 2002
+  },
+  {
+    "name": "이종열",
+    "team": "LG",
+    "games": 95,
+    "sb": 16,
+    "cs": 8,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "최경환",
+    "team": "두산",
+    "games": 126,
+    "sb": 15,
+    "cs": 7,
+    "sb_pct": 68.2,
+    "season": 2002
+  },
+  {
+    "name": "김민재",
+    "team": "SK",
+    "games": 131,
+    "sb": 15,
+    "cs": 10,
+    "sb_pct": 60.0,
+    "season": 2002
+  },
+  {
+    "name": "데이비스",
+    "team": "한화",
+    "games": 115,
+    "sb": 14,
+    "cs": 9,
+    "sb_pct": 60.9,
+    "season": 2002
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 133,
+    "sb": 13,
+    "cs": 12,
+    "sb_pct": 52.0,
+    "season": 2002
+  },
+  {
+    "name": "이영우",
+    "team": "한화",
+    "games": 133,
+    "sb": 13,
+    "cs": 12,
+    "sb_pct": 52.0,
+    "season": 2002
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 125,
+    "sb": 13,
+    "cs": 5,
+    "sb_pct": 72.2,
+    "season": 2002
+  },
+  {
+    "name": "박재홍",
+    "team": "현대",
+    "games": 112,
+    "sb": 12,
+    "cs": 8,
+    "sb_pct": 60.0,
+    "season": 2002
+  },
+  {
+    "name": "김응국",
+    "team": "롯데",
+    "games": 116,
+    "sb": 12,
+    "cs": 5,
+    "sb_pct": 70.6,
+    "season": 2002
+  },
+  {
+    "name": "강동우",
+    "team": "삼성",
+    "games": 130,
+    "sb": 11,
+    "cs": 6,
+    "sb_pct": 64.7,
+    "season": 2002
+  },
+  {
+    "name": "김경언",
+    "team": "KIA",
+    "games": 107,
+    "sb": 11,
+    "cs": 4,
+    "sb_pct": 73.3,
+    "season": 2002
+  },
+  {
+    "name": "김재현",
+    "team": "LG",
+    "games": 98,
+    "sb": 11,
+    "cs": 3,
+    "sb_pct": 78.6,
+    "season": 2002
+  },
+  {
+    "name": "이진영",
+    "team": "SK",
+    "games": 128,
+    "sb": 11,
+    "cs": 12,
+    "sb_pct": 47.8,
+    "season": 2002
+  },
+  {
+    "name": "전상렬",
+    "team": "두산",
+    "games": 125,
+    "sb": 10,
+    "cs": 3,
+    "sb_pct": 76.9,
+    "season": 2002
+  },
+  {
+    "name": "채종범",
+    "team": "SK",
+    "games": 127,
+    "sb": 10,
+    "cs": 9,
+    "sb_pct": 52.6,
+    "season": 2002
+  },
+  {
+    "name": "조성환",
+    "team": "롯데",
+    "games": 104,
+    "sb": 10,
+    "cs": 5,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "이병규",
+    "team": "LG",
+    "games": 109,
+    "sb": 9,
+    "cs": 6,
+    "sb_pct": 60.0,
+    "season": 2002
+  },
+  {
+    "name": "김주찬",
+    "team": "롯데",
+    "games": 84,
+    "sb": 9,
+    "cs": 8,
+    "sb_pct": 52.9,
+    "season": 2002
+  },
+  {
+    "name": "송지만",
+    "team": "한화",
+    "games": 131,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2002
+  },
+  {
+    "name": "송재익",
+    "team": "SK",
+    "games": 116,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2002
+  },
+  {
+    "name": "김민호",
+    "team": "두산",
+    "games": 95,
+    "sb": 7,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "이숭용",
+    "team": "현대",
+    "games": 125,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2002
+  },
+  {
+    "name": "강석천",
+    "team": "한화",
+    "games": 94,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2002
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 133,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2002
+  },
+  {
+    "name": "홍세완",
+    "team": "KIA",
+    "games": 111,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2002
+  },
+  {
+    "name": "신명철",
+    "team": "롯데",
+    "games": 81,
+    "sb": 7,
+    "cs": 8,
+    "sb_pct": 46.7,
+    "season": 2002
+  },
+  {
+    "name": "강봉규",
+    "team": "두산",
+    "games": 93,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2002
+  },
+  {
+    "name": "박경완",
+    "team": "현대",
+    "games": 119,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2002
+  },
+  {
+    "name": "정수성",
+    "team": "현대",
+    "games": 50,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "신동주",
+    "team": "KIA",
+    "games": 81,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "양용모",
+    "team": "SK",
+    "games": 74,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "최태원",
+    "team": "SK",
+    "games": 121,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "김대익",
+    "team": "롯데",
+    "games": 91,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 66,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "박현승",
+    "team": "롯데",
+    "games": 94,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2002
+  },
+  {
+    "name": "안경현",
+    "team": "두산",
+    "games": 130,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2002
+  },
+  {
+    "name": "우즈",
+    "team": "두산",
+    "games": 119,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2002
+  },
+  {
+    "name": "홍성흔",
+    "team": "두산",
+    "games": 127,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2002
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 83,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2002
+  },
+  {
+    "name": "가르시아",
+    "team": "한화",
+    "games": 24,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2002
+  },
+  {
+    "name": "이범호",
+    "team": "한화",
+    "games": 111,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2002
+  },
+  {
+    "name": "장정석",
+    "team": "KIA",
+    "games": 75,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2002
+  },
+  {
+    "name": "손지환",
+    "team": "LG",
+    "games": 111,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2002
+  },
+  {
+    "name": "최만호",
+    "team": "LG",
+    "games": 93,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2002
+  },
+  {
+    "name": "이호준",
+    "team": "SK",
+    "games": 129,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2002
+  },
+  {
+    "name": "김한수",
+    "team": "삼성",
+    "games": 127,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "박종호",
+    "team": "현대",
+    "games": 108,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "프랭클린",
+    "team": "현대",
+    "games": 49,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "김종석",
+    "team": "한화",
+    "games": 77,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "조윤채",
+    "team": "한화",
+    "games": 21,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2002
+  },
+  {
+    "name": "김창희",
+    "team": "KIA",
+    "games": 114,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "서용빈",
+    "team": "LG",
+    "games": 88,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "안재만",
+    "team": "SK",
+    "games": 5,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2002
+  },
+  {
+    "name": "조원우",
+    "team": "SK",
+    "games": 116,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2002
+  },
+  {
+    "name": "페르난데스",
+    "team": "SK",
+    "games": 132,
+    "sb": 4,
+    "cs": 4,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "권오현",
+    "team": "롯데",
+    "games": 45,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "김종훈",
+    "team": "삼성",
+    "games": 105,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "박정환",
+    "team": "삼성",
+    "games": 119,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "임재철",
+    "team": "삼성",
+    "games": 104,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "폴",
+    "team": "현대",
+    "games": 113,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2002
+  },
+  {
+    "name": "임수민",
+    "team": "한화",
+    "games": 127,
+    "sb": 3,
+    "cs": 6,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 113,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "뉴선",
+    "team": "KIA",
+    "games": 35,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 52,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "박연수",
+    "team": "LG",
+    "games": 60,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "장재중",
+    "team": "LG",
+    "games": 69,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "조인성",
+    "team": "LG",
+    "games": 124,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "최동수",
+    "team": "LG",
+    "games": 106,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2002
+  },
+  {
+    "name": "허문회",
+    "team": "롯데",
+    "games": 92,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2002
+  },
+  {
+    "name": "강인권",
+    "team": "두산",
+    "games": 38,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "김호",
+    "team": "두산",
+    "games": 91,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2002
+  },
+  {
+    "name": "송원국",
+    "team": "두산",
+    "games": 45,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "심재학",
+    "team": "두산",
+    "games": 119,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "장원진",
+    "team": "두산",
+    "games": 130,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "마해영",
+    "team": "삼성",
+    "games": 133,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 132,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2002
+  },
+  {
+    "name": "박진만",
+    "team": "현대",
+    "games": 126,
+    "sb": 2,
+    "cs": 5,
+    "sb_pct": 28.6,
+    "season": 2002
+  },
+  {
+    "name": "심정수",
+    "team": "현대",
+    "games": 133,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "최익성",
+    "team": "현대",
+    "games": 45,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "김대원",
+    "team": "한화",
+    "games": 15,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 105,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "이도형",
+    "team": "한화",
+    "games": 123,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "장종훈",
+    "team": "한화",
+    "games": 101,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "펨버튼",
+    "team": "KIA",
+    "games": 75,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "심성보",
+    "team": "LG",
+    "games": 72,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "김기태",
+    "team": "SK",
+    "games": 101,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "양현석",
+    "team": "SK",
+    "games": 88,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2002
+  },
+  {
+    "name": "에레라",
+    "team": "롯데",
+    "games": 53,
+    "sb": 2,
+    "cs": 5,
+    "sb_pct": 28.6,
+    "season": 2002
+  },
+  {
+    "name": "윤재국",
+    "team": "롯데",
+    "games": 32,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "이계성",
+    "team": "롯데",
+    "games": 69,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 49,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 16,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 120,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "홍원기",
+    "team": "두산",
+    "games": 109,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "브리또",
+    "team": "삼성",
+    "games": 128,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "이승엽",
+    "team": "삼성",
+    "games": 133,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "김일경",
+    "team": "현대",
+    "games": 57,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "서성민",
+    "team": "현대",
+    "games": 36,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "서한규",
+    "team": "현대",
+    "games": 86,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "조재호",
+    "team": "현대",
+    "games": 61,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "황윤성",
+    "team": "현대",
+    "games": 25,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "조경택",
+    "team": "한화",
+    "games": 107,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "황우구",
+    "team": "한화",
+    "games": 43,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "김인철",
+    "team": "KIA",
+    "games": 37,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "심제훈",
+    "team": "KIA",
+    "games": 4,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "장일현",
+    "team": "KIA",
+    "games": 81,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "김동수",
+    "team": "SK",
+    "games": 95,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2002
+  },
+  {
+    "name": "김태균",
+    "team": "롯데",
+    "games": 67,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "박준서",
+    "team": "롯데",
+    "games": 29,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "엄정대",
+    "team": "롯데",
+    "games": 51,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "이대호",
+    "team": "롯데",
+    "games": 74,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2002
+  },
+  {
+    "name": "이동욱",
+    "team": "롯데",
+    "games": 79,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2002
+  },
+  {
+    "name": "최기문",
+    "team": "롯데",
+    "games": 123,
+    "sb": 1,
+    "cs": 4,
+    "sb_pct": 20.0,
+    "season": 2002
+  },
+  {
+    "name": "김성균",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "김학재",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "레스",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "문희성",
+    "team": "두산",
+    "games": 13,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "유재웅",
+    "team": "두산",
+    "games": 52,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "윤태수",
+    "team": "두산",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이경환",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이상훈",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이재영",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이종민",
+    "team": "두산",
+    "games": 14,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이혜천",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "진필중",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "차명주",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "강영식",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "권혁",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "김수관",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "김승관",
+    "team": "삼성",
+    "games": 12,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "김승권",
+    "team": "삼성",
+    "games": 59,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "김진웅",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "노병오",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "노장진",
+    "team": "삼성",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "라형진",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "박봉수",
+    "team": "삼성",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "손주인",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "오상민",
+    "team": "삼성",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이준민",
+    "team": "삼성",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "이태호",
+    "team": "삼성",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  },
+  {
+    "name": "임창용",
+    "team": "삼성",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2002
+  }
+]

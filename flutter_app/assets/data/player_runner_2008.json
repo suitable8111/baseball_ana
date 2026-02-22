@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "이대형",
+    "team": "LG",
+    "games": 126,
+    "sb": 63,
+    "cs": 15,
+    "sb_pct": 80.8,
+    "season": 2008
+  },
+  {
+    "name": "이종욱",
+    "team": "두산",
+    "games": 122,
+    "sb": 47,
+    "cs": 8,
+    "sb_pct": 85.5,
+    "season": 2008
+  },
+  {
+    "name": "정근우",
+    "team": "SK",
+    "games": 124,
+    "sb": 40,
+    "cs": 20,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "고영민",
+    "team": "두산",
+    "games": 126,
+    "sb": 39,
+    "cs": 9,
+    "sb_pct": 81.3,
+    "season": 2008
+  },
+  {
+    "name": "김주찬",
+    "team": "롯데",
+    "games": 104,
+    "sb": 32,
+    "cs": 18,
+    "sb_pct": 64.0,
+    "season": 2008
+  },
+  {
+    "name": "조성환",
+    "team": "롯데",
+    "games": 123,
+    "sb": 31,
+    "cs": 3,
+    "sb_pct": 91.2,
+    "season": 2008
+  },
+  {
+    "name": "오재원",
+    "team": "두산",
+    "games": 117,
+    "sb": 28,
+    "cs": 7,
+    "sb_pct": 80.0,
+    "season": 2008
+  },
+  {
+    "name": "이용규",
+    "team": "KIA",
+    "games": 106,
+    "sb": 28,
+    "cs": 9,
+    "sb_pct": 75.7,
+    "season": 2008
+  },
+  {
+    "name": "클락",
+    "team": "한화",
+    "games": 125,
+    "sb": 25,
+    "cs": 5,
+    "sb_pct": 83.3,
+    "season": 2008
+  },
+  {
+    "name": "정수근",
+    "team": "롯데",
+    "games": 80,
+    "sb": 24,
+    "cs": 13,
+    "sb_pct": 64.9,
+    "season": 2008
+  },
+  {
+    "name": "박재상",
+    "team": "SK",
+    "games": 94,
+    "sb": 21,
+    "cs": 9,
+    "sb_pct": 70.0,
+    "season": 2008
+  },
+  {
+    "name": "김원섭",
+    "team": "KIA",
+    "games": 106,
+    "sb": 21,
+    "cs": 8,
+    "sb_pct": 72.4,
+    "season": 2008
+  },
+  {
+    "name": "조동화",
+    "team": "SK",
+    "games": 103,
+    "sb": 19,
+    "cs": 3,
+    "sb_pct": 86.4,
+    "season": 2008
+  },
+  {
+    "name": "최정",
+    "team": "SK",
+    "games": 114,
+    "sb": 19,
+    "cs": 8,
+    "sb_pct": 70.4,
+    "season": 2008
+  },
+  {
+    "name": "추승우",
+    "team": "한화",
+    "games": 119,
+    "sb": 19,
+    "cs": 5,
+    "sb_pct": 79.2,
+    "season": 2008
+  },
+  {
+    "name": "민병헌",
+    "team": "두산",
+    "games": 87,
+    "sb": 18,
+    "cs": 6,
+    "sb_pct": 75.0,
+    "season": 2008
+  },
+  {
+    "name": "이택근",
+    "team": "우리",
+    "games": 110,
+    "sb": 18,
+    "cs": 6,
+    "sb_pct": 75.0,
+    "season": 2008
+  },
+  {
+    "name": "김강민",
+    "team": "SK",
+    "games": 106,
+    "sb": 16,
+    "cs": 8,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "박용택",
+    "team": "LG",
+    "games": 96,
+    "sb": 16,
+    "cs": 6,
+    "sb_pct": 72.7,
+    "season": 2008
+  },
+  {
+    "name": "박기혁",
+    "team": "롯데",
+    "games": 113,
+    "sb": 16,
+    "cs": 7,
+    "sb_pct": 69.6,
+    "season": 2008
+  },
+  {
+    "name": "전준호",
+    "team": "우리",
+    "games": 114,
+    "sb": 16,
+    "cs": 11,
+    "sb_pct": 59.3,
+    "season": 2008
+  },
+  {
+    "name": "정수성",
+    "team": "우리",
+    "games": 76,
+    "sb": 16,
+    "cs": 6,
+    "sb_pct": 72.7,
+    "season": 2008
+  },
+  {
+    "name": "장성호",
+    "team": "KIA",
+    "games": 85,
+    "sb": 15,
+    "cs": 5,
+    "sb_pct": 75.0,
+    "season": 2008
+  },
+  {
+    "name": "나주환",
+    "team": "SK",
+    "games": 118,
+    "sb": 14,
+    "cs": 5,
+    "sb_pct": 73.7,
+    "season": 2008
+  },
+  {
+    "name": "김현수",
+    "team": "두산",
+    "games": 126,
+    "sb": 13,
+    "cs": 8,
+    "sb_pct": 61.9,
+    "season": 2008
+  },
+  {
+    "name": "김민재",
+    "team": "한화",
+    "games": 114,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2008
+  },
+  {
+    "name": "김종국",
+    "team": "KIA",
+    "games": 113,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2008
+  },
+  {
+    "name": "발데스",
+    "team": "KIA",
+    "games": 47,
+    "sb": 13,
+    "cs": 4,
+    "sb_pct": 76.5,
+    "season": 2008
+  },
+  {
+    "name": "이진영",
+    "team": "SK",
+    "games": 95,
+    "sb": 12,
+    "cs": 6,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "김재호",
+    "team": "두산",
+    "games": 112,
+    "sb": 12,
+    "cs": 3,
+    "sb_pct": 80.0,
+    "season": 2008
+  },
+  {
+    "name": "이범호",
+    "team": "한화",
+    "games": 125,
+    "sb": 12,
+    "cs": 1,
+    "sb_pct": 92.3,
+    "season": 2008
+  },
+  {
+    "name": "이인구",
+    "team": "롯데",
+    "games": 42,
+    "sb": 11,
+    "cs": 2,
+    "sb_pct": 84.6,
+    "season": 2008
+  },
+  {
+    "name": "모창민",
+    "team": "SK",
+    "games": 91,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2008
+  },
+  {
+    "name": "황재균",
+    "team": "우리",
+    "games": 117,
+    "sb": 10,
+    "cs": 7,
+    "sb_pct": 58.8,
+    "season": 2008
+  },
+  {
+    "name": "신명철",
+    "team": "삼성",
+    "games": 97,
+    "sb": 9,
+    "cs": 1,
+    "sb_pct": 90.0,
+    "season": 2008
+  },
+  {
+    "name": "박용근",
+    "team": "LG",
+    "games": 93,
+    "sb": 9,
+    "cs": 4,
+    "sb_pct": 69.2,
+    "season": 2008
+  },
+  {
+    "name": "이종범",
+    "team": "KIA",
+    "games": 110,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2008
+  },
+  {
+    "name": "이성열",
+    "team": "두산",
+    "games": 84,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "홍성흔",
+    "team": "두산",
+    "games": 114,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2008
+  },
+  {
+    "name": "조동찬",
+    "team": "삼성",
+    "games": 68,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2008
+  },
+  {
+    "name": "정성훈",
+    "team": "우리",
+    "games": 109,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "정원석",
+    "team": "두산",
+    "games": 90,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2008
+  },
+  {
+    "name": "이여상",
+    "team": "한화",
+    "games": 94,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2008
+  },
+  {
+    "name": "허승민",
+    "team": "삼성",
+    "games": 85,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2008
+  },
+  {
+    "name": "안치용",
+    "team": "LG",
+    "games": 101,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2008
+  },
+  {
+    "name": "유재신",
+    "team": "우리",
+    "games": 54,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2008
+  },
+  {
+    "name": "박경완",
+    "team": "SK",
+    "games": 101,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2008
+  },
+  {
+    "name": "김재걸",
+    "team": "삼성",
+    "games": 99,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "박경수",
+    "team": "LG",
+    "games": 116,
+    "sb": 6,
+    "cs": 5,
+    "sb_pct": 54.5,
+    "season": 2008
+  },
+  {
+    "name": "박재홍",
+    "team": "SK",
+    "games": 112,
+    "sb": 5,
+    "cs": 6,
+    "sb_pct": 45.5,
+    "season": 2008
+  },
+  {
+    "name": "한상훈",
+    "team": "한화",
+    "games": 122,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "박진만",
+    "team": "삼성",
+    "games": 104,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2008
+  },
+  {
+    "name": "박한이",
+    "team": "삼성",
+    "games": 104,
+    "sb": 5,
+    "cs": 6,
+    "sb_pct": 45.5,
+    "season": 2008
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 112,
+    "sb": 5,
+    "cs": 9,
+    "sb_pct": 35.7,
+    "season": 2008
+  },
+  {
+    "name": "이현곤",
+    "team": "KIA",
+    "games": 112,
+    "sb": 5,
+    "cs": 5,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "차일목",
+    "team": "KIA",
+    "games": 106,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2008
+  },
+  {
+    "name": "김일경",
+    "team": "우리",
+    "games": 70,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2008
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 108,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2008
+  },
+  {
+    "name": "신경현",
+    "team": "한화",
+    "games": 107,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2008
+  },
+  {
+    "name": "이우민",
+    "team": "롯데",
+    "games": 87,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2008
+  },
+  {
+    "name": "정보명",
+    "team": "롯데",
+    "games": 96,
+    "sb": 4,
+    "cs": 7,
+    "sb_pct": 36.4,
+    "season": 2008
+  },
+  {
+    "name": "최희섭",
+    "team": "KIA",
+    "games": 55,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2008
+  },
+  {
+    "name": "송지만",
+    "team": "우리",
+    "games": 118,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2008
+  },
+  {
+    "name": "전상렬",
+    "team": "두산",
+    "games": 59,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "강봉규",
+    "team": "삼성",
+    "games": 81,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2008
+  },
+  {
+    "name": "최형우",
+    "team": "삼성",
+    "games": 126,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "박현승",
+    "team": "롯데",
+    "games": 73,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2008
+  },
+  {
+    "name": "강정호",
+    "team": "우리",
+    "games": 116,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2008
+  },
+  {
+    "name": "이재원",
+    "team": "SK",
+    "games": 82,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김동주",
+    "team": "두산",
+    "games": 109,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "이대수",
+    "team": "두산",
+    "games": 90,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "고동진",
+    "team": "한화",
+    "games": 31,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김태균",
+    "team": "한화",
+    "games": 115,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "윤재국",
+    "team": "한화",
+    "games": 55,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "이영우",
+    "team": "한화",
+    "games": 89,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "이희근",
+    "team": "한화",
+    "games": 84,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김창희",
+    "team": "삼성",
+    "games": 103,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "박석민",
+    "team": "삼성",
+    "games": 126,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2008
+  },
+  {
+    "name": "우동균",
+    "team": "삼성",
+    "games": 63,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2008
+  },
+  {
+    "name": "현재윤",
+    "team": "삼성",
+    "games": 67,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김상현",
+    "team": "LG",
+    "games": 75,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2008
+  },
+  {
+    "name": "가르시아",
+    "team": "롯데",
+    "games": 125,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "강민호",
+    "team": "롯데",
+    "games": 122,
+    "sb": 2,
+    "cs": 4,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "손아섭",
+    "team": "롯데",
+    "games": 80,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2008
+  },
+  {
+    "name": "이원석",
+    "team": "롯데",
+    "games": 53,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "류은재",
+    "team": "KIA",
+    "games": 13,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "이재주",
+    "team": "KIA",
+    "games": 87,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "이호신",
+    "team": "KIA",
+    "games": 10,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "채종범",
+    "team": "KIA",
+    "games": 70,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "최경환",
+    "team": "KIA",
+    "games": 65,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김남형",
+    "team": "우리",
+    "games": 21,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2008
+  },
+  {
+    "name": "오윤",
+    "team": "우리",
+    "games": 31,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "박정환",
+    "team": "SK",
+    "games": 25,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "안경현",
+    "team": "두산",
+    "games": 51,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "유재웅",
+    "team": "두산",
+    "games": 104,
+    "sb": 1,
+    "cs": 4,
+    "sb_pct": 20.0,
+    "season": 2008
+  },
+  {
+    "name": "최준석",
+    "team": "두산",
+    "games": 67,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김수연",
+    "team": "한화",
+    "games": 9,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "오재필",
+    "team": "한화",
+    "games": 50,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2008
+  },
+  {
+    "name": "김우석",
+    "team": "삼성",
+    "games": 8,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "양준혁",
+    "team": "삼성",
+    "games": 114,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "진갑용",
+    "team": "삼성",
+    "games": 105,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "채태인",
+    "team": "삼성",
+    "games": 68,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "크루즈",
+    "team": "삼성",
+    "games": 43,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "권용관",
+    "team": "LG",
+    "games": 76,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "김용의",
+    "team": "LG",
+    "games": 18,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김정민",
+    "team": "LG",
+    "games": 71,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "손인호",
+    "team": "LG",
+    "games": 77,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "오태근",
+    "team": "LG",
+    "games": 7,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "채종국",
+    "team": "LG",
+    "games": 55,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "페타지니",
+    "team": "LG",
+    "games": 68,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "김상훈",
+    "team": "KIA",
+    "games": 35,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "김형철",
+    "team": "KIA",
+    "games": 45,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "나지완",
+    "team": "KIA",
+    "games": 73,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "최용규",
+    "team": "KIA",
+    "games": 20,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "강귀태",
+    "team": "우리",
+    "games": 104,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "브룸바",
+    "team": "우리",
+    "games": 102,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "이숭용",
+    "team": "우리",
+    "games": 109,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "장민석",
+    "team": "우리",
+    "games": 9,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2008
+  },
+  {
+    "name": "조재호",
+    "team": "우리",
+    "games": 49,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2008
+  },
+  {
+    "name": "조중근",
+    "team": "우리",
+    "games": 31,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2008
+  },
+  {
+    "name": "가득염",
+    "team": "SK",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "권영진",
+    "team": "SK",
+    "games": 31,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김동건",
+    "team": "SK",
+    "games": 14,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김성현",
+    "team": "SK",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김연훈",
+    "team": "SK",
+    "games": 19,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김원형",
+    "team": "SK",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김재구",
+    "team": "SK",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김재현",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "박연수",
+    "team": "SK",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "박정권",
+    "team": "SK",
+    "games": 56,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "얀",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "오현근",
+    "team": "SK",
+    "games": 5,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "윤길현",
+    "team": "SK",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "윤요섭",
+    "team": "SK",
+    "games": 7,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "이명기",
+    "team": "SK",
+    "games": 6,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "이호준",
+    "team": "SK",
+    "games": 8,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "정경배",
+    "team": "SK",
+    "games": 33,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "정대현",
+    "team": "SK",
+    "games": 6,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "정상호",
+    "team": "SK",
+    "games": 81,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "정우람",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "조영민",
+    "team": "SK",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "조웅천",
+    "team": "SK",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "최상덕",
+    "team": "SK",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "금민철",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김강률",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김덕윤",
+    "team": "두산",
+    "games": 1,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김태영",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김재환",
+    "team": "두산",
+    "games": 14,
+    "sb": 0,
+    "cs": 1,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "김진수",
+    "team": "두산",
+    "games": 5,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  },
+  {
+    "name": "레이어",
+    "team": "두산",
+    "games": 2,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2008
+  }
+]
