@@ -1,15 +1,14 @@
 """
 선수 투수 기본 기록 크롤러
-https://www.koreabaseball.com/Record/Player/PitcherBasic/BasicOld.aspx
+https://www.koreabaseball.com/Record/Player/PitcherBasic/Basic1.aspx
 
-실제 컬럼: 순위, 선수명, 팀명, ERA, G, CG, SHO, W, L, SV, HLD, WPCT, TBF, IP, H, HR, BB, HBP, SO, R, ER
-WHIP / K/9 / FIP 는 직접 계산
+실제 컬럼: 순위, 선수명, 팀명, ERA, G, W, L, SV, HLD, WPCT, IP, H, HR, BB, HBP, SO, R, ER, WHIP
 IP 형식: "180 2/3" → 분수 변환 필요
 """
 
 from .base_scraper import BaseScraper
 
-URL = 'https://www.koreabaseball.com/Record/Player/PitcherBasic/BasicOld.aspx'
+URL = 'https://www.koreabaseball.com/Record/Player/PitcherBasic/Basic1.aspx'
 
 _IP_FRACTIONS = {'1/3': 0.333, '2/3': 0.667}
 
@@ -51,8 +50,10 @@ class PlayerPitcherScraper(BaseScraper):
         so  = self._safe_int(row.get('SO', '0'))
         er  = self._safe_int(row.get('ER', '0'))
 
-        # WHIP 직접 계산 (페이지에 없음)
-        whip = round((bb + h) / ip, 2) if ip > 0 else 0.0
+        # WHIP: 페이지에서 직접 제공
+        whip = self._safe_float(row.get('WHIP', '0'))
+        if whip == 0.0 and ip > 0:
+            whip = round((bb + h) / ip, 2)
 
         return {
             'name':   row.get('선수명', ''),

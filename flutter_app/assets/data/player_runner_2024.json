@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "조수행",
+    "team": "두산",
+    "games": 130,
+    "sb": 64,
+    "cs": 8,
+    "sb_pct": 88.9,
+    "season": 2024
+  },
+  {
+    "name": "정수빈",
+    "team": "두산",
+    "games": 136,
+    "sb": 52,
+    "cs": 13,
+    "sb_pct": 80.0,
+    "season": 2024
+  },
+  {
+    "name": "황성빈",
+    "team": "롯데",
+    "games": 125,
+    "sb": 51,
+    "cs": 10,
+    "sb_pct": 83.6,
+    "season": 2024
+  },
+  {
+    "name": "박해민",
+    "team": "LG",
+    "games": 144,
+    "sb": 43,
+    "cs": 13,
+    "sb_pct": 76.8,
+    "season": 2024
+  },
+  {
+    "name": "김지찬",
+    "team": "삼성",
+    "games": 135,
+    "sb": 42,
+    "cs": 4,
+    "sb_pct": 91.3,
+    "season": 2024
+  },
+  {
+    "name": "김도영",
+    "team": "KIA",
+    "games": 141,
+    "sb": 40,
+    "cs": 4,
+    "sb_pct": 90.9,
+    "season": 2024
+  },
+  {
+    "name": "신민재",
+    "team": "LG",
+    "games": 128,
+    "sb": 32,
+    "cs": 11,
+    "sb_pct": 74.4,
+    "season": 2024
+  },
+  {
+    "name": "최지훈",
+    "team": "SSG",
+    "games": 125,
+    "sb": 32,
+    "cs": 5,
+    "sb_pct": 86.5,
+    "season": 2024
+  },
+  {
+    "name": "박민우",
+    "team": "NC",
+    "games": 121,
+    "sb": 32,
+    "cs": 7,
+    "sb_pct": 82.1,
+    "season": 2024
+  },
+  {
+    "name": "김혜성",
+    "team": "키움",
+    "games": 127,
+    "sb": 30,
+    "cs": 6,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "오태곤",
+    "team": "SSG",
+    "games": 117,
+    "sb": 27,
+    "cs": 4,
+    "sb_pct": 87.1,
+    "season": 2024
+  },
+  {
+    "name": "최원준",
+    "team": "KIA",
+    "games": 136,
+    "sb": 21,
+    "cs": 9,
+    "sb_pct": 70.0,
+    "season": 2024
+  },
+  {
+    "name": "송성문",
+    "team": "키움",
+    "games": 142,
+    "sb": 21,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "박찬호",
+    "team": "KIA",
+    "games": 134,
+    "sb": 20,
+    "cs": 13,
+    "sb_pct": 60.6,
+    "season": 2024
+  },
+  {
+    "name": "오지환",
+    "team": "LG",
+    "games": 108,
+    "sb": 17,
+    "cs": 4,
+    "sb_pct": 81.0,
+    "season": 2024
+  },
+  {
+    "name": "정준재",
+    "team": "SSG",
+    "games": 88,
+    "sb": 16,
+    "cs": 5,
+    "sb_pct": 76.2,
+    "season": 2024
+  },
+  {
+    "name": "김주원",
+    "team": "NC",
+    "games": 134,
+    "sb": 16,
+    "cs": 6,
+    "sb_pct": 72.7,
+    "season": 2024
+  },
+  {
+    "name": "강승호",
+    "team": "두산",
+    "games": 140,
+    "sb": 16,
+    "cs": 5,
+    "sb_pct": 76.2,
+    "season": 2024
+  },
+  {
+    "name": "이유찬",
+    "team": "두산",
+    "games": 103,
+    "sb": 16,
+    "cs": 6,
+    "sb_pct": 72.7,
+    "season": 2024
+  },
+  {
+    "name": "하재훈",
+    "team": "SSG",
+    "games": 107,
+    "sb": 15,
+    "cs": 2,
+    "sb_pct": 88.2,
+    "season": 2024
+  },
+  {
+    "name": "장두성",
+    "team": "롯데",
+    "games": 71,
+    "sb": 14,
+    "cs": 3,
+    "sb_pct": 82.4,
+    "season": 2024
+  },
+  {
+    "name": "장진혁",
+    "team": "한화",
+    "games": 99,
+    "sb": 14,
+    "cs": 6,
+    "sb_pct": 70.0,
+    "season": 2024
+  },
+  {
+    "name": "문성주",
+    "team": "LG",
+    "games": 96,
+    "sb": 13,
+    "cs": 7,
+    "sb_pct": 65.0,
+    "season": 2024
+  },
+  {
+    "name": "박성한",
+    "team": "SSG",
+    "games": 137,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2024
+  },
+  {
+    "name": "소크라테스",
+    "team": "KIA",
+    "games": 140,
+    "sb": 13,
+    "cs": 5,
+    "sb_pct": 72.2,
+    "season": 2024
+  },
+  {
+    "name": "구자욱",
+    "team": "삼성",
+    "games": 129,
+    "sb": 13,
+    "cs": 4,
+    "sb_pct": 76.5,
+    "season": 2024
+  },
+  {
+    "name": "오스틴",
+    "team": "LG",
+    "games": 140,
+    "sb": 12,
+    "cs": 8,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "최승민",
+    "team": "LG",
+    "games": 57,
+    "sb": 11,
+    "cs": 7,
+    "sb_pct": 61.1,
+    "season": 2024
+  },
+  {
+    "name": "류지혁",
+    "team": "삼성",
+    "games": 100,
+    "sb": 11,
+    "cs": 4,
+    "sb_pct": 73.3,
+    "season": 2024
+  },
+  {
+    "name": "홍창기",
+    "team": "LG",
+    "games": 139,
+    "sb": 10,
+    "cs": 11,
+    "sb_pct": 47.6,
+    "season": 2024
+  },
+  {
+    "name": "김성욱",
+    "team": "NC",
+    "games": 129,
+    "sb": 10,
+    "cs": 4,
+    "sb_pct": 71.4,
+    "season": 2024
+  },
+  {
+    "name": "배정대",
+    "team": "KT",
+    "games": 113,
+    "sb": 9,
+    "cs": 7,
+    "sb_pct": 56.3,
+    "season": 2024
+  },
+  {
+    "name": "김영웅",
+    "team": "삼성",
+    "games": 126,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2024
+  },
+  {
+    "name": "이성규",
+    "team": "삼성",
+    "games": 122,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2024
+  },
+  {
+    "name": "구본혁",
+    "team": "LG",
+    "games": 133,
+    "sb": 8,
+    "cs": 4,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "박지환",
+    "team": "SSG",
+    "games": 76,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2024
+  },
+  {
+    "name": "이지영",
+    "team": "SSG",
+    "games": 123,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2024
+  },
+  {
+    "name": "천재환",
+    "team": "NC",
+    "games": 89,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2024
+  },
+  {
+    "name": "이원석",
+    "team": "한화",
+    "games": 87,
+    "sb": 8,
+    "cs": 2,
+    "sb_pct": 80.0,
+    "season": 2024
+  },
+  {
+    "name": "문보경",
+    "team": "LG",
+    "games": 144,
+    "sb": 7,
+    "cs": 6,
+    "sb_pct": 53.8,
+    "season": 2024
+  },
+  {
+    "name": "심우준",
+    "team": "KT",
+    "games": 53,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2024
+  },
+  {
+    "name": "천성호",
+    "team": "KT",
+    "games": 75,
+    "sb": 7,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "최정원",
+    "team": "NC",
+    "games": 65,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2024
+  },
+  {
+    "name": "전민재",
+    "team": "두산",
+    "games": 100,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2024
+  },
+  {
+    "name": "이우성",
+    "team": "KIA",
+    "games": 112,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2024
+  },
+  {
+    "name": "손호영",
+    "team": "롯데",
+    "games": 102,
+    "sb": 7,
+    "cs": 4,
+    "sb_pct": 63.6,
+    "season": 2024
+  },
+  {
+    "name": "윤동희",
+    "team": "롯데",
+    "games": 141,
+    "sb": 7,
+    "cs": 8,
+    "sb_pct": 46.7,
+    "season": 2024
+  },
+  {
+    "name": "페라자",
+    "team": "한화",
+    "games": 122,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2024
+  },
+  {
+    "name": "김현수",
+    "team": "LG",
+    "games": 137,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2024
+  },
+  {
+    "name": "최원영",
+    "team": "LG",
+    "games": 57,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "강백호",
+    "team": "KT",
+    "games": 144,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "문상철",
+    "team": "KT",
+    "games": 125,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2024
+  },
+  {
+    "name": "최경모",
+    "team": "SSG",
+    "games": 50,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "손아섭",
+    "team": "NC",
+    "games": 84,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "노시환",
+    "team": "한화",
+    "games": 136,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "이도윤",
+    "team": "한화",
+    "games": 134,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "이주형",
+    "team": "키움",
+    "games": 115,
+    "sb": 6,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "장성우",
+    "team": "KT",
+    "games": 131,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "조용호",
+    "team": "KT",
+    "games": 60,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "최정",
+    "team": "SSG",
+    "games": 129,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "추신수",
+    "team": "SSG",
+    "games": 78,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "양석환",
+    "team": "두산",
+    "games": 142,
+    "sb": 5,
+    "cs": 3,
+    "sb_pct": 62.5,
+    "season": 2024
+  },
+  {
+    "name": "허경민",
+    "team": "두산",
+    "games": 115,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 116,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2024
+  },
+  {
+    "name": "홍종표",
+    "team": "KIA",
+    "games": 100,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2024
+  },
+  {
+    "name": "고승민",
+    "team": "롯데",
+    "games": 120,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2024
+  },
+  {
+    "name": "레이예스",
+    "team": "롯데",
+    "games": 144,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김태연",
+    "team": "한화",
+    "games": 126,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2024
+  },
+  {
+    "name": "이상혁",
+    "team": "한화",
+    "games": 43,
+    "sb": 5,
+    "cs": 2,
+    "sb_pct": 71.4,
+    "season": 2024
+  },
+  {
+    "name": "김민혁",
+    "team": "KT",
+    "games": 115,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "황재균",
+    "team": "KT",
+    "games": 137,
+    "sb": 4,
+    "cs": 6,
+    "sb_pct": 40.0,
+    "season": 2024
+  },
+  {
+    "name": "에레디아",
+    "team": "SSG",
+    "games": 136,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2024
+  },
+  {
+    "name": "권희동",
+    "team": "NC",
+    "games": 123,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김휘집",
+    "team": "NC",
+    "games": 140,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2024
+  },
+  {
+    "name": "박건우",
+    "team": "NC",
+    "games": 89,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "박세혁",
+    "team": "NC",
+    "games": 82,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "제러드",
+    "team": "두산",
+    "games": 38,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "이창진",
+    "team": "KIA",
+    "games": 103,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2024
+  },
+  {
+    "name": "박승욱",
+    "team": "롯데",
+    "games": 139,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2024
+  },
+  {
+    "name": "김재상",
+    "team": "삼성",
+    "games": 35,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김헌곤",
+    "team": "삼성",
+    "games": 117,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "박병호",
+    "team": "삼성",
+    "games": 120,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "안주형",
+    "team": "삼성",
+    "games": 82,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "황영묵",
+    "team": "한화",
+    "games": 123,
+    "sb": 4,
+    "cs": 7,
+    "sb_pct": 36.4,
+    "season": 2024
+  },
+  {
+    "name": "김상수",
+    "team": "KT",
+    "games": 113,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "고명준",
+    "team": "SSG",
+    "games": 106,
+    "sb": 3,
+    "cs": 4,
+    "sb_pct": 42.9,
+    "season": 2024
+  },
+  {
+    "name": "박시원",
+    "team": "NC",
+    "games": 55,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "라모스",
+    "team": "두산",
+    "games": 80,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "여동건",
+    "team": "두산",
+    "games": 9,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김호령",
+    "team": "KIA",
+    "games": 64,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "서건창",
+    "team": "KIA",
+    "games": 94,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "김동혁",
+    "team": "롯데",
+    "games": 39,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "김민석",
+    "team": "롯데",
+    "games": 41,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "전준우",
+    "team": "롯데",
+    "games": 109,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "강민호",
+    "team": "삼성",
+    "games": 136,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김성윤",
+    "team": "삼성",
+    "games": 32,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2024
+  },
+  {
+    "name": "문현빈",
+    "team": "한화",
+    "games": 103,
+    "sb": 3,
+    "cs": 5,
+    "sb_pct": 37.5,
+    "season": 2024
+  },
+  {
+    "name": "안치홍",
+    "team": "한화",
+    "games": 128,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2024
+  },
+  {
+    "name": "최인호",
+    "team": "한화",
+    "games": 82,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "박수종",
+    "team": "키움",
+    "games": 80,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김대원",
+    "team": "LG",
+    "games": 19,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "안익훈",
+    "team": "LG",
+    "games": 37,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "로하스",
+    "team": "KT",
+    "games": 144,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "신본기",
+    "team": "KT",
+    "games": 84,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김성현",
+    "team": "SSG",
+    "games": 71,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "최상민",
+    "team": "SSG",
+    "games": 43,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "박영빈",
+    "team": "NC",
+    "games": 19,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "한석현",
+    "team": "NC",
+    "games": 40,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "박준영",
+    "team": "두산",
+    "games": 65,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "양의지",
+    "team": "두산",
+    "games": 119,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "김재혁",
+    "team": "삼성",
+    "games": 35,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "김현준",
+    "team": "삼성",
+    "games": 79,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "이재현",
+    "team": "삼성",
+    "games": 109,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2024
+  },
+  {
+    "name": "정은원",
+    "team": "한화",
+    "games": 27,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "도슨",
+    "team": "키움",
+    "games": 95,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "박주홍",
+    "team": "키움",
+    "games": 25,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "원성준",
+    "team": "키움",
+    "games": 51,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "이용규",
+    "team": "키움",
+    "games": 60,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "박동원",
+    "team": "LG",
+    "games": 130,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "송찬의",
+    "team": "LG",
+    "games": 10,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김창평",
+    "team": "SSG",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "안상현",
+    "team": "SSG",
+    "games": 37,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "정현승",
+    "team": "SSG",
+    "games": 23,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "도태훈",
+    "team": "NC",
+    "games": 100,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "서호철",
+    "team": "NC",
+    "games": 141,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2024
+  },
+  {
+    "name": "김대한",
+    "team": "두산",
+    "games": 61,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "김재환",
+    "team": "두산",
+    "games": 136,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "박계범",
+    "team": "두산",
+    "games": 24,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "전다민",
+    "team": "두산",
+    "games": 25,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "홍성호",
+    "team": "두산",
+    "games": 15,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김규성",
+    "team": "KIA",
+    "games": 27,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "변우혁",
+    "team": "KIA",
+    "games": 69,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "윤도현",
+    "team": "KIA",
+    "games": 6,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "최형우",
+    "team": "KIA",
+    "games": 116,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "나승엽",
+    "team": "롯데",
+    "games": 121,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "정훈",
+    "team": "롯데",
+    "games": 109,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "추재현",
+    "team": "롯데",
+    "games": 2,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "맥키넌",
+    "team": "삼성",
+    "games": 72,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "윤정빈",
+    "team": "삼성",
+    "games": 69,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2024
+  },
+  {
+    "name": "박상언",
+    "team": "한화",
+    "games": 27,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "채은성",
+    "team": "한화",
+    "games": 124,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "하주석",
+    "team": "한화",
+    "games": 64,
+    "sb": 1,
+    "cs": 2,
+    "sb_pct": 33.3,
+    "season": 2024
+  },
+  {
+    "name": "김재현",
+    "team": "키움",
+    "games": 110,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2024
+  },
+  {
+    "name": "이형종",
+    "team": "키움",
+    "games": 35,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "임병욱",
+    "team": "키움",
+    "games": 42,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2024
+  },
+  {
+    "name": "김대현",
+    "team": "LG",
+    "games": 3,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2024
+  },
+  {
+    "name": "김정율",
+    "team": "LG",
+    "games": 19,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2024
+  },
+  {
+    "name": "김범석",
+    "team": "LG",
+    "games": 70,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2024
+  },
+  {
+    "name": "김성우",
+    "team": "LG",
+    "games": 4,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2024
+  },
+  {
+    "name": "김성진",
+    "team": "LG",
+    "games": 14,
+    "sb": 0,
+    "cs": 0,
+    "sb_pct": 0.0,
+    "season": 2024
+  }
+]

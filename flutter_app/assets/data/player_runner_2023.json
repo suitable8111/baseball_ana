@@ -1,0 +1,1352 @@
+[
+  {
+    "name": "정수빈",
+    "team": "두산",
+    "games": 137,
+    "sb": 39,
+    "cs": 8,
+    "sb_pct": 83.0,
+    "season": 2023
+  },
+  {
+    "name": "신민재",
+    "team": "LG",
+    "games": 122,
+    "sb": 37,
+    "cs": 17,
+    "sb_pct": 68.5,
+    "season": 2023
+  },
+  {
+    "name": "박찬호",
+    "team": "KIA",
+    "games": 130,
+    "sb": 30,
+    "cs": 8,
+    "sb_pct": 78.9,
+    "season": 2023
+  },
+  {
+    "name": "박해민",
+    "team": "LG",
+    "games": 144,
+    "sb": 26,
+    "cs": 12,
+    "sb_pct": 68.4,
+    "season": 2023
+  },
+  {
+    "name": "박민우",
+    "team": "NC",
+    "games": 124,
+    "sb": 26,
+    "cs": 7,
+    "sb_pct": 78.8,
+    "season": 2023
+  },
+  {
+    "name": "류지혁",
+    "team": "삼성",
+    "games": 132,
+    "sb": 26,
+    "cs": 2,
+    "sb_pct": 92.9,
+    "season": 2023
+  },
+  {
+    "name": "조수행",
+    "team": "두산",
+    "games": 126,
+    "sb": 26,
+    "cs": 6,
+    "sb_pct": 81.3,
+    "season": 2023
+  },
+  {
+    "name": "김혜성",
+    "team": "키움",
+    "games": 137,
+    "sb": 25,
+    "cs": 3,
+    "sb_pct": 89.3,
+    "season": 2023
+  },
+  {
+    "name": "김도영",
+    "team": "KIA",
+    "games": 84,
+    "sb": 25,
+    "cs": 4,
+    "sb_pct": 86.2,
+    "season": 2023
+  },
+  {
+    "name": "문성주",
+    "team": "LG",
+    "games": 136,
+    "sb": 24,
+    "cs": 14,
+    "sb_pct": 63.2,
+    "season": 2023
+  },
+  {
+    "name": "홍창기",
+    "team": "LG",
+    "games": 141,
+    "sb": 23,
+    "cs": 23,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "최지훈",
+    "team": "SSG",
+    "games": 117,
+    "sb": 21,
+    "cs": 2,
+    "sb_pct": 91.3,
+    "season": 2023
+  },
+  {
+    "name": "오태곤",
+    "team": "SSG",
+    "games": 123,
+    "sb": 20,
+    "cs": 1,
+    "sb_pct": 95.2,
+    "season": 2023
+  },
+  {
+    "name": "김성윤",
+    "team": "삼성",
+    "games": 101,
+    "sb": 20,
+    "cs": 4,
+    "sb_pct": 83.3,
+    "season": 2023
+  },
+  {
+    "name": "알포드",
+    "team": "KT",
+    "games": 133,
+    "sb": 17,
+    "cs": 4,
+    "sb_pct": 81.0,
+    "season": 2023
+  },
+  {
+    "name": "오지환",
+    "team": "LG",
+    "games": 126,
+    "sb": 16,
+    "cs": 7,
+    "sb_pct": 69.6,
+    "season": 2023
+  },
+  {
+    "name": "김민석",
+    "team": "롯데",
+    "games": 129,
+    "sb": 16,
+    "cs": 3,
+    "sb_pct": 84.2,
+    "season": 2023
+  },
+  {
+    "name": "안권수",
+    "team": "롯데",
+    "games": 95,
+    "sb": 16,
+    "cs": 7,
+    "sb_pct": 69.6,
+    "season": 2023
+  },
+  {
+    "name": "소크라테스",
+    "team": "KIA",
+    "games": 142,
+    "sb": 15,
+    "cs": 6,
+    "sb_pct": 71.4,
+    "season": 2023
+  },
+  {
+    "name": "김주원",
+    "team": "NC",
+    "games": 127,
+    "sb": 15,
+    "cs": 3,
+    "sb_pct": 83.3,
+    "season": 2023
+  },
+  {
+    "name": "마틴",
+    "team": "NC",
+    "games": 118,
+    "sb": 15,
+    "cs": 3,
+    "sb_pct": 83.3,
+    "season": 2023
+  },
+  {
+    "name": "박승욱",
+    "team": "롯데",
+    "games": 123,
+    "sb": 15,
+    "cs": 4,
+    "sb_pct": 78.9,
+    "season": 2023
+  },
+  {
+    "name": "손아섭",
+    "team": "NC",
+    "games": 140,
+    "sb": 14,
+    "cs": 3,
+    "sb_pct": 82.4,
+    "season": 2023
+  },
+  {
+    "name": "배정대",
+    "team": "KT",
+    "games": 97,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2023
+  },
+  {
+    "name": "최원준",
+    "team": "KIA",
+    "games": 67,
+    "sb": 13,
+    "cs": 5,
+    "sb_pct": 72.2,
+    "season": 2023
+  },
+  {
+    "name": "김지찬",
+    "team": "삼성",
+    "games": 99,
+    "sb": 13,
+    "cs": 1,
+    "sb_pct": 92.9,
+    "season": 2023
+  },
+  {
+    "name": "강승호",
+    "team": "두산",
+    "games": 127,
+    "sb": 13,
+    "cs": 6,
+    "sb_pct": 68.4,
+    "season": 2023
+  },
+  {
+    "name": "이원석",
+    "team": "한화",
+    "games": 81,
+    "sb": 13,
+    "cs": 3,
+    "sb_pct": 81.3,
+    "season": 2023
+  },
+  {
+    "name": "에레디아",
+    "team": "SSG",
+    "games": 122,
+    "sb": 12,
+    "cs": 8,
+    "sb_pct": 60.0,
+    "season": 2023
+  },
+  {
+    "name": "구자욱",
+    "team": "삼성",
+    "games": 119,
+    "sb": 12,
+    "cs": 4,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "이유찬",
+    "team": "두산",
+    "games": 104,
+    "sb": 12,
+    "cs": 5,
+    "sb_pct": 70.6,
+    "season": 2023
+  },
+  {
+    "name": "하재훈",
+    "team": "SSG",
+    "games": 77,
+    "sb": 11,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "김민혁",
+    "team": "KT",
+    "games": 113,
+    "sb": 11,
+    "cs": 4,
+    "sb_pct": 73.3,
+    "season": 2023
+  },
+  {
+    "name": "이도윤",
+    "team": "한화",
+    "games": 106,
+    "sb": 11,
+    "cs": 3,
+    "sb_pct": 78.6,
+    "season": 2023
+  },
+  {
+    "name": "도슨",
+    "team": "키움",
+    "games": 57,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2023
+  },
+  {
+    "name": "문보경",
+    "team": "LG",
+    "games": 131,
+    "sb": 9,
+    "cs": 8,
+    "sb_pct": 52.9,
+    "season": 2023
+  },
+  {
+    "name": "이창진",
+    "team": "KIA",
+    "games": 104,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2023
+  },
+  {
+    "name": "전준우",
+    "team": "롯데",
+    "games": 138,
+    "sb": 9,
+    "cs": 2,
+    "sb_pct": 81.8,
+    "season": 2023
+  },
+  {
+    "name": "황성빈",
+    "team": "롯데",
+    "games": 74,
+    "sb": 9,
+    "cs": 5,
+    "sb_pct": 64.3,
+    "season": 2023
+  },
+  {
+    "name": "허경민",
+    "team": "두산",
+    "games": 130,
+    "sb": 9,
+    "cs": 3,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "최승민",
+    "team": "LG",
+    "games": 38,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2023
+  },
+  {
+    "name": "이우성",
+    "team": "KIA",
+    "games": 126,
+    "sb": 8,
+    "cs": 1,
+    "sb_pct": 88.9,
+    "season": 2023
+  },
+  {
+    "name": "고승민",
+    "team": "롯데",
+    "games": 94,
+    "sb": 8,
+    "cs": 3,
+    "sb_pct": 72.7,
+    "season": 2023
+  },
+  {
+    "name": "양의지",
+    "team": "두산",
+    "games": 129,
+    "sb": 8,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "최정",
+    "team": "SSG",
+    "games": 128,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2023
+  },
+  {
+    "name": "오스틴",
+    "team": "LG",
+    "games": 139,
+    "sb": 7,
+    "cs": 3,
+    "sb_pct": 70.0,
+    "season": 2023
+  },
+  {
+    "name": "안치영",
+    "team": "KT",
+    "games": 76,
+    "sb": 7,
+    "cs": 1,
+    "sb_pct": 87.5,
+    "season": 2023
+  },
+  {
+    "name": "박건우",
+    "team": "NC",
+    "games": 130,
+    "sb": 7,
+    "cs": 5,
+    "sb_pct": 58.3,
+    "season": 2023
+  },
+  {
+    "name": "노진혁",
+    "team": "롯데",
+    "games": 113,
+    "sb": 7,
+    "cs": 2,
+    "sb_pct": 77.8,
+    "season": 2023
+  },
+  {
+    "name": "추신수",
+    "team": "SSG",
+    "games": 112,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2023
+  },
+  {
+    "name": "이정후",
+    "team": "키움",
+    "games": 86,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "김규성",
+    "team": "KIA",
+    "games": 99,
+    "sb": 6,
+    "cs": 2,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "김성욱",
+    "team": "NC",
+    "games": 93,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2023
+  },
+  {
+    "name": "강민호",
+    "team": "삼성",
+    "games": 125,
+    "sb": 6,
+    "cs": 1,
+    "sb_pct": 85.7,
+    "season": 2023
+  },
+  {
+    "name": "피렐라",
+    "team": "삼성",
+    "games": 139,
+    "sb": 6,
+    "cs": 4,
+    "sb_pct": 60.0,
+    "season": 2023
+  },
+  {
+    "name": "정은원",
+    "team": "한화",
+    "games": 122,
+    "sb": 6,
+    "cs": 3,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "김상수",
+    "team": "KT",
+    "games": 129,
+    "sb": 5,
+    "cs": 6,
+    "sb_pct": 45.5,
+    "season": 2023
+  },
+  {
+    "name": "김현준",
+    "team": "삼성",
+    "games": 109,
+    "sb": 5,
+    "cs": 5,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "이재현",
+    "team": "삼성",
+    "games": 143,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2023
+  },
+  {
+    "name": "김태연",
+    "team": "한화",
+    "games": 91,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2023
+  },
+  {
+    "name": "문현빈",
+    "team": "한화",
+    "games": 137,
+    "sb": 5,
+    "cs": 1,
+    "sb_pct": 83.3,
+    "season": 2023
+  },
+  {
+    "name": "이진영",
+    "team": "한화",
+    "games": 121,
+    "sb": 5,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "장진혁",
+    "team": "한화",
+    "games": 68,
+    "sb": 5,
+    "cs": 4,
+    "sb_pct": 55.6,
+    "season": 2023
+  },
+  {
+    "name": "김성현",
+    "team": "SSG",
+    "games": 112,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2023
+  },
+  {
+    "name": "박성한",
+    "team": "SSG",
+    "games": 128,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2023
+  },
+  {
+    "name": "임병욱",
+    "team": "키움",
+    "games": 80,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "이재원",
+    "team": "LG",
+    "games": 57,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "이호연",
+    "team": "KT",
+    "games": 85,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "조용호",
+    "team": "KT",
+    "games": 63,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "최정용",
+    "team": "KIA",
+    "games": 56,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "박영빈",
+    "team": "NC",
+    "games": 41,
+    "sb": 4,
+    "cs": 2,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "서호철",
+    "team": "NC",
+    "games": 114,
+    "sb": 4,
+    "cs": 5,
+    "sb_pct": 44.4,
+    "season": 2023
+  },
+  {
+    "name": "최정원",
+    "team": "NC",
+    "games": 39,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2023
+  },
+  {
+    "name": "이성규",
+    "team": "삼성",
+    "games": 109,
+    "sb": 4,
+    "cs": 3,
+    "sb_pct": 57.1,
+    "season": 2023
+  },
+  {
+    "name": "이학주",
+    "team": "롯데",
+    "games": 104,
+    "sb": 4,
+    "cs": 1,
+    "sb_pct": 80.0,
+    "season": 2023
+  },
+  {
+    "name": "김재호",
+    "team": "두산",
+    "games": 91,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "양석환",
+    "team": "두산",
+    "games": 140,
+    "sb": 4,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "안상현",
+    "team": "SSG",
+    "games": 58,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "이주형",
+    "team": "키움",
+    "games": 69,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "서건창",
+    "team": "LG",
+    "games": 44,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "강백호",
+    "team": "KT",
+    "games": 71,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "문상철",
+    "team": "KT",
+    "games": 112,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "송민섭",
+    "team": "KT",
+    "games": 69,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "오윤석",
+    "team": "KT",
+    "games": 82,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "장준원",
+    "team": "KT",
+    "games": 69,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "황재균",
+    "team": "KT",
+    "games": 109,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "김선빈",
+    "team": "KIA",
+    "games": 119,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "오영수",
+    "team": "NC",
+    "games": 70,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "오태양",
+    "team": "NC",
+    "games": 21,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "김동진",
+    "team": "삼성",
+    "games": 44,
+    "sb": 3,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "안치홍",
+    "team": "롯데",
+    "games": 121,
+    "sb": 3,
+    "cs": 3,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "윤동희",
+    "team": "롯데",
+    "games": 107,
+    "sb": 3,
+    "cs": 6,
+    "sb_pct": 33.3,
+    "season": 2023
+  },
+  {
+    "name": "김재환",
+    "team": "두산",
+    "games": 132,
+    "sb": 3,
+    "cs": 1,
+    "sb_pct": 75.0,
+    "season": 2023
+  },
+  {
+    "name": "양찬열",
+    "team": "두산",
+    "games": 44,
+    "sb": 3,
+    "cs": 2,
+    "sb_pct": 60.0,
+    "season": 2023
+  },
+  {
+    "name": "김강민",
+    "team": "SSG",
+    "games": 70,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "최경모",
+    "team": "SSG",
+    "games": 28,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "최상민",
+    "team": "SSG",
+    "games": 51,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "한유섬",
+    "team": "SSG",
+    "games": 109,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "이용규",
+    "team": "키움",
+    "games": 50,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "김민성",
+    "team": "LG",
+    "games": 112,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "김현수",
+    "team": "LG",
+    "games": 133,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "손호영",
+    "team": "LG",
+    "games": 27,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "박병호",
+    "team": "KT",
+    "games": 132,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "이상호",
+    "team": "KT",
+    "games": 63,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "홍현빈",
+    "team": "KT",
+    "games": 44,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "고종욱",
+    "team": "KIA",
+    "games": 114,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "김태군",
+    "team": "KIA",
+    "games": 114,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "권희동",
+    "team": "NC",
+    "games": 96,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "도태훈",
+    "team": "NC",
+    "games": 117,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "천재환",
+    "team": "NC",
+    "games": 78,
+    "sb": 2,
+    "cs": 3,
+    "sb_pct": 40.0,
+    "season": 2023
+  },
+  {
+    "name": "한석현",
+    "team": "NC",
+    "games": 27,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "김호재",
+    "team": "삼성",
+    "games": 75,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "장두성",
+    "team": "롯데",
+    "games": 25,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "정훈",
+    "team": "롯데",
+    "games": 80,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "김인태",
+    "team": "두산",
+    "games": 47,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "박계범",
+    "team": "두산",
+    "games": 78,
+    "sb": 2,
+    "cs": 2,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "박준영",
+    "team": "두산",
+    "games": 51,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "안재석",
+    "team": "두산",
+    "games": 27,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "권광민",
+    "team": "한화",
+    "games": 66,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "노수광",
+    "team": "한화",
+    "games": 30,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "노시환",
+    "team": "한화",
+    "games": 131,
+    "sb": 2,
+    "cs": 1,
+    "sb_pct": 66.7,
+    "season": 2023
+  },
+  {
+    "name": "오선진",
+    "team": "한화",
+    "games": 90,
+    "sb": 2,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "러셀",
+    "team": "키움",
+    "games": 59,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "박주홍",
+    "team": "키움",
+    "games": 27,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "송성문",
+    "team": "키움",
+    "games": 104,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "이지영",
+    "team": "키움",
+    "games": 81,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "임지열",
+    "team": "키움",
+    "games": 72,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "김기연",
+    "team": "LG",
+    "games": 28,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "송찬의",
+    "team": "LG",
+    "games": 19,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "정주현",
+    "team": "LG",
+    "games": 89,
+    "sb": 1,
+    "cs": 5,
+    "sb_pct": 16.7,
+    "season": 2023
+  },
+  {
+    "name": "김준태",
+    "team": "KT",
+    "games": 69,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "장성우",
+    "team": "KT",
+    "games": 131,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "김호령",
+    "team": "KIA",
+    "games": 76,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "박세혁",
+    "team": "NC",
+    "games": 88,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "윤형준",
+    "team": "NC",
+    "games": 82,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "강한울",
+    "team": "삼성",
+    "games": 72,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2023
+  },
+  {
+    "name": "김동엽",
+    "team": "삼성",
+    "games": 69,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "김영웅",
+    "team": "삼성",
+    "games": 55,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "오재일",
+    "team": "삼성",
+    "games": 106,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "윤정빈",
+    "team": "삼성",
+    "games": 28,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "김동혁",
+    "team": "롯데",
+    "games": 15,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "배영빈",
+    "team": "롯데",
+    "games": 18,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "신윤후",
+    "team": "롯데",
+    "games": 28,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "유강남",
+    "team": "롯데",
+    "games": 121,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "이정훈",
+    "team": "롯데",
+    "games": 59,
+    "sb": 1,
+    "cs": 1,
+    "sb_pct": 50.0,
+    "season": 2023
+  },
+  {
+    "name": "정보근",
+    "team": "롯데",
+    "games": 55,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "한동희",
+    "team": "롯데",
+    "games": 108,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2023
+  },
+  {
+    "name": "김대한",
+    "team": "두산",
+    "games": 33,
+    "sb": 1,
+    "cs": 3,
+    "sb_pct": 25.0,
+    "season": 2023
+  },
+  {
+    "name": "박지훈",
+    "team": "두산",
+    "games": 22,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  },
+  {
+    "name": "안승한",
+    "team": "두산",
+    "games": 22,
+    "sb": 1,
+    "cs": 0,
+    "sb_pct": 100.0,
+    "season": 2023
+  }
+]

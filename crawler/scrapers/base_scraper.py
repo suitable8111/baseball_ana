@@ -61,13 +61,22 @@ class BaseScraper:
         return BeautifulSoup(response.text, 'lxml')
 
     def _get_all_hidden(self, soup: BeautifulSoup) -> dict:
-        """페이지 내 모든 hidden input의 name/value를 dict로 반환
-        (다음 POST에 그대로 포함해야 ASP.NET 상태 유지)"""
+        """페이지 내 모든 input + select 현재 선택값을 dict로 반환
+        (다음 POST에 그대로 포함해야 ASP.NET 상태 유지)
+        - input: hidden/text/checkbox 등 모든 name 있는 필드
+        - select: 현재 선택된 option value (AutoPostBack 드롭다운 포함)
+        """
         data = {}
         for inp in soup.find_all('input'):
             name = inp.get('name', '')
             if name:
                 data[name] = inp.get('value', '') or ''
+        # select 요소의 현재 선택값 추가 (연도/시리즈/팀 드롭다운 등)
+        for sel in soup.find_all('select'):
+            name = sel.get('name', '')
+            if name:
+                selected = sel.find('option', selected=True)
+                data[name] = selected['value'] if selected else ''
         return data
 
     def _get_page_buttons(self, soup: BeautifulSoup) -> list[tuple[int, str]]:
@@ -97,19 +106,22 @@ class BaseScraper:
                     rows.append(dict(zip(headers, cells)))
         return headers, rows
 
-    def _crawl_all_pages(self, season: int, team: str = '') -> list[dict]:
-        """시즌/팀 기준 전체 페이지 크롤링"""
+    def _crawl_all_pages(self, season: int, team: str = '', url: str = '') -> list[dict]:
+        """시즌/팀 기준 전체 페이지 크롤링. url 생략 시 self.URL 사용"""
+        target_url = url or self.URL
+
         # 1. GET으로 초기 hidden 필드 취득
-        soup = self._fetch(self.URL)
+        soup = self._fetch(target_url)
         hidden = self._get_all_hidden(soup)
 
         # 2. 시즌 선택 POST
-        hidden['__EVENTTARGET'] = ''
+        # __EVENTTARGET = KEY_SEASON → 서버가 ddlSeason AutoPostBack 이벤트로 처리
+        hidden['__EVENTTARGET'] = self.KEY_SEASON
         hidden['__EVENTARGUMENT'] = ''
         hidden[self.KEY_SEASON] = str(season)
         hidden[self.KEY_SERIES] = '0'
         hidden[self.KEY_TEAM]   = team
-        soup = self._fetch(self.URL, hidden)
+        soup = self._fetch(target_url, hidden)
 
         # 3. 전체 페이지 수집
         all_rows: list[dict] = []
@@ -134,7 +146,7 @@ class BaseScraper:
             hidden['__EVENTTARGET'] = target
             hidden['__EVENTARGUMENT'] = ''
             hidden[self.KEY_PAGE] = str(next_page)
-            soup = self._fetch(self.URL, hidden)
+            soup = self._fetch(target_url, hidden)
 
         return all_rows
 
