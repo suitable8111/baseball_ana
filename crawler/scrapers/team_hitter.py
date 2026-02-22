@@ -24,8 +24,8 @@ class TeamHitterScraper(BaseScraper):
         soup = self._fetch(self.URL)
         hidden = self._get_all_hidden(soup)
 
-        # 시즌 POST
-        hidden['__EVENTTARGET'] = ''
+        # 시즌 POST (EVENTTARGET = 시즌 드롭다운 → AutoPostBack 이벤트 발생)
+        hidden['__EVENTTARGET'] = self.KEY_SEASON
         hidden['__EVENTARGUMENT'] = ''
         hidden[self.KEY_SEASON] = str(season)
         hidden[self.KEY_SERIES] = '0'

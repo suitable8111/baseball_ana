@@ -37,7 +37,7 @@ class TeamPitcherScraper(BaseScraper):
         soup = self._fetch(self.URL)
         hidden = self._get_all_hidden(soup)
 
-        hidden['__EVENTTARGET'] = ''
+        hidden['__EVENTTARGET'] = self.KEY_SEASON
         hidden['__EVENTARGUMENT'] = ''
         hidden[self.KEY_SEASON] = str(season)
         hidden[self.KEY_SERIES] = '0'
