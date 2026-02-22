@@ -1,77 +1,117 @@
 """
 팀 순위 + 상대 전적 크롤러
-https://www.koreabaseball.com/Record/TeamRank/TeamRankDaily.aspx
+https://www.koreabaseball.com/Record/TeamRank/TeamRank.aspx
 
-테이블 1: 날짜 기준 순위표
-  컬럼: 순위, 팀명, 경기, 승, 패, 무, 승률, 게임차, 최근10경기, 연속, 홈, 방문
+ASP.NET UpdatePanel 방식: async postback 필요
+테이블 0: 팀 순위표 (순위, 팀명, 경기, 승, 패, 무, 승률, 게임차, 최근10경기, 연속, 홈, 방문)
+테이블 1: 팀간 상대전적 매트릭스 (10×10)
 
-테이블 2: 팀간 상대 전적 매트릭스 (10×10)
-  각 셀: '승-패-무' 또는 '■' (자기 팀)
+TeamRankDaily.aspx (일자별)는 현재 날짜 기준 최신 데이터 전용.
 """
 
-from .base_scraper import BaseScraper
+import time
+from bs4 import BeautifulSoup
+from .base_scraper import BaseScraper, CRAWL_DELAY
 
-URL = 'https://www.koreabaseball.com/Record/TeamRank/TeamRankDaily.aspx'
+URL_SEASON = 'https://www.koreabaseball.com/Record/TeamRank/TeamRank.aspx'
+URL_DAILY  = 'https://www.koreabaseball.com/Record/TeamRank/TeamRankDaily.aspx'
 
-# 시즌별 최종 경기 날짜 (YYYYMMDD)
-SEASON_END_DATES = {
-    2025: '20251004',
-    2024: '20241019',
-    2023: '20231005',
-    2022: '20221025',
+KEY_YEAR   = 'ctl00$ctl00$ctl00$cphContents$cphContents$cphContents$ddlYear'
+KEY_SERIES = 'ctl00$ctl00$ctl00$cphContents$cphContents$cphContents$ddlSeries'
+SM_KEY     = 'ctl00$ctl00$ctl00$cphContents$cphContents$cphContents$ScriptManager'
+
+_ASYNC_HEADERS = {
+    'X-MicrosoftAjax': 'Delta=true',
+    'X-Requested-With': 'XMLHttpRequest',
+    'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
 }
 
 
 class TeamRankScraper(BaseScraper):
 
-    URL = URL
+    URL = URL_SEASON
+
+    # ─── 시즌 최종 순위 ──────────────────────────────────────────────
 
     def scrape(self, season: int) -> dict:
         """
-        반환값:
-        {
-            'standings': [...],      # 팀 순위 리스트
-            'head_to_head': [...],   # 팀간 상대전적 리스트
-            'date': '2025-10-04',
-            'season': 2025,
-        }
+        TeamRank.aspx (시즌별) 크롤링.
+        반환: {'standings': [...], 'head_to_head': [...], 'season': season}
         """
         print(f'[팀 순위] {season}시즌 크롤링 시작...')
 
-        # GET → hidden 필드 취득
-        soup = self._fetch(self.URL)
+        # 1. GET → hidden 필드 취득
+        soup = self._fetch(URL_SEASON)
         hidden = self._get_all_hidden(soup)
 
-        # 날짜 기준 POST
-        raw_date = SEASON_END_DATES.get(season, f'{season}1004')
-        date_str = f'{raw_date[:4]}-{raw_date[4:6]}-{raw_date[6:]}'
-
-        hidden['__EVENTTARGET'] = ''
+        # 2. UpdatePanel async postback으로 연도 변경
+        hidden['__EVENTTARGET']  = KEY_YEAR
         hidden['__EVENTARGUMENT'] = ''
-        hidden['hfSearchYear'] = str(season)
-        hidden['hfSearchDate'] = raw_date
-        hidden['txtCanlendar'] = date_str
-        hidden['ddlSeries'] = ''
-        hidden['hfSearchSeries'] = '0'
-        soup = self._fetch(self.URL, hidden)
+        hidden[KEY_YEAR]   = str(season)
+        hidden[KEY_SERIES] = '0'
+        hidden['__ASYNCPOST'] = 'true'
+        hidden[SM_KEY] = f'{SM_KEY}|{KEY_YEAR}'
 
-        # 두 개의 tData 테이블 파싱
-        tables = soup.find_all('table', class_='tData')
-        standings = []
-        head_to_head = []
+        soup2 = self._fetch_delta(URL_SEASON, hidden)
 
-        if tables:
-            standings = self._parse_standings(tables[0], season)
-        if len(tables) >= 2:
-            head_to_head = self._parse_head_to_head(tables[1], season)
+        # 3. tData 테이블 2개 파싱
+        tables = soup2.find_all('table')
+        standings    = self._parse_standings(tables[0], season) if tables else []
+        head_to_head = self._parse_head_to_head(tables[1], season) if len(tables) >= 2 else []
 
         print(f'[팀 순위] 순위표 {len(standings)}팀, 상대전적 {len(head_to_head)}팀 수집 완료')
-        return {
-            'standings': standings,
-            'head_to_head': head_to_head,
-            'date': date_str,
-            'season': season,
-        }
+        return {'standings': standings, 'head_to_head': head_to_head, 'season': season}
+
+    # ─── 일자별 최신 순위 ─────────────────────────────────────────────
+
+    def scrape_daily(self) -> dict:
+        """
+        TeamRankDaily.aspx (일자별) 에서 현재 날짜 기준 최신 데이터 반환.
+        반환: {'standings': [...], 'head_to_head': [...]}
+        """
+        print('[팀 순위/일자별] 최신 데이터 크롤링...')
+        soup = self._fetch(URL_DAILY)
+
+        tables = soup.find_all('table', class_='tData')
+        standings    = self._parse_standings(tables[0], season=0) if tables else []
+        head_to_head = self._parse_head_to_head(tables[1], season=0) if len(tables) >= 2 else []
+
+        print(f'[팀 순위/일자별] 순위표 {len(standings)}팀, 상대전적 {len(head_to_head)}팀')
+        return {'standings': standings, 'head_to_head': head_to_head}
+
+    # ─── 내부 헬퍼 ───────────────────────────────────────────────────
+
+    def _fetch_delta(self, url: str, post_data: dict) -> BeautifulSoup:
+        """UpdatePanel async postback → Delta 응답 파싱 → BeautifulSoup"""
+        resp = self.session.post(url, data=post_data, headers={
+            **dict(self.session.headers), **_ASYNC_HEADERS
+        }, timeout=15)
+        resp.raise_for_status()
+        resp.encoding = 'utf-8'
+        time.sleep(CRAWL_DELAY)
+        html = self._parse_delta(resp.text)
+        return BeautifulSoup(html or '', 'lxml')
+
+    @staticmethod
+    def _parse_delta(text: str) -> str:
+        """Delta 응답 (len|type|id|content|) 에서 updatePanel HTML 추출"""
+        pos = 0
+        while pos < len(text):
+            pipe1 = text.find('|', pos)
+            if pipe1 == -1:
+                break
+            try:
+                length = int(text[pos:pipe1])
+            except ValueError:
+                break
+            pipe2 = text.find('|', pipe1 + 1)
+            seg_type = text[pipe1+1:pipe2]
+            pipe3 = text.find('|', pipe2 + 1)
+            content = text[pipe3+1:pipe3+1+length]
+            pos = pipe3 + 1 + length + 1
+            if seg_type == 'updatePanel':
+                return content
+        return ''
 
     def _parse_standings(self, table, season: int) -> list[dict]:
         headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
@@ -89,52 +129,34 @@ class TeamRankScraper(BaseScraper):
 
     def _parse_standing_row(self, row: dict, season: int) -> dict:
         def parse_wtl(s: str):
-            """'W-T-L' 형식 파싱 (예: '41-1-29' → wins=41, ties=1, losses=29)"""
             parts = s.split('-')
             if len(parts) == 3:
-                return (
-                    self._safe_int(parts[0]),
-                    self._safe_int(parts[1]),
-                    self._safe_int(parts[2]),
-                )
+                return self._safe_int(parts[0]), self._safe_int(parts[1]), self._safe_int(parts[2])
             return 0, 0, 0
 
-        home_str = row.get('홈', '0-0-0')
-        away_str = row.get('방문', '0-0-0')
-        hw, ht, hl = parse_wtl(home_str)
-        aw, at, al = parse_wtl(away_str)
-
+        hw, ht, hl = parse_wtl(row.get('홈', '0-0-0'))
+        aw, at, al = parse_wtl(row.get('방문', '0-0-0'))
         gb_raw = row.get('게임차', '0')
         gb = 0.0 if gb_raw in ('-', '') else self._safe_float(gb_raw)
 
         return {
-            'rank':    self._safe_int(row.get('순위', '0')),
-            'team':    row.get('팀명', ''),
-            'games':   self._safe_int(row.get('경기', '0')),
-            'wins':    self._safe_int(row.get('승', '0')),
-            'losses':  self._safe_int(row.get('패', '0')),
-            'ties':    self._safe_int(row.get('무', '0')),
-            'pct':     self._safe_float(row.get('승률', '0')),
-            'gb':      gb,
-            'last10':  row.get('최근10경기', ''),
-            'streak':  row.get('연속', ''),
-            'home_w':  hw,
-            'home_t':  ht,
-            'home_l':  hl,
-            'away_w':  aw,
-            'away_t':  at,
-            'away_l':  al,
-            'season':  season,
+            'rank':   self._safe_int(row.get('순위', '0')),
+            'team':   row.get('팀명', ''),
+            'games':  self._safe_int(row.get('경기', '0')),
+            'wins':   self._safe_int(row.get('승', '0')),
+            'losses': self._safe_int(row.get('패', '0')),
+            'ties':   self._safe_int(row.get('무', '0')),
+            'pct':    self._safe_float(row.get('승률', '0')),
+            'gb':     gb,
+            'last10': row.get('최근10경기', ''),
+            'streak': row.get('연속', ''),
+            'home_w': hw, 'home_t': ht, 'home_l': hl,
+            'away_w': aw, 'away_t': at, 'away_l': al,
+            'season': season,
         }
 
     def _parse_head_to_head(self, table, season: int) -> list[dict]:
-        """
-        상대 전적 매트릭스 파싱
-        헤더: ['팀명', 'LG', '두산', '삼성', ..., '합계']
-        각 셀: '승-패-무' 또는 '■' (자기 팀)
-        """
         headers = [th.get_text(strip=True) for th in table.find('thead').find_all('th')]
-        # 헤더에 포함된 "(승-패-무)" 접미사 제거
         opponent_names = [n.replace('(승-패-무)', '').strip() for n in headers[1:]]
 
         rows = []
@@ -149,7 +171,7 @@ class TeamRankScraper(BaseScraper):
 
             team_name = cells[0]
             matchups = {}
-            total_w, total_l, total_t = 0, 0, 0
+            total_w = total_l = total_t = 0
 
             for i, opp in enumerate(opponent_names):
                 if i + 1 >= len(cells):
@@ -179,12 +201,12 @@ class TeamRankScraper(BaseScraper):
                     matchups[opp] = None
 
             rows.append({
-                'team':    team_name,
+                'team':     team_name,
                 'matchups': matchups,
-                'total_w': total_w,
-                'total_l': total_l,
-                'total_t': total_t,
-                'season':  season,
+                'total_w':  total_w,
+                'total_l':  total_l,
+                'total_t':  total_t,
+                'season':   season,
             })
 
         return rows
