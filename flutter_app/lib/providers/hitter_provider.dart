@@ -8,6 +8,7 @@ class HitterProvider extends ChangeNotifier {
 
   List<PlayerHitter> _hitters = [];
   List<PlayerHitter> _filtered = [];
+  Map<PlayerHitter, int> _rankMap = {};
   bool _isLoading = false;
   String? _error;
   String _sortColumn = 'ops';
@@ -24,6 +25,9 @@ class HitterProvider extends ChangeNotifier {
   String? get error => _error;
   String get sortColumn => _sortColumn;
   bool get sortAscending => _sortAscending;
+
+  /// 전체 정렬 기준 원본 순위 반환 (필터 여부와 무관)
+  int rankOf(PlayerHitter h) => _rankMap[h] ?? 0;
 
   void updateFilter(FilterProvider filter) {
     final seasonChanged = _currentSeason != filter.season;
@@ -73,10 +77,15 @@ class HitterProvider extends ChangeNotifier {
   }
 
   void _sortData() {
-    _filtered.sort((a, b) {
+    // 전체 리스트 정렬 → 원본 순위 결정
+    _hitters.sort((a, b) {
       final cmp = _getValue(a, _sortColumn).compareTo(_getValue(b, _sortColumn));
       return _sortAscending ? cmp : -cmp;
     });
+    // 전체 순위 맵 기록
+    _rankMap = {for (int i = 0; i < _hitters.length; i++) _hitters[i]: i + 1};
+    // 필터된 리스트도 같은 순서로 정렬
+    _filtered.sort((a, b) => _rankMap[a]!.compareTo(_rankMap[b]!));
   }
 
   Comparable _getValue(PlayerHitter h, String col) {

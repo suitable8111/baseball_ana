@@ -59,7 +59,7 @@ class PlayerHitterScreen extends StatelessWidget {
                   itemCount: hitters.length,
                   itemBuilder: (context, i) {
                     final h = hitters[i];
-                    return _HitterRow(rank: i + 1, hitter: h);
+                    return _HitterRow(rank: provider.rankOf(h), hitter: h);
                   },
                 ),
         ),

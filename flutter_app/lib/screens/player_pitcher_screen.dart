@@ -55,7 +55,10 @@ class PlayerPitcherScreen extends StatelessWidget {
               : ListView.builder(
                   itemCount: pitchers.length,
                   itemBuilder: (context, i) {
-                    return _PitcherRow(rank: i + 1, pitcher: pitchers[i]);
+                    return _PitcherRow(
+                      rank: provider.rankOf(pitchers[i]),
+                      pitcher: pitchers[i],
+                    );
                   },
                 ),
         ),
