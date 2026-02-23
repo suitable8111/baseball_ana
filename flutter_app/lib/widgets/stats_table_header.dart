@@ -5,6 +5,7 @@ class StatsTableHeader extends StatelessWidget {
   final String sortColumn;
   final bool sortAscending;
   final void Function(String) onSort;
+  final double scale;
 
   const StatsTableHeader({
     super.key,
@@ -12,6 +13,7 @@ class StatsTableHeader extends StatelessWidget {
     required this.sortColumn,
     required this.sortAscending,
     required this.onSort,
+    this.scale = 1.0,
   });
 
   @override
@@ -27,7 +29,7 @@ class StatsTableHeader extends StatelessWidget {
           return GestureDetector(
             onTap: isNonSortable ? null : () => onSort(key),
             child: SizedBox(
-              width: width,
+              width: width * scale,
               height: 36,
               child: Center(
                 child: Row(
@@ -37,7 +39,7 @@ class StatsTableHeader extends StatelessWidget {
                     Text(
                       label,
                       style: TextStyle(
-                        fontSize: 11,
+                        fontSize: 11 * scale.clamp(1.0, 1.3),
                         fontWeight: isActive ? FontWeight.bold : FontWeight.w600,
                         color: isActive
                             ? Theme.of(context).colorScheme.primary

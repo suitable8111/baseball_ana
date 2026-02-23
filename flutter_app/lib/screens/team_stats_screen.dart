@@ -57,91 +57,224 @@ class _TeamStatsScreenState extends State<TeamStatsScreen>
   }
 }
 
+// ── 팀 타자 ──────────────────────────────────────────────────────────────────────
+
 class _TeamHitterTable extends StatelessWidget {
   final List<TeamHitter> teams;
-
   const _TeamHitterTable({required this.teams});
+
+  // (label, width)
+  static const _cols = [
+    ('팀', 64.0),
+    ('G', 44.0),
+    ('AVG', 56.0),
+    ('OBP', 56.0),
+    ('SLG', 56.0),
+    ('OPS', 60.0),
+    ('HR', 44.0),
+    ('RBI', 44.0),
+    ('R', 44.0),
+    ('SB', 44.0),
+  ];
+  static const double _totalWidth = 64 + 44 + 56 + 56 + 56 + 60 + 44 + 44 + 44 + 44;
 
   @override
   Widget build(BuildContext context) {
     if (teams.isEmpty) return const Center(child: Text('데이터 없음'));
 
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: DataTable(
-        headingRowColor: WidgetStateProperty.all(
-          Theme.of(context).colorScheme.primaryContainer,
-        ),
-        columns: const [
-          DataColumn(label: Text('팀', style: TextStyle(fontWeight: FontWeight.bold))),
-          DataColumn(label: Text('G'), numeric: true),
-          DataColumn(label: Text('AVG'), numeric: true),
-          DataColumn(label: Text('OBP'), numeric: true),
-          DataColumn(label: Text('SLG'), numeric: true),
-          DataColumn(label: Text('OPS'), numeric: true),
-          DataColumn(label: Text('HR'), numeric: true),
-          DataColumn(label: Text('RBI'), numeric: true),
-          DataColumn(label: Text('R'), numeric: true),
-          DataColumn(label: Text('SB'), numeric: true),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final scale = (constraints.maxWidth / _totalWidth).clamp(1.0, 2.0);
+        final fs = 13.0 * scale.clamp(1.0, 1.3);
+
+        return Column(
+          children: [
+            // 헤더
+            _buildHeader(context, scale, fs),
+            // 데이터
+            Expanded(
+              child: ListView.builder(
+                itemCount: teams.length,
+                itemBuilder: (ctx, i) => _buildRow(ctx, teams[i], i, scale, fs),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildHeader(BuildContext context, double scale, double fs) {
+    return Container(
+      color: Theme.of(context).colorScheme.primaryContainer,
+      child: Row(
+        children: _cols.map((c) {
+          final (label, w) = c;
+          return SizedBox(
+            width: w * scale,
+            height: 38,
+            child: Center(
+              child: Text(label,
+                  style: TextStyle(
+                    fontSize: fs - 1,
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  )),
+            ),
+          );
+        }).toList(),
+      ),
+    );
+  }
+
+  Widget _buildRow(BuildContext context, TeamHitter t, int i, double scale, double fs) {
+    final bg = i % 2 == 0
+        ? Theme.of(context).colorScheme.surfaceContainerLow
+        : Theme.of(context).colorScheme.surface;
+
+    return Container(
+      color: bg,
+      child: Row(
+        children: [
+          _c(t.team, 64 * scale, fs, bold: true),
+          _c('${t.games}', 44 * scale, fs),
+          _c(t.avg.toStringAsFixed(3), 56 * scale, fs),
+          _c(t.obp.toStringAsFixed(3), 56 * scale, fs),
+          _c(t.slg.toStringAsFixed(3), 56 * scale, fs),
+          _c(t.ops.toStringAsFixed(3), 60 * scale, fs, bold: true, color: const Color(0xFF1B3A6B)),
+          _c('${t.hr}', 44 * scale, fs),
+          _c('${t.rbi}', 44 * scale, fs),
+          _c('${t.runs}', 44 * scale, fs),
+          _c('${t.sb}', 44 * scale, fs),
         ],
-        rows: teams.map((t) => DataRow(cells: [
-          DataCell(Text(t.team, style: const TextStyle(fontWeight: FontWeight.bold))),
-          DataCell(Text('${t.games}')),
-          DataCell(Text(t.avg.toStringAsFixed(3))),
-          DataCell(Text(t.obp.toStringAsFixed(3))),
-          DataCell(Text(t.slg.toStringAsFixed(3))),
-          DataCell(Text(t.ops.toStringAsFixed(3),
-              style: const TextStyle(fontWeight: FontWeight.bold))),
-          DataCell(Text('${t.hr}')),
-          DataCell(Text('${t.rbi}')),
-          DataCell(Text('${t.runs}')),
-          DataCell(Text('${t.sb}')),
-        ])).toList(),
+      ),
+    );
+  }
+
+  Widget _c(String text, double w, double fs, {bool bold = false, Color? color}) {
+    return SizedBox(
+      width: w,
+      height: 38,
+      child: Center(
+        child: Text(
+          text,
+          style: TextStyle(
+            fontSize: fs,
+            fontWeight: bold ? FontWeight.bold : FontWeight.normal,
+            color: color,
+          ),
+          overflow: TextOverflow.ellipsis,
+        ),
       ),
     );
   }
 }
 
+// ── 팀 투수 ──────────────────────────────────────────────────────────────────────
+
 class _TeamPitcherTable extends StatelessWidget {
   final List<TeamPitcher> teams;
-
   const _TeamPitcherTable({required this.teams});
+
+  static const _cols = [
+    ('팀', 64.0),
+    ('G', 44.0),
+    ('W', 44.0),
+    ('L', 44.0),
+    ('ERA', 60.0),
+    ('WHIP', 60.0),
+    ('K', 48.0),
+    ('BB', 48.0),
+    ('HR', 48.0),
+    ('IP', 60.0),
+  ];
+  static const double _totalWidth = 64 + 44 + 44 + 44 + 60 + 60 + 48 + 48 + 48 + 60;
 
   @override
   Widget build(BuildContext context) {
     if (teams.isEmpty) return const Center(child: Text('데이터 없음'));
 
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: DataTable(
-        headingRowColor: WidgetStateProperty.all(
-          Theme.of(context).colorScheme.primaryContainer,
-        ),
-        columns: const [
-          DataColumn(label: Text('팀', style: TextStyle(fontWeight: FontWeight.bold))),
-          DataColumn(label: Text('G'), numeric: true),
-          DataColumn(label: Text('W'), numeric: true),
-          DataColumn(label: Text('L'), numeric: true),
-          DataColumn(label: Text('ERA'), numeric: true),
-          DataColumn(label: Text('WHIP'), numeric: true),
-          DataColumn(label: Text('K'), numeric: true),
-          DataColumn(label: Text('BB'), numeric: true),
-          DataColumn(label: Text('HR'), numeric: true),
-          DataColumn(label: Text('IP'), numeric: true),
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final scale = (constraints.maxWidth / _totalWidth).clamp(1.0, 2.0);
+        final fs = 13.0 * scale.clamp(1.0, 1.3);
+
+        return Column(
+          children: [
+            _buildHeader(context, scale, fs),
+            Expanded(
+              child: ListView.builder(
+                itemCount: teams.length,
+                itemBuilder: (ctx, i) => _buildRow(ctx, teams[i], i, scale, fs),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildHeader(BuildContext context, double scale, double fs) {
+    return Container(
+      color: Theme.of(context).colorScheme.primaryContainer,
+      child: Row(
+        children: _cols.map((c) {
+          final (label, w) = c;
+          return SizedBox(
+            width: w * scale,
+            height: 38,
+            child: Center(
+              child: Text(label,
+                  style: TextStyle(
+                    fontSize: fs - 1,
+                    fontWeight: FontWeight.bold,
+                    color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  )),
+            ),
+          );
+        }).toList(),
+      ),
+    );
+  }
+
+  Widget _buildRow(BuildContext context, TeamPitcher t, int i, double scale, double fs) {
+    final bg = i % 2 == 0
+        ? Theme.of(context).colorScheme.surfaceContainerLow
+        : Theme.of(context).colorScheme.surface;
+
+    return Container(
+      color: bg,
+      child: Row(
+        children: [
+          _c(t.team, 64 * scale, fs, bold: true),
+          _c('${t.games}', 44 * scale, fs),
+          _c('${t.wins}', 44 * scale, fs),
+          _c('${t.losses}', 44 * scale, fs),
+          _c(t.era.toStringAsFixed(2), 60 * scale, fs, bold: true, color: const Color(0xFF1B3A6B)),
+          _c(t.whip.toStringAsFixed(2), 60 * scale, fs),
+          _c('${t.so}', 48 * scale, fs),
+          _c('${t.bb}', 48 * scale, fs),
+          _c('${t.hr}', 48 * scale, fs),
+          _c(t.ip.toStringAsFixed(1), 60 * scale, fs),
         ],
-        rows: teams.map((t) => DataRow(cells: [
-          DataCell(Text(t.team, style: const TextStyle(fontWeight: FontWeight.bold))),
-          DataCell(Text('${t.games}')),
-          DataCell(Text('${t.wins}')),
-          DataCell(Text('${t.losses}')),
-          DataCell(Text(t.era.toStringAsFixed(2),
-              style: const TextStyle(fontWeight: FontWeight.bold))),
-          DataCell(Text(t.whip.toStringAsFixed(2))),
-          DataCell(Text('${t.so}')),
-          DataCell(Text('${t.bb}')),
-          DataCell(Text('${t.hr}')),
-          DataCell(Text(t.ip.toStringAsFixed(1))),
-        ])).toList(),
+      ),
+    );
+  }
+
+  Widget _c(String text, double w, double fs, {bool bold = false, Color? color}) {
+    return SizedBox(
+      width: w,
+      height: 38,
+      child: Center(
+        child: Text(
+          text,
+          style: TextStyle(
+            fontSize: fs,
+            fontWeight: bold ? FontWeight.bold : FontWeight.normal,
+            color: color,
+          ),
+          overflow: TextOverflow.ellipsis,
+        ),
       ),
     );
   }

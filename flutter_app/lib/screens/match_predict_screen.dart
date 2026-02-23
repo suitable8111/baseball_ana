@@ -13,7 +13,11 @@ class MatchPredictScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final provider = context.watch<PredictionProvider>();
 
-    return SingleChildScrollView(
+    return Align(
+      alignment: Alignment.topCenter,
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(maxWidth: 800),
+        child: SingleChildScrollView(
       padding: const EdgeInsets.all(12),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -32,6 +36,8 @@ class MatchPredictScreen extends StatelessWidget {
           else if (provider.result != null)
             _ResultPanel(result: provider.result!),
         ],
+      ),
+        ),
       ),
     );
   }
@@ -122,20 +128,23 @@ class _TeamDropdown extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final selected = teams.contains(value) ? value : teams.first;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(label, style: const TextStyle(fontSize: 11, color: Colors.grey)),
         const SizedBox(height: 4),
-        DropdownButtonFormField<String>(
-          value: teams.contains(value) ? value : teams.first,
-          decoration: const InputDecoration(
-            contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-            border: OutlineInputBorder(),
-            isDense: true,
+        _DropdownField(
+          child: DropdownButton<String>(
+            value: selected,
+            isExpanded: true,
+            underline: const SizedBox(),
+            items: teams
+                .map((t) => DropdownMenuItem(
+                    value: t, child: Text(t, style: const TextStyle(fontSize: 13))))
+                .toList(),
+            onChanged: (t) { if (t != null) onChanged(t); },
           ),
-          items: teams.map((t) => DropdownMenuItem(value: t, child: Text(t, style: const TextStyle(fontSize: 13)))).toList(),
-          onChanged: (t) { if (t != null) onChanged(t); },
         ),
       ],
     );
@@ -166,24 +175,44 @@ class _PitcherDropdown extends StatelessWidget {
       children: [
         Text(label, style: const TextStyle(fontSize: 11, color: Colors.grey)),
         const SizedBox(height: 4),
-        DropdownButtonFormField<PlayerPitcher>(
-          value: current,
-          decoration: const InputDecoration(
-            contentPadding: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-            border: OutlineInputBorder(),
-            isDense: true,
+        _DropdownField(
+          child: DropdownButton<PlayerPitcher>(
+            value: current,
+            isExpanded: true,
+            underline: const SizedBox(),
+            items: pitchers
+                .map((p) => DropdownMenuItem(
+                      value: p,
+                      child: Text(
+                        '${p.name} (${p.era.toStringAsFixed(2)})',
+                        style: const TextStyle(fontSize: 12),
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ))
+                .toList(),
+            onChanged: (p) { if (p != null) onChanged(p); },
           ),
-          items: pitchers.map((p) => DropdownMenuItem(
-            value: p,
-            child: Text(
-              '${p.name} (${p.era.toStringAsFixed(2)})',
-              style: const TextStyle(fontSize: 12),
-              overflow: TextOverflow.ellipsis,
-            ),
-          )).toList(),
-          onChanged: (p) { if (p != null) onChanged(p); },
         ),
       ],
+    );
+  }
+}
+
+// ── 드롭다운 테두리 래퍼 ──────────────────────────────────────────────────────────
+
+class _DropdownField extends StatelessWidget {
+  final Widget child;
+  const _DropdownField({required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 2),
+      decoration: BoxDecoration(
+        border: Border.all(color: Theme.of(context).colorScheme.outline),
+        borderRadius: BorderRadius.circular(4),
+      ),
+      child: child,
     );
   }
 }

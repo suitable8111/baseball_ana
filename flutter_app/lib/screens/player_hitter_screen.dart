@@ -26,6 +26,9 @@ class PlayerHitterScreen extends StatelessWidget {
     ('ISO', 'iso', 56.0),
   ];
 
+  static const double _totalWidth =
+      40 + 80 + 48 + 44 + 44 + 44 + 44 + 44 + 44 + 44 + 56 + 56 + 56 + 60 + 60 + 56;
+
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<HitterProvider>();
@@ -39,31 +42,37 @@ class PlayerHitterScreen extends StatelessWidget {
 
     final hitters = provider.hitters;
 
-    return Column(
-      children: [
-        // 헤더 행
-        SingleChildScrollView(
-          scrollDirection: Axis.horizontal,
-          child: StatsTableHeader(
-            columns: _columns,
-            sortColumn: provider.sortColumn,
-            sortAscending: provider.sortAscending,
-            onSort: provider.sort,
-          ),
-        ),
-        // 데이터 행
-        Expanded(
-          child: hitters.isEmpty
-              ? const Center(child: Text('데이터가 없습니다'))
-              : ListView.builder(
-                  itemCount: hitters.length,
-                  itemBuilder: (context, i) {
-                    final h = hitters[i];
-                    return _HitterRow(rank: provider.rankOf(h), hitter: h);
-                  },
-                ),
-        ),
-      ],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final scale = (constraints.maxWidth / _totalWidth).clamp(1.0, 2.0);
+
+        return Column(
+          children: [
+            StatsTableHeader(
+              columns: _columns,
+              sortColumn: provider.sortColumn,
+              sortAscending: provider.sortAscending,
+              onSort: provider.sort,
+              scale: scale,
+            ),
+            Expanded(
+              child: hitters.isEmpty
+                  ? const Center(child: Text('데이터가 없습니다'))
+                  : ListView.builder(
+                      itemCount: hitters.length,
+                      itemBuilder: (context, i) {
+                        final h = hitters[i];
+                        return _HitterRow(
+                          rank: provider.rankOf(h),
+                          hitter: h,
+                          scale: scale,
+                        );
+                      },
+                    ),
+            ),
+          ],
+        );
+      },
     );
   }
 }
@@ -71,8 +80,9 @@ class PlayerHitterScreen extends StatelessWidget {
 class _HitterRow extends StatelessWidget {
   final int rank;
   final PlayerHitter hitter;
+  final double scale;
 
-  const _HitterRow({required this.rank, required this.hitter});
+  const _HitterRow({required this.rank, required this.hitter, required this.scale});
 
   @override
   Widget build(BuildContext context) {
@@ -80,44 +90,42 @@ class _HitterRow extends StatelessWidget {
     final bg = isEven
         ? Theme.of(context).colorScheme.surfaceContainerLow
         : Theme.of(context).colorScheme.surface;
+    final fs = (12 * scale.clamp(1.0, 1.3));
 
     return Container(
       color: bg,
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: Row(
-          children: [
-            _cell('$rank', 40, bold: true),
-            _cell(hitter.name, 80, bold: true),
-            _teamCell(hitter.team),
-            _cell('${hitter.games}', 44),
-            _cell('${hitter.pa}', 44),
-            _cell('${hitter.ab}', 44),
-            _cell('${hitter.hits}', 44),
-            _cell('${hitter.hr}', 44),
-            _cell('${hitter.rbi}', 44),
-            _cell('${hitter.sb}', 44),
-            _statCell(hitter.avg.toStringAsFixed(3)),
-            _statCell(hitter.obp.toStringAsFixed(3)),
-            _statCell(hitter.slg.toStringAsFixed(3)),
-            _statCell(hitter.ops.toStringAsFixed(3), highlight: true),
-            _statCell(hitter.babip.toStringAsFixed(3)),
-            _statCell(hitter.iso.toStringAsFixed(3)),
-          ],
-        ),
+      child: Row(
+        children: [
+          _cell('$rank', 40, bold: true, fs: fs),
+          _cell(hitter.name, 80, bold: true, fs: fs),
+          _teamCell(hitter.team, fs: fs),
+          _cell('${hitter.games}', 44, fs: fs),
+          _cell('${hitter.pa}', 44, fs: fs),
+          _cell('${hitter.ab}', 44, fs: fs),
+          _cell('${hitter.hits}', 44, fs: fs),
+          _cell('${hitter.hr}', 44, fs: fs),
+          _cell('${hitter.rbi}', 44, fs: fs),
+          _cell('${hitter.sb}', 44, fs: fs),
+          _statCell(hitter.avg.toStringAsFixed(3), fs: fs),
+          _statCell(hitter.obp.toStringAsFixed(3), fs: fs),
+          _statCell(hitter.slg.toStringAsFixed(3), fs: fs),
+          _statCell(hitter.ops.toStringAsFixed(3), highlight: true, width: 60, fs: fs),
+          _statCell(hitter.babip.toStringAsFixed(3), width: 60, fs: fs),
+          _statCell(hitter.iso.toStringAsFixed(3), fs: fs),
+        ],
       ),
     );
   }
 
-  Widget _cell(String text, double width, {bool bold = false}) {
+  Widget _cell(String text, double width, {bool bold = false, required double fs}) {
     return SizedBox(
-      width: width,
+      width: width * scale,
       height: 36,
       child: Center(
         child: Text(
           text,
           style: TextStyle(
-            fontSize: 12,
+            fontSize: fs,
             fontWeight: bold ? FontWeight.bold : FontWeight.normal,
           ),
           overflow: TextOverflow.ellipsis,
@@ -126,9 +134,9 @@ class _HitterRow extends StatelessWidget {
     );
   }
 
-  Widget _teamCell(String team) {
+  Widget _teamCell(String team, {required double fs}) {
     return SizedBox(
-      width: 48,
+      width: 48 * scale,
       height: 36,
       child: Center(
         child: Container(
@@ -140,7 +148,7 @@ class _HitterRow extends StatelessWidget {
           child: Text(
             team,
             style: TextStyle(
-              fontSize: 11,
+              fontSize: fs - 1,
               fontWeight: FontWeight.bold,
               color: _teamColor(team),
             ),
@@ -150,15 +158,15 @@ class _HitterRow extends StatelessWidget {
     );
   }
 
-  Widget _statCell(String text, {bool highlight = false}) {
+  Widget _statCell(String text, {bool highlight = false, double width = 56, required double fs}) {
     return SizedBox(
-      width: highlight ? 60 : 56,
+      width: width * scale,
       height: 36,
       child: Center(
         child: Text(
           text,
           style: TextStyle(
-            fontSize: 12,
+            fontSize: fs,
             fontWeight: highlight ? FontWeight.bold : FontWeight.normal,
             color: highlight ? const Color(0xFF1B3A6B) : null,
           ),
