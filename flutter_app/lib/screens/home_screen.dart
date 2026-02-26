@@ -11,7 +11,7 @@ import 'player_hitter_screen.dart';
 import 'player_pitcher_screen.dart';
 import 'team_stats_screen.dart';
 import 'team_rank_screen.dart';
-import 'match_predict_screen.dart';
+import 'game_schedule_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
     PlayerPitcherScreen(),
     TeamStatsScreen(),
     TeamRankScreen(),
-    MatchPredictScreen(),
+    GameScheduleScreen(),
   ];
 
   @override
@@ -117,9 +117,9 @@ class _HomeScreenState extends State<HomeScreen> {
             label: '순위',
           ),
           NavigationDestination(
-            icon: Icon(Icons.calculate_outlined),
-            selectedIcon: Icon(Icons.calculate),
-            label: '예측',
+            icon: Icon(Icons.calendar_today_outlined),
+            selectedIcon: Icon(Icons.calendar_today),
+            label: '일정',
           ),
         ],
       ),
