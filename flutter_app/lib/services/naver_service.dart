@@ -137,6 +137,62 @@ class NaverService {
     }
   }
 
+  /// 완료된 경기 박스스코어에서 홈/원정 실제 타자 이름 리스트 반환 (타순 순서)
+  ///
+  /// - batorder 필드 우선 사용: 타순별 첫 출전자(선발)만 수집 → 대타 중복 제거
+  /// - batorder 없으면 hra(AVG) > 0 타자만 (KBO DH 규정상 투수 불타석)
+  /// 반환: { 'home': ['이름1', ...], 'away': ['이름1', ...] }  최대 9명
+  Future<Map<String, List<String>>> fetchBattersRecord(String gameId) async {
+    final uri = Uri.parse('$_base/schedule/games/$gameId/record');
+    try {
+      final res = await http
+          .get(uri, headers: _headers)
+          .timeout(const Duration(seconds: 10));
+      if (res.statusCode != 200) return {'home': [], 'away': []};
+
+      final data = jsonDecode(res.body) as Map<String, dynamic>;
+      final batters = data['result']?['recordData']?['battersBoxscore']
+          as Map<String, dynamic>?;
+      if (batters == null) return {'home': [], 'away': []};
+
+      List<String> extractNames(String side) {
+        final list = batters[side] as List<dynamic>? ?? [];
+        final slotSeen = <int>{}; // 타순(1-9)별 첫 출전자만 취하기 위한 중복 체크
+        final names = <String>[];
+
+        for (final raw in list.cast<Map<String, dynamic>>()) {
+          final name = raw['name']?.toString() ?? '';
+          if (name.isEmpty) continue;
+
+          // batorder 필드가 있으면 타순 기반으로 선별
+          final batorderRaw = raw['batorder'] ?? raw['batOrder'];
+          if (batorderRaw != null) {
+            final order = int.tryParse(batorderRaw.toString()) ?? 0;
+            if (order < 1 || order > 9) continue; // 투수(0) 또는 범위 밖 제외
+            if (!slotSeen.add(order)) continue;    // 타순 중복(대타) 제거
+            names.add(name);
+            continue;
+          }
+
+          // batorder 없는 경우: hra > 0 타자만 (DH 규정상 투수는 타석 없음)
+          final hraRaw = raw['hra'];
+          final avg = hraRaw is num
+              ? hraRaw.toDouble()
+              : double.tryParse(hraRaw?.toString() ?? '') ?? 0.0;
+          if (avg > 0 && names.length < 9) names.add(name);
+        }
+        return names.take(9).toList();
+      }
+
+      return {
+        'home': extractNames('home'),
+        'away': extractNames('away'),
+      };
+    } catch (_) {
+      return {'home': [], 'away': []};
+    }
+  }
+
   static String _fmt(DateTime d) =>
       '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
 }

@@ -152,35 +152,38 @@ class AccuracyProvider extends ChangeNotifier {
   Future<GameAccuracyRecord?> _processGame(KboGame game) async {
     if (_pred == null || !_pred!.dataLoaded) return null;
     try {
-      final preview = await _naver.fetchPreview(game.gameId);
+      // fetchPreview 대신 fetchBattersRecord 사용
+      // → 완료 경기의 실제 출전 타자 명단(타순순) 수집
+      // → 선발 투수는 schedule API의 homeStarterName/awayStarterName 사용
+      final batterRecord = await _naver.fetchBattersRecord(game.gameId);
+      final homeLineupNames = batterRecord['home'] ?? [];
+      final awayLineupNames = batterRecord['away'] ?? [];
+
       final rawHitters = _pred!.rawHitters;
       final allPitchers = _pred!.allPitchers;
       final league = LeagueAvg.fromHitters(rawHitters);
 
-      List<BatterProfile> buildLineup(
-          List<LineupPlayer> lineup, String team) {
-        final batters = lineup.where((p) => p.batorder > 0).toList()
-          ..sort((a, b) => a.batorder.compareTo(b.batorder));
+      // 이름 리스트 → BatterProfile 리스트 변환
+      // 팀+이름 우선 매칭 → 이름만 매칭 → 팀 OPS 순 fallback
+      List<BatterProfile> buildLineup(List<String> names, String team) {
         final profiles = <BatterProfile>[];
-        for (final player in batters) {
+        for (final name in names) {
           Map<String, dynamic>? hit;
           for (final h in rawHitters) {
-            if (h['name'] == player.playerName && h['team'] == team) {
+            if (h['name'] == name && h['team'] == team) {
               hit = h;
               break;
             }
           }
           if (hit == null) {
             for (final h in rawHitters) {
-              if (h['name'] == player.playerName) {
+              if (h['name'] == name) {
                 hit = h;
                 break;
               }
             }
           }
-          if (hit != null) {
-            profiles.add(BatterProfile.fromPlayerMap(hit));
-          }
+          if (hit != null) profiles.add(BatterProfile.fromPlayerMap(hit));
         }
         if (profiles.isEmpty) {
           final teamH = rawHitters.where((h) => h['team'] == team).toList()
@@ -224,8 +227,8 @@ class AccuracyProvider extends ChangeNotifier {
       final ap = findPitcher(game.awayStarterName, game.awayTeamName);
       if (hp == null || ap == null) return null;
 
-      final homeLineup = buildLineup(preview.homeLineup, game.homeTeamName);
-      final awayLineup = buildLineup(preview.awayLineup, game.awayTeamName);
+      final homeLineup = buildLineup(homeLineupNames, game.homeTeamName);
+      final awayLineup = buildLineup(awayLineupNames, game.awayTeamName);
       if (homeLineup.isEmpty || awayLineup.isEmpty) return null;
 
       final result = await _sim.run(
