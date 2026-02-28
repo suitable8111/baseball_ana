@@ -272,3 +272,33 @@ class KboGame {
     }
   }
 }
+
+// ── 예측 정확도 기록 ────────────────────────────────────────────────────────────
+
+class GameAccuracyRecord {
+  final String gameId;
+  final String gameDate;        // YYYYMMDD
+  final String homeTeam;
+  final String awayTeam;
+  final String? homeStarter;
+  final String? awayStarter;
+  final double homeWinProb;
+  final double awayWinProb;
+  final String predictedWinner; // 'home' | 'away'
+  final String? actualWinner;   // 'home' | 'away' | null(무승부)
+  final bool isCorrect;         // actualWinner != null && actualWinner == predictedWinner
+
+  const GameAccuracyRecord({
+    required this.gameId,
+    required this.gameDate,
+    required this.homeTeam,
+    required this.awayTeam,
+    this.homeStarter,
+    this.awayStarter,
+    required this.homeWinProb,
+    required this.awayWinProb,
+    required this.predictedWinner,
+    this.actualWinner,
+    required this.isCorrect,
+  });
+}

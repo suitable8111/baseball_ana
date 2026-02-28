@@ -33,6 +33,9 @@ class PredictionProvider extends ChangeNotifier {
 
   // ── Getters ──────────────────────────────────────────────────────────────────
   int get season => _season;
+  List<Map<String, dynamic>> get rawHitters => _rawHitters;
+  List<PlayerPitcher> get allPitchers => _allPitchers;
+  bool get dataLoaded => _dataLoaded;
   String get homeTeam => _homeTeam;
   String get awayTeam => _awayTeam;
   PlayerPitcher? get homePitcher => _homePitcher;

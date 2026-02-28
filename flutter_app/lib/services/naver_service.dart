@@ -21,14 +21,15 @@ class NaverService {
 
   const NaverService();
 
-  Future<List<KboGame>> fetchSchedule(DateTime date) async {
-    final dateStr = _fmt(date);
+  Future<List<KboGame>> fetchSchedule(DateTime fromDate, {DateTime? toDate}) async {
+    final fromStr = _fmt(fromDate);
+    final toStr = toDate != null ? _fmt(toDate) : fromStr;
     final uri =
         Uri.parse('$_base/schedule/games').replace(queryParameters: {
       'fields': 'all',
-      'fromDate': dateStr,
-      'toDate': dateStr,
-      'size': '50',
+      'fromDate': fromStr,
+      'toDate': toStr,
+      'size': '200',
     });
 
     final client = http.Client();

@@ -4,6 +4,7 @@ import '../providers/schedule_provider.dart';
 import '../providers/prediction_provider.dart';
 import '../models/game_schedule.dart';
 import '../models/simulation_models.dart';
+import 'accuracy_screen.dart';
 
 class GameScheduleScreen extends StatefulWidget {
   const GameScheduleScreen({super.key});
@@ -138,29 +139,28 @@ class _DateBar extends StatelessWidget {
         ),
       ),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           IconButton(
             icon: const Icon(Icons.chevron_left),
             onPressed: prov.loadingGames ? null : prov.prevDay,
             visualDensity: VisualDensity.compact,
           ),
-          GestureDetector(
-            onTap: () async {
-              final picked = await showDatePicker(
-                context: context,
-                initialDate: prov.date,
-                firstDate: DateTime(2025, 1, 1),
-                lastDate: DateTime(2026, 12, 31),
-              );
-              if (picked != null && context.mounted) {
-                context.read<ScheduleProvider>().loadDate(picked);
-              }
-            },
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
+          Expanded(
+            child: GestureDetector(
+              onTap: () async {
+                final picked = await showDatePicker(
+                  context: context,
+                  initialDate: prov.date,
+                  firstDate: DateTime(2025, 1, 1),
+                  lastDate: DateTime(2026, 12, 31),
+                );
+                if (picked != null && context.mounted) {
+                  context.read<ScheduleProvider>().loadDate(picked);
+                }
+              },
               child: Text(
                 label,
+                textAlign: TextAlign.center,
                 style: const TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -172,6 +172,19 @@ class _DateBar extends StatelessWidget {
             icon: const Icon(Icons.chevron_right),
             onPressed: prov.loadingGames ? null : prov.nextDay,
             visualDensity: VisualDensity.compact,
+          ),
+          IconButton(
+            icon: const Icon(Icons.bar_chart_outlined),
+            tooltip: '예측 정확도',
+            visualDensity: VisualDensity.compact,
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => const AccuracyScreen(),
+                ),
+              );
+            },
           ),
         ],
       ),
@@ -592,7 +605,11 @@ class _PreviewContent extends StatelessWidget {
           ),
         const SizedBox(height: 12),
         // 승률 예측
-        _LineupWinProbSection(game: game, preview: preview),
+        _LineupWinProbSection(
+          key: ValueKey(game.gameId),
+          game: game,
+          preview: preview,
+        ),
         const SizedBox(height: 12),
         // Lineups
         _LineupsTable(
@@ -916,16 +933,52 @@ class _LineupsTable extends StatelessWidget {
 
 // ─── 라인업 승률 예측 섹션 ──────────────────────────────────────────────────────
 
-class _LineupWinProbSection extends StatelessWidget {
+class _LineupWinProbSection extends StatefulWidget {
   final KboGame game;
   final GamePreview preview;
 
-  const _LineupWinProbSection({required this.game, required this.preview});
+  const _LineupWinProbSection({
+    super.key,
+    required this.game,
+    required this.preview,
+  });
 
+  @override
+  State<_LineupWinProbSection> createState() => _LineupWinProbSectionState();
+}
+
+class _LineupWinProbSectionState extends State<_LineupWinProbSection> {
   List<String> _battingNames(List<LineupPlayer> lineup) {
     final sorted = lineup.where((p) => p.batorder > 0).toList()
       ..sort((a, b) => a.batorder.compareTo(b.batorder));
     return sorted.map((p) => p.playerName).toList();
+  }
+
+  void _runPrediction() {
+    final pred = context.read<PredictionProvider>();
+    if (pred.lineupLoading) return;
+    pred.runLineupSimulation(
+      gameId: widget.game.gameId,
+      homeTeam: widget.game.homeTeamName,
+      awayTeam: widget.game.awayTeamName,
+      homeLineupNames: _battingNames(widget.preview.homeLineup),
+      awayLineupNames: _battingNames(widget.preview.awayLineup),
+      homeStarterName: widget.game.homeStarterName,
+      awayStarterName: widget.game.awayStarterName,
+    );
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    final hasLineup =
+        widget.preview.homeLineup.any((p) => p.batorder > 0) ||
+        widget.preview.awayLineup.any((p) => p.batorder > 0);
+    if (hasLineup) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _runPrediction();
+      });
+    }
   }
 
   @override
@@ -933,14 +986,11 @@ class _LineupWinProbSection extends StatelessWidget {
     final pred = context.watch<PredictionProvider>();
     final cs = Theme.of(context).colorScheme;
 
-    // 라인업이 없거나 PredictionProvider 데이터 미로드 상태
     final hasLineup =
-        preview.homeLineup.any((p) => p.batorder > 0) ||
-        preview.awayLineup.any((p) => p.batorder > 0);
-
+        widget.preview.homeLineup.any((p) => p.batorder > 0) ||
+        widget.preview.awayLineup.any((p) => p.batorder > 0);
     if (!hasLineup) return const SizedBox.shrink();
 
-    // 예측 결과 표시
     if (pred.lineupLoading) {
       return Card(
         margin: EdgeInsets.zero,
@@ -950,9 +1000,10 @@ class _LineupWinProbSection extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const SizedBox(
-                  width: 16,
-                  height: 16,
-                  child: CircularProgressIndicator(strokeWidth: 2)),
+                width: 16,
+                height: 16,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              ),
               const SizedBox(width: 10),
               Text('승률 계산 중…', style: TextStyle(color: cs.outline)),
             ],
@@ -962,55 +1013,36 @@ class _LineupWinProbSection extends StatelessWidget {
     }
 
     if (pred.lineupResult != null &&
-        pred.lineupResult!.homeTeam == game.homeTeamName) {
-      return _WinProbCard(result: pred.lineupResult!, game: game);
+        pred.lineupResult!.homeTeam == widget.game.homeTeamName) {
+      return _WinProbCard(result: pred.lineupResult!, game: widget.game);
     }
 
-    // 예측 버튼
-    return Card(
-      margin: EdgeInsets.zero,
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-        child: Row(
-          children: [
-            Icon(Icons.calculate_outlined, size: 18, color: cs.primary),
-            const SizedBox(width: 8),
-            Expanded(
-              child: Text(
-                '라인업 기반 승률 예측',
-                style: TextStyle(
-                    fontWeight: FontWeight.w600, color: cs.onSurface),
-              ),
-            ),
-            if (pred.lineupError != null)
-              Padding(
-                padding: const EdgeInsets.only(right: 8),
-                child: Tooltip(
-                  message: pred.lineupError!,
-                  child: Icon(Icons.error_outline,
-                      size: 16, color: cs.error),
+    if (pred.lineupError != null) {
+      return Card(
+        margin: EdgeInsets.zero,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+          child: Row(
+            children: [
+              Icon(Icons.error_outline, size: 16, color: cs.error),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  pred.lineupError!,
+                  style: TextStyle(fontSize: 12, color: cs.error),
                 ),
               ),
-            FilledButton.tonal(
-              onPressed: () {
-                final homeNames = _battingNames(preview.homeLineup);
-                final awayNames = _battingNames(preview.awayLineup);
-                context.read<PredictionProvider>().runLineupSimulation(
-                      gameId: game.gameId,
-                      homeTeam: game.homeTeamName,
-                      awayTeam: game.awayTeamName,
-                      homeLineupNames: homeNames,
-                      awayLineupNames: awayNames,
-                      homeStarterName: game.homeStarterName,
-                      awayStarterName: game.awayStarterName,
-                    );
-              },
-              child: const Text('예측'),
-            ),
-          ],
+              TextButton(
+                onPressed: _runPrediction,
+                child: const Text('재시도'),
+              ),
+            ],
+          ),
         ),
-      ),
-    );
+      );
+    }
+
+    return const SizedBox.shrink();
   }
 }
 

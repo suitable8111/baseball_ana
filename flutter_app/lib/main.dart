@@ -9,7 +9,10 @@ import 'providers/team_rank_provider.dart';
 import 'providers/filter_provider.dart';
 import 'providers/prediction_provider.dart';
 import 'providers/schedule_provider.dart';
+import 'providers/accuracy_provider.dart';
 import 'services/data_service.dart';
+import 'services/naver_service.dart';
+import 'services/simulation_service.dart';
 import 'screens/home_screen.dart';
 import 'screens/auth_screen.dart';
 
@@ -76,6 +79,16 @@ class BaseballAnaApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => ScheduleProvider(),
+        ),
+        ChangeNotifierProxyProvider<PredictionProvider, AccuracyProvider>(
+          create: (_) => AccuracyProvider(
+            naver: const NaverService(),
+            sim: const SimulationService(),
+          ),
+          update: (_, pred, acc) {
+            acc!.setPredictionProvider(pred);
+            return acc;
+          },
         ),
       ],
       child: Consumer<ThemeProvider>(
