@@ -152,9 +152,6 @@ class AccuracyProvider extends ChangeNotifier {
   Future<GameAccuracyRecord?> _processGame(KboGame game) async {
     if (_pred == null || !_pred!.dataLoaded) return null;
     try {
-      // fetchPreview 대신 fetchBattersRecord 사용
-      // → 완료 경기의 실제 출전 타자 명단(타순순) 수집
-      // → 선발 투수는 schedule API의 homeStarterName/awayStarterName 사용
       final batterRecord = await _naver.fetchBattersRecord(game.gameId);
       final homeLineupNames = batterRecord['home'] ?? [];
       final awayLineupNames = batterRecord['away'] ?? [];
@@ -163,18 +160,24 @@ class AccuracyProvider extends ChangeNotifier {
       final allPitchers = _pred!.allPitchers;
       final league = LeagueAvg.fromHitters(rawHitters);
 
-      // 이름 리스트 → BatterProfile 리스트 변환
-      // 팀+이름 우선 매칭 → 이름만 매칭 → 팀 OPS 순 fallback
-      List<BatterProfile> buildLineup(List<String> names, String team) {
+      // "LG 트윈스" → "LG",  "삼성 라이온즈" → "삼성" 등
+      // Naver API 전체 팀명 → JSON 데이터의 팀 코드(첫 단어)로 변환
+      String teamCode(String fullName) => fullName.split(' ').first;
+      final homeCode = teamCode(game.homeTeamName);
+      final awayCode = teamCode(game.awayTeamName);
+
+      List<BatterProfile> buildLineup(List<String> names, String code) {
         final profiles = <BatterProfile>[];
         for (final name in names) {
           Map<String, dynamic>? hit;
+          // 팀+이름 우선 매칭
           for (final h in rawHitters) {
-            if (h['name'] == name && h['team'] == team) {
+            if (h['name'] == name && h['team'] == code) {
               hit = h;
               break;
             }
           }
+          // 이름만 매칭 (이적선수 등 대응)
           if (hit == null) {
             for (final h in rawHitters) {
               if (h['name'] == name) {
@@ -186,7 +189,7 @@ class AccuracyProvider extends ChangeNotifier {
           if (hit != null) profiles.add(BatterProfile.fromPlayerMap(hit));
         }
         if (profiles.isEmpty) {
-          final teamH = rawHitters.where((h) => h['team'] == team).toList()
+          final teamH = rawHitters.where((h) => h['team'] == code).toList()
             ..sort((a, b) =>
                 ((b['ops'] as num? ?? 0).compareTo(a['ops'] as num? ?? 0)));
           return teamH.take(9).map(BatterProfile.fromPlayerMap).toList();
@@ -197,16 +200,16 @@ class AccuracyProvider extends ChangeNotifier {
         return profiles.take(9).toList();
       }
 
-      PlayerPitcher? findPitcher(String? name, String team) {
+      PlayerPitcher? findPitcher(String? name, String code) {
         if (name != null && name.isNotEmpty) {
           for (final p in allPitchers) {
-            if (p.name == name && p.team == team) return p;
+            if (p.name == name && p.team == code) return p;
           }
           for (final p in allPitchers) {
             if (p.name == name) return p;
           }
         }
-        final list = allPitchers.where((p) => p.team == team).toList()
+        final list = allPitchers.where((p) => p.team == code).toList()
           ..sort((a, b) => b.ip.compareTo(a.ip));
         return list.isNotEmpty ? list.first : null;
       }
@@ -223,12 +226,12 @@ class AccuracyProvider extends ChangeNotifier {
             'tbf': 0,
           };
 
-      final hp = findPitcher(game.homeStarterName, game.homeTeamName);
-      final ap = findPitcher(game.awayStarterName, game.awayTeamName);
+      final hp = findPitcher(game.homeStarterName, homeCode);
+      final ap = findPitcher(game.awayStarterName, awayCode);
       if (hp == null || ap == null) return null;
 
-      final homeLineup = buildLineup(homeLineupNames, game.homeTeamName);
-      final awayLineup = buildLineup(awayLineupNames, game.awayTeamName);
+      final homeLineup = buildLineup(homeLineupNames, homeCode);
+      final awayLineup = buildLineup(awayLineupNames, awayCode);
       if (homeLineup.isEmpty || awayLineup.isEmpty) return null;
 
       final result = await _sim.run(
@@ -239,8 +242,24 @@ class AccuracyProvider extends ChangeNotifier {
         league: league,
       );
 
-      final predictedWinner =
-          result.homeWinProb >= result.awayWinProb ? 'home' : 'away';
+      // ── 시뮬레이션 결과 보정 ─────────────────────────────────────────────────
+      // 1) 홈팀 이점: KBO 홈팀 실제 승률 ≈ 54%
+      const homeAdv = 0.04;
+
+      // 2) ERA 기반 보정: 시뮬레이션이 시즌 평균 스탯이라 팀 간 차이를 충분히
+      //    반영하지 못함 → 투수 ERA 차이를 직접 승률 신호로 추가 반영
+      //    (1 ERA 차이 ≈ 5% 승률 차이, ±3 범위 내에서 적용)
+      const lgAvgEra = 4.30; // KBO 2025 리그 평균 ERA
+      final homeEra = hp.era > 0 ? hp.era : lgAvgEra;
+      final awayEra = ap.era > 0 ? ap.era : lgAvgEra;
+      final eraDiff = (awayEra - homeEra).clamp(-3.0, 3.0); // 원정ERA - 홈ERA
+      final eraAdj = eraDiff * 0.05;
+
+      final adjHomeProb =
+          (result.homeWinProb + homeAdv + eraAdj).clamp(0.1, 0.9);
+      final adjAwayProb = 1.0 - adjHomeProb;
+
+      final predictedWinner = adjHomeProb >= 0.5 ? 'home' : 'away';
       final actualWinner = game.winner;
       final isCorrect =
           actualWinner != null && actualWinner == predictedWinner;
@@ -252,8 +271,8 @@ class AccuracyProvider extends ChangeNotifier {
         awayTeam: game.awayTeamName,
         homeStarter: game.homeStarterName,
         awayStarter: game.awayStarterName,
-        homeWinProb: result.homeWinProb,
-        awayWinProb: result.awayWinProb,
+        homeWinProb: adjHomeProb,
+        awayWinProb: adjAwayProb,
         predictedWinner: predictedWinner,
         actualWinner: actualWinner,
         isCorrect: isCorrect,
@@ -262,4 +281,5 @@ class AccuracyProvider extends ChangeNotifier {
       return null;
     }
   }
+
 }
