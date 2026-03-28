@@ -27,6 +27,9 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 if not TOKEN:
     raise SystemExit("❌ .env 파일에 DISCORD_TOKEN을 설정해주세요.")
 
+_channel_id_str = os.getenv("DISCORD_CHANNEL_ID", "").strip()
+CHANNEL_ID: Optional[int] = int(_channel_id_str) if _channel_id_str.isdigit() else None
+
 KST = timezone(timedelta(hours=9))
 
 # ── KBO 팀 이름 정규화 ────────────────────────────────────────────────────────
@@ -71,6 +74,10 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 @bot.event
 async def on_ready():
     print(f"✅ 봇 로그인 완료: {bot.user}")
+    if CHANNEL_ID:
+        print(f"📌 응답 채널 제한: {CHANNEL_ID}")
+    else:
+        print("📌 응답 채널: 전체")
     print("📦 데이터 사전 로드 중...")
     preload_all()
     print("🚀 준비 완료")
@@ -79,6 +86,8 @@ async def on_ready():
 @bot.event
 async def on_message(message: discord.Message):
     if message.author.bot:
+        return
+    if CHANNEL_ID and message.channel.id != CHANNEL_ID:
         return
 
     text = message.content.strip()
