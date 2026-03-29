@@ -35,18 +35,19 @@ KST = timezone(timedelta(hours=9))
 # ── KBO 팀 이름 정규화 ────────────────────────────────────────────────────────
 # 사용자 입력(소문자·공백 제거 후) → 팀 코드 (Naver API 팀명 첫 단어)
 _ALIASES: dict[str, str] = {
-    "lg": "LG", "lg트윈스": "LG",
+    # 영문 / 팀 코드
+    "lg": "LG", "lg트윈스": "LG", "엘지": "LG", "엘지트윈스": "LG",
     "두산": "두산", "두산베어스": "두산",
-    "kt": "KT", "kt위즈": "KT",
-    "ssg": "SSG", "ssg랜더스": "SSG",
-    "nc": "NC", "nc다이노스": "NC",
-    "kia": "KIA", "kia타이거즈": "KIA",
+    "kt": "KT", "kt위즈": "KT", "케이티": "KT", "케이티위즈": "KT",
+    "ssg": "SSG", "ssg랜더스": "SSG", "에스에스지": "SSG",
+    "nc": "NC", "nc다이노스": "NC", "엔씨": "NC", "엔씨다이노스": "NC",
+    "kia": "KIA", "kia타이거즈": "KIA", "기아": "KIA", "기아타이거즈": "KIA",
     "롯데": "롯데", "롯데자이언츠": "롯데",
     "삼성": "삼성", "삼성라이온즈": "삼성",
     "한화": "한화", "한화이글스": "한화",
     "키움": "키움", "키움히어로즈": "키움",
 }
-_KEYWORDS = {"오늘", "승부", "예측", "승부예측", "경기"}
+_KEYWORDS = {"오늘", "승부", "예측", "승부예측", "경기", "vs", "대"}
 
 
 def _normalize(raw: str) -> Optional[str]:
@@ -97,15 +98,14 @@ async def on_message(message: discord.Message):
         await _handle_today_games(message)
         return
 
-    # ── 오늘 X Y 승부 예측 ─────────────────────────────────────────────────────
-    if "오늘" in text and ("승부" in text or "예측" in text):
-        teams = _extract_teams(text)
-        if len(teams) == 2:
-            await _handle_prediction(message, teams[0], teams[1])
-            return
-        if len(teams) > 2:
-            await message.reply("❌ 두 팀만 입력해주세요. 예: `오늘 NC 삼성 승부 예측`")
-            return
+    # ── 승부 예측: 팀 2개가 감지되면 키워드 없이도 바로 예측 ──────────────────
+    teams = _extract_teams(text)
+    if len(teams) == 2:
+        await _handle_prediction(message, teams[0], teams[1])
+        return
+    if len(teams) > 2 and ("승부" in text or "예측" in text):
+        await message.reply("❌ 두 팀만 입력해주세요. 예: `두산 NC`")
+        return
 
     await bot.process_commands(message)
 
