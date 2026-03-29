@@ -206,9 +206,13 @@ async def _handle_prediction(message: discord.Message, team1_code: str, team2_co
     winner = result["home_team"] if hp >= ap else result["away_team"]
     winner_prob = max(hp, ap)
 
+    # 선발 표시는 스케줄 API 원본 사용 (DB 폴백 이름과 불일치 방지)
+    disp_away_s = away_start or result["away_starter"]
+    disp_home_s = home_start or result["home_starter"]
+
     msg = (
         f"⚾ **{away_name} @ {home_name}** 승부 예측\n"
-        f"선발: **{result['away_starter']}** (원정) vs **{result['home_starter']}** (홈)\n"
+        f"선발: **{disp_away_s}** (원정) vs **{disp_home_s}** (홈)\n"
         f"FIP:  {result['away_fip']:.2f}  vs  {result['home_fip']:.2f}\n"
         f"\n"
         f"{away_name}  `{ap*100:.1f}%`  {_bar(ap)}\n"
