@@ -179,10 +179,17 @@ async def _handle_prediction(message: discord.Message, team1_code: str, team2_co
             break
 
     if game is None:
-        await message.reply(
-            f"❌ 오늘({now.strftime('%m/%d')}) **{team1_code} vs {team2_code}** 경기가 없습니다.\n"
-            "`오늘 경기`를 입력하면 오늘 전체 경기 목록을 확인할 수 있습니다."
+        # 오늘 실제 경기 목록을 함께 표시
+        today_matchups = " / ".join(
+            f"{g.get('awayTeamName','').split()[0]} vs {g.get('homeTeamName','').split()[0]}"
+            for g in games
         )
+        msg = (
+            f"오늘({now.strftime('%m/%d')}) **{team1_code}** 과 **{team2_code}** 의 경기는 없습니다."
+        )
+        if today_matchups:
+            msg += f"\n\n오늘 경기: {today_matchups}"
+        await message.reply(msg)
         return
 
     home_name  = game.get("homeTeamName", "")
