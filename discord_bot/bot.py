@@ -2,9 +2,8 @@
 KBO 야구 분석 Discord 봇
 
 명령어 (자연어):
-  오늘 경기          → 오늘 KBO 전체 경기 일정 + 선발 라인업 표시
-  오늘 NC 삼성 승부 예측  → 두 팀 간 오늘 경기 승부 확률 예측
-                      (오늘 경기 아닐 경우 오류 메시지)
+  오늘 경기 / 내일 경기   → KBO 경기 일정 + 선발 라인업
+  두산 NC / 내일 두산 NC  → 승부 예측 (기본: 오늘, '내일' 포함 시 내일)
 """
 
 import os
@@ -50,6 +49,14 @@ _ALIASES: dict[str, str] = {
 _KEYWORDS = {"오늘", "승부", "예측", "승부예측", "경기", "vs", "대"}
 
 
+def _target_date(text: str) -> datetime:
+    """'내일'이 포함되면 내일, 아니면 오늘 (KST)"""
+    base = datetime.now(KST)
+    if "내일" in text:
+        base += timedelta(days=1)
+    return base
+
+
 def _normalize(raw: str) -> Optional[str]:
     key = raw.lower().replace(" ", "")
     return _ALIASES.get(key) or _ALIASES.get(raw)
@@ -92,16 +99,17 @@ async def on_message(message: discord.Message):
         return
 
     text = message.content.strip()
+    date = _target_date(text)
 
-    # ── 오늘 경기 ──────────────────────────────────────────────────────────────
-    if text in ("오늘 경기", "오늘경기"):
-        await _handle_today_games(message)
+    # ── 경기 일정 ──────────────────────────────────────────────────────────────
+    if re.search(r"^(오늘|내일)\s*경기$", text):
+        await _handle_games(message, date)
         return
 
     # ── 승부 예측: 팀 2개가 감지되면 키워드 없이도 바로 예측 ──────────────────
     teams = _extract_teams(text)
     if len(teams) == 2:
-        await _handle_prediction(message, teams[0], teams[1])
+        await _handle_prediction(message, teams[0], teams[1], date)
         return
     if len(teams) > 2 and ("승부" in text or "예측" in text):
         await message.reply("❌ 두 팀만 입력해주세요. 예: `두산 NC`")
@@ -110,18 +118,18 @@ async def on_message(message: discord.Message):
     await bot.process_commands(message)
 
 
-# ── 오늘 경기 목록 ────────────────────────────────────────────────────────────
+# ── 경기 목록 ─────────────────────────────────────────────────────────────────
 
-async def _handle_today_games(message: discord.Message):
-    now = datetime.now(KST)
+async def _handle_games(message: discord.Message, date: datetime):
+    label = "내일" if (date.date() > datetime.now(KST).date()) else "오늘"
     try:
-        games = await fetch_schedule(now)
+        games = await fetch_schedule(date)
     except Exception as e:
         await message.reply(f"❌ 경기 일정을 가져올 수 없습니다: {e}")
         return
 
     if not games:
-        await message.reply(f"📅 {now.strftime('%Y-%m-%d')} KBO 경기가 없습니다.")
+        await message.reply(f"📅 {date.strftime('%Y-%m-%d')} KBO 경기가 없습니다.")
         return
 
     _STATUS_EMOJI = {
@@ -131,7 +139,7 @@ async def _handle_today_games(message: discord.Message):
         "GAME_READY":  "⚾",
     }
 
-    lines = [f"📅 **{now.strftime('%Y년 %m월 %d일')} KBO 경기**\n"]
+    lines = [f"📅 **{date.strftime('%Y년 %m월 %d일')} ({label}) KBO 경기**\n"]
     for g in games:
         home = g.get("homeTeamName", "")
         away = g.get("awayTeamName", "")
@@ -140,7 +148,6 @@ async def _handle_today_games(message: discord.Message):
         status = g.get("statusCode", "")
         emoji = _STATUS_EMOJI.get(status, "⚾")
 
-        # KST 시간 파싱
         time_str = ""
         scheduled = g.get("scheduledAt", "")
         if scheduled:
@@ -160,16 +167,19 @@ async def _handle_today_games(message: discord.Message):
 
 # ── 승부 예측 ─────────────────────────────────────────────────────────────────
 
-async def _handle_prediction(message: discord.Message, team1_code: str, team2_code: str):
-    now = datetime.now(KST)
+async def _handle_prediction(message: discord.Message, team1_code: str, team2_code: str,
+                             date: Optional[datetime] = None):
+    if date is None:
+        date = datetime.now(KST)
+    label = "내일" if (date.date() > datetime.now(KST).date()) else "오늘"
 
     try:
-        games = await fetch_schedule(now)
+        games = await fetch_schedule(date)
     except Exception as e:
         await message.reply(f"❌ 경기 일정을 가져올 수 없습니다: {e}")
         return
 
-    # 두 팀 간 오늘 경기 탐색
+    # 두 팀 간 경기 탐색
     game: Optional[dict] = None
     for g in games:
         hc = g.get("homeTeamName", "").split()[0]
@@ -179,16 +189,13 @@ async def _handle_prediction(message: discord.Message, team1_code: str, team2_co
             break
 
     if game is None:
-        # 오늘 실제 경기 목록을 함께 표시
-        today_matchups = " / ".join(
+        matchups = " / ".join(
             f"{g.get('awayTeamName','').split()[0]} vs {g.get('homeTeamName','').split()[0]}"
             for g in games
         )
-        msg = (
-            f"오늘({now.strftime('%m/%d')}) **{team1_code}** 과 **{team2_code}** 의 경기는 없습니다."
-        )
-        if today_matchups:
-            msg += f"\n\n오늘 경기: {today_matchups}"
+        msg = f"{label}({date.strftime('%m/%d')}) **{team1_code}** 과 **{team2_code}** 의 경기는 없습니다."
+        if matchups:
+            msg += f"\n\n{label} 경기: {matchups}"
         await message.reply(msg)
         return
 
@@ -218,7 +225,7 @@ async def _handle_prediction(message: discord.Message, team1_code: str, team2_co
     disp_home_s = home_start or result["home_starter"]
 
     msg = (
-        f"⚾ **{away_name} @ {home_name}** 승부 예측\n"
+        f"⚾ **{away_name} @ {home_name}** {label} 승부 예측\n"
         f"선발: **{disp_away_s}** (원정) vs **{disp_home_s}** (홈)\n"
         f"FIP:  {result['away_fip']:.2f}  vs  {result['home_fip']:.2f}\n"
         f"\n"
